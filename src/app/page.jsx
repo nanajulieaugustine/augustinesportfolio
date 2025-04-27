@@ -1,6 +1,7 @@
 import Image from "next/image";
 import DescBackground from "@/components/global/(index)/DescBackground";
 import Link from "next/link";
+import Titles from "@/components/global/(index)/Titles";
 export default function Home() {
   return (
     <section>
@@ -13,6 +14,9 @@ export default function Home() {
           src={"/profile_rounded.webp"}
           alt={"picture of Nana Julie Augustine"}
         />
+      </div>
+      <div>
+        <Titles></Titles>
       </div>
       <section className="flex justify-center gap-6">
         <Link href="/multimediedesign">
