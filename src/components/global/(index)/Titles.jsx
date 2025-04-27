@@ -1,14 +1,17 @@
-"use client";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-
 const Titles = () => {
   return (
-    <DotLottieReact
-      className="h-full"
-      src="https://lottie.host/42249b11-97a2-4b6d-89db-e12b16f01cf0/1wAXfz2nZv.lottie"
-      loop
-      autoplay
-    />
+    <div className="overflow-x-hidden whitespace-nowrap relative">
+      <div className="flex animate-marquee">
+        <h3 className="mr-2">
+          MULTIMEDIEDESIGNER // FRONTEND DEVELOPER // DOKUMENTARIST // FOTOGRAF
+          // BILLEDKUNSTNER // FORFATTER //
+        </h3>
+        <h3>
+          MULTIMEDIEDESIGNER // FRONTEND DEVELOPER // DOKUMENTARIST // FOTOGRAF
+          // BILLEDKUNSTNER // FORFATTER //
+        </h3>
+      </div>
+    </div>
   );
 };
 
