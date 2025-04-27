@@ -14,7 +14,7 @@ export default function Home() {
           alt={"picture of Nana Julie Augustine"}
         />
       </div>
-      <div className="flex justify-center gap-6">
+      <section className="flex justify-center gap-6">
         <Link href="/multimediedesign">
           <DescBackground>
             <h4>
@@ -36,7 +36,7 @@ export default function Home() {
             <h5>DOKUMENTAR // FOTOGRAFERING // BILLEDKUNST // LITTERATUR </h5>
           </DescBackground>
         </Link>
-      </div>
+      </section>
     </section>
   );
 }

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --black: #1a1a1a;
+  --pink-primary: #ff6193;
+  --pink-secondary: #ffbed3;
+  --pink-accent: #90002e;
+  --white-primary: #f8f8f8;
+  --white-secondary: #ffffff;
+}
+
+body {
+  background: var(--black);
+  padding-inline: max(20px, 50% - 70rem / 2);
+  font-family: helvetica;
+  section {
+    margin-top: 3rem;
+  }
+}
+
+p {
+  color: var(--white-primary);
+}
+
+h1,
+h4 {
+  font-size: 100px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 0.9;
+  @media (width<750px) {
+    font-size: 50px;
+  }
+}
+
+h5 {
+  text-transform: uppercase;
+  color: var(--white-secondary);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.2;
+  @media (width<750px) {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  color: var(--pink-secondary);
+}
+
+h4 {
+  color: var(--white-secondary);
+}
