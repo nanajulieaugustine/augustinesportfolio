@@ -1,6 +1,5 @@
-import Image from "next/image";
 import Server from "@/components/global/Server";
-import DescPopUp from "@/components/(cv)/DescPopUp";
+import ServerOverview from "@/components/global/ServerOverview";
 const Cv = () => {
   return (
     <section>
@@ -31,6 +30,7 @@ const Cv = () => {
         <p className="gray">- Theis Mølstrøm Christensen</p>
       </section>
       <Server />
+      <ServerOverview />
     </section>
   );
 };
