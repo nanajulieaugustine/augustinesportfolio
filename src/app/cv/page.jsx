@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Server from "@/components/global/Server";
 import ServerOverview from "@/components/global/ServerOverview";
 const Cv = () => {
