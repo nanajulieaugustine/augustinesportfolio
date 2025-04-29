@@ -1,11 +1,15 @@
+"use client";
+import { useState } from "react";
 import ListDotAndLine from "./ListDotAndLine";
+import DescPopUp from "./DescPopUp";
+
 const Uddannelser = ({ uddannelse }) => {
+  const [showPopup, setShowPopup] = useState(false);
+
   return (
     <section>
-      <div className="hidden bg-(--pink-accent) rounded-4xl p-5 w-100">
-        <h2 className="white">{uddannelse.uddannelse}</h2>
-        <p className="white">{uddannelse.beskrivelse}</p>
-      </div>
+      {showPopup && <DescPopUp />}
+
       <div className="group flex justify-end items-center gap-10">
         <div>
           <div className="text-right">
@@ -16,7 +20,11 @@ const Uddannelser = ({ uddannelse }) => {
             <p className="gray capitalize">{uddannelse.institution}</p>
           </div>
         </div>
-        <ListDotAndLine />
+
+        <ListDotAndLine
+          onClick={() => setShowPopup(!showPopup)}
+          className={showPopup ? "bg-pink-700 " : ""}
+        />
       </div>
     </section>
   );
