@@ -1,5 +1,10 @@
+import ServerMMD from "@/components/global/ServerMMD";
 const MultimediedesignPage = () => {
-  return <section></section>;
+  return (
+    <div>
+      <ServerMMD />
+    </div>
+  );
 };
 
 export default MultimediedesignPage;

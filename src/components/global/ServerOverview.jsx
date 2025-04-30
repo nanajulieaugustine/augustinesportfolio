@@ -14,7 +14,11 @@ const ServerOverview = async () => {
     }
   );
 
-  const overviews = await resOverview.json();
+  const allOverviews = await resOverview.json();
+
+  const overviews = allOverviews.filter(
+    (item) => item.erhvervserfaring === "true"
+  );
 
   return <ClientOverview overviews={overviews} />;
 };
