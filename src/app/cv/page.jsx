@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Server from "@/components/global/Server";
 import ServerOverview from "@/components/global/ServerOverview";
+import ServerNiveau from "@/components/global/ServerNiveau";
+import ServerUdgivelser from "@/components/global/ServerUdgivelser";
 const Cv = () => {
   return (
     <section>
@@ -32,6 +34,8 @@ const Cv = () => {
       </section>
       <Server />
       <ServerOverview />
+      <ServerNiveau />
+      <ServerUdgivelser />
     </section>
   );
 };

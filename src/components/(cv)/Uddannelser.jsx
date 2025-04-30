@@ -8,7 +8,12 @@ const Uddannelser = ({ uddannelse }) => {
 
   return (
     <section>
-      {showPopup && <DescPopUp />}
+      {showPopup && (
+        <DescPopUp
+          titel={uddannelse.uddannelse}
+          beskrivelse={uddannelse.beskrivelse}
+        />
+      )}
 
       <div className="group flex justify-end items-center gap-10">
         <div>
