@@ -30,6 +30,11 @@ body {
   }
 }
 
+.no-padding {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 .gray {
   color: var(--gray);
 }

@@ -22,7 +22,10 @@ const Uddannelser = ({ uddannelse }) => {
               {uddannelse.uddannelse}
             </h3>
             <h4>{uddannelse.grad}</h4>
-            <p className="gray capitalize">{uddannelse.institution}</p>
+            <p className="gray capitalize no-padding">
+              {uddannelse.institution}
+            </p>
+            <p className="gray italic">{`Karaktergennemsnit: ${uddannelse.snit}`}</p>
           </div>
         </div>
 
