@@ -12,9 +12,9 @@ const ClientMMD = ({
       <h2 className="ps-(--content-width)">{title}</h2>
       <div className="overflow-x-auto">
         <div className="flex gap-20 ps-(--content-width) min-w-max">
-          {items.map((item) => (
-            <div key={item.id}>
-              <ListCard item={item} />
+          {items.map((item, id) => (
+            <div>
+              <ListCard key={id} item={item} />
             </div>
           ))}
         </div>

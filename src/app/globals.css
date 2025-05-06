@@ -22,6 +22,9 @@ body {
     margin-top: 3rem;
     padding-inline: var(--content-width);
   }
+  article {
+    padding-inline: max(20px, 50% - 50rem / 2);
+  }
   nav {
     padding-inline: var(--content-width);
   }
@@ -92,6 +95,10 @@ div:has(h4) h3 {
 
 .white {
   color: var(--white-secondary);
+}
+
+.italic {
+  font-style: italic;
 }
 
 blockquote {

@@ -1,8 +1,9 @@
 "use client";
 import Kompetencer from "../(cv)/Kompetencer";
 import Sprog from "../(cv)/Sprog";
+import Faerdigheder from "../(cv)/Faeridgheder";
 
-const ClientNiveau = ({ sprog, kompetencer }) => {
+const ClientNiveau = ({ sprog, kompetencer, faerdigheder }) => {
   return (
     <section>
       <div className="flex flex-col items-end gap-5">
@@ -15,6 +16,12 @@ const ClientNiveau = ({ sprog, kompetencer }) => {
         <h2 className="ml-10">Sprog</h2>
         {sprog.map((sprog) => (
           <Sprog key={sprog.id} sprog={sprog} />
+        ))}
+      </div>
+      <div className="flex flex-col items-end gap-5">
+        <h2 className="mr-10">Færdigheder</h2>
+        {faerdigheder.map((faerdighed) => (
+          <Faerdigheder key={faerdighed.id} faerdighed={faerdighed} />
         ))}
       </div>
     </section>

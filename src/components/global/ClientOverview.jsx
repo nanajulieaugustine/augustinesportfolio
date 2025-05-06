@@ -13,7 +13,6 @@ const ClientOverview = ({ overviews }) => {
   const handleNext = () => {
     setIndex((prev) => (prev < overviews.length - 1 ? prev + 1 : 0));
   };
-
   return (
     <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
       <h2 className="mb-4">Erhvervserfaring</h2>
