@@ -17,7 +17,7 @@ const ClientOverview = ({ overviews }) => {
     <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
       <h2 className="mb-4">Erhvervserfaring</h2>
 
-      <div className="relative w-full max-w-3xl flex items-center">
+      <div className="relative w-full max-w-3xl flex items-center gap-10">
         <BsArrowLeftCircle
           onClick={handlePrev}
           className="white cursor-pointer hover:scale-110 transition-all"

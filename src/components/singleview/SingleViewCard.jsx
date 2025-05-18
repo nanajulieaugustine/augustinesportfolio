@@ -1,31 +1,10 @@
 "use client";
-import { useRef } from "react";
+import Image from "next/image";
 const SingleViewCard = ({ item }) => {
-  const videoRef = useRef(null);
-
-  const handleMouseEnter = () => {
-    videoRef.current?.play();
-  };
-
-  const handleMouseLeave = () => {
-    const video = videoRef.current;
-    if (video) {
-      video.pause();
-      video.currentTime = 0;
-    }
-  };
   return (
     <div>
       <div className="flex justify-end">
-        <video
-          ref={videoRef}
-          src={`/${item.display_mp4}`}
-          alt={`video af forside på ${item.titel}`}
-          playsInline
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          className="w-full h-full max-w-200"
-        ></video>
+        <Image  src={`/${item.image}`} alt={`Billede af ${item.name}`} width={700} height={700}/>
       </div>
       <div className="relative -top-20">
         <h2>{item.titel}</h2>
