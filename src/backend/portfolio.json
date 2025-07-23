@@ -1,0 +1,311 @@
+[{
+    "id": 0,
+    "stilling": "webudvikler",
+    "arbejdsgiver": "Trappetrin 117",
+    "beskrivelse_kort": "Webudvikling med fokus på digitale designprincipper og frontend programmering. Udviklet design og UX/UI research samt prototypeudarbejdelse gennem Figma. Sitet er programmeret med HTML, tailwind CSS, React og JavaScript i Next.JS og hostet på Vercel.",
+    "beskrivelse_lang": "I forbindelse med Holbæks kulturfremmelse, blev Trappetrin 117 oprettet som en forening til at styrke unge kunstneres muligheder for at søge fonde og sparring til kunstneriske projekter. I denne anledning, stod jeg for et selvstændigt arbejde i at udvikle foreningen hjemmeside. Her arbejdede jeg med UI research og development samt digital design med henblik på style guide og style system i programmet Figma. Dettte site udviklede jeg med HTML, tailwind CSS, react og JavaScript i Next.Js. Projektet var selvstyret med dialog med foreningen selv.",
+    "kategori": "webudvikling",
+    "type": "website",
+    "erhvervserfaring": true,
+    "titel": "Trappetrin 117",
+    "beskrivelse_ord": "Design // Figma prototype // UX/UI research & development // FrontEnd programmering v. Next.Js",
+    "periode": "(apr 2024-nu)",
+    "proces":[
+    "Processen i udviklingen af Trappetrin 177's hjemmeside startede med en desktop reaearch af lignende organisationers sites. Heriblandt har jeg taget udgangspunkt i Betty Nansen Teatret, Aveny-T, Statens Museum For Kunst og Den Skandenaviske Designhøjskole. Yderligere lavede jeg en trend research til at skabe et ungdommeligt og moderne udtryk.",
+    "Efter researchen, begyndte jeg at udvikle designvalg. Trappetrin 117 har ikke en eksisterende designguide, og jeg havde derfor relativt frie rammer til valg af design ud fra dialog med foreningens ledere. Jeg har dermed taget udgangspunkt i foreningens logo og dermed kombineret elementer fra min research med dele, der kunne kobles til logoet og foreningens udtryk.",
+    "Jeg startede på at udvikle en prototype i Figma, som jeg yderligere udførte tænke-højt-test på for at få et indblik i om brugerene fandt sitet navigerbart og intuitivt. Jeg skabte flere forskellige udkast til prototyper og tilsendte disse til foreningens ledere, der dermed kom til forslag til forbedringer og ændringer.",
+    "Da jeg endeligt landede på den færdigudviklede prototype, begyndte jeg at udvikle i Next.Js med biblioteket React. Backenden er udviklet som json-filer direkte i projektet og forbindes derfor ikke til et API eller en ekstern database - dog er det ønsket at dette i fremtiden bliver optimeret.",
+    "Sitet er udviklet med udgangspunkt i forskellige komponenter i jsx-filer. Endvidere ligger en components-mappe under src, hvor hvert komponent hører under en tilsvarende mappe til den side, den tilhører. Hermed bliver komponenterne lagret i hinanden.",
+    "Da sitet var færdigudviklet, udførte jeg en lighthouse test for at diagnostisere eventuelle performance issues, og brugte svarerne herpå til at forbedre accisibility og SEO. Sitet er dermed hundrede procent navigerbar i tastatur og er kompatibel til skærmlæsere."
+    ],
+    "proces_items":[
+        {
+            "kategori": "design",
+            "titel":"farvevalg",
+            "beskrivelse":[ 
+            "Farvevalgene på sitet er truffet på baggrund af foreningens logo. Der er i alt seks farvenuancer i logoet, hvor jeg har taget udgangspunkt i to af farverne for at skabe så rent et udtryk som muligt. Hermed har jeg anvendt blå og gul, som er kontrastfarver og derfor skaber en visuel balance når de placeres side om side. Jeg har valgt at gøre mig brug af nogle mørkere farvenuancer end i logoet, da foreningen ønskede en lys/beige baggrund, og jeg dermed måtte gøre kontrasten mellem de farvede elementer og baggrunden mere synlig. ",
+            "I form a brandcolors har jeg hermed brugt den blå farve som primærfarve, der går igen på sitet mens den gule er sekundær. Resten af sitet holder sig til et beige, hvid og sort farvevalg. Farverne ses i brug på primært tekst, men billdevalg har yderligere været essentiel for at underbygge identiteten."
+        ]
+        },
+        {
+            "kategori": "design",
+            "titel":"skrift",
+            "beskrivelse":[ 
+            "Jeg har anvendt Helvetica, som er en sans-serif font gennem hele sitet. Hermed har jeg arbejdet med den i forskellige tykkelser og heriblandt thin, italic og bold. Dette valg er truffet for at beholde den mest rene og læsbare skrift over sitet.",
+            "Gennem min trend-research valgte jeg at tage udgangspunkt i oversized typography, der skaber opmærksomhed på teksten fremfor billeder. Hermed ses det derfor at især h1'ere fylder næsten bredden af skærmen. Dog ønskes den mest responsive løsning og dermed er typografien ikke ligeså stor som det ses i andre tilfælde.",
+            "Igen ifølge af responsivitet er paragraf-teksterne typisk korte i sine linjer, hvor de fleste er skabt med tailwind-classen max-w-lg. Dermed flugter teksten sig ikke bredt over over skærmen, men holder en fast bredde, der passer til et artikkel-lignende layout.",
+            "Jeg har arbejdet med hierakiet i typografien gennem de forskellige skriftstørrelser og tykkelsen heraf. Hermed har jeg anvendt en mindre skriftstørrelse til at ligge over de store og tykke, så hierakien ikke følger direkte fra størst til mindst."
+        ]
+        },
+        {
+            "kategori": "design",
+            "titel":"linjer",
+            "beskrivelse":[ 
+            "Noget der går igen i foreningens logo er trekanterne, der har meget skarpe linjer. Dermed er sitet meget skarpt og har ingen rundede kanter. Jeg ønskede at understøtte dette ved at gøre brug af de tynde og skarpe linjer på tværs af sitet.",
+            "Her tog jeg især udgangspunkt i både SMK og Betty Nansen Teatret identitet fra min dektop research. Begge hjemmesider gør sig brug af en fremtædende hover-funktion ved især links. Hermed bliver pilenes længde længere på SMKs side og Betty Nansen anvender en tegning-lignende understregning.",
+            "I forbindelse med links og viderenavigering har jeg dermed anvendt denne inspiration af hover-funktion til at skabe den konventionelle underline, der animerer fra 0 til 100 ved mouseover og tilbage fra 100 til 0 ved mouseleave. Andre steder på sitet ses der en horizontal linje til at skabe en overgang mellem forskellige sektioner, der animerer igennem inView. Den vertikale linje bruges hermed til at sepearere tekst-punkter fra hinanden.",
+            "Disse line-animationer ligger under animation-folderen i src. Begge er kodet med reacts framer motion, hvor inView bruger useRef fra react og definerer at den kun skal trigges én gang. Hover-animationen definerer derimod blot linjens bredde og anvende easeinout til sin transition overgang."
+        ]
+        },
+        {
+            "kategori": "design",
+            "titel":"tal",
+            "beskrivelse":[ 
+            "På siden anvendes der forskellige tal, bl.a. af UI grunde. Hvert tal beholder to numre og dermed to kolonner, som yderligere er et designvalg defineret ved layoutet og skaber derfor denne kontinuitet af to elementer side om side. Dvs. at tal om 1, 2, 3 osv. får et 0 foran sig.",
+            "Dette valg er taget ud fra inspiration i min desktop research, hvor jeg kiggede på forskellige website designs på Pinterest."
+        ]
+        },
+         {
+            "kategori": "layout",
+            "titel":"billeder",
+            "beskrivelse":[ 
+            "Sammen med oversized typography har jeg gjort mig brug af de store hero-sektioner i toppen af de fleste sider. Disse sektioner har en baggrundsbillede, der transformeres med en parralax-scrolling og dermed skaber et indtryk af, at billedet ligger under resten af siden. Hermed ligger teksten ovenpå i disse sektioner",
+            "Jeg valgte at bruge hero-sektionerne på baggrund af min trend research og for at skabe en sammenhæng mellem det store og fremtrædne udtryk. Yderligere er det essentielt at billederne er store og bemærkelsesværdige eftersom foreningens formål er at få brugeren til at købe billetter til et arrangement. Efter relevant ux/ui research, gør det sig gældende at brugeren leder efter arrangementer (især i kunstforummet), der har et visuelt æstetisk udtryk. Der er derfor fokus på at billederne er skarpe, professoinelle og store til at fange opmærksomheden."
+        ]
+        },
+        {
+            "kategori": "layout",
+            "titel":"alignment",
+            "beskrivelse":[ 
+            "Alignment mellem tekst og billeder flugter hhv. efter enten toppen eller bunden af billedets højde. Så hvert billede definerer containerens højde og holder teksten kort i relation til denne. Det vil sige at forskellig tekst-indhold altid placeret enten i toppen eller bunden af et billede og aldrig mod midten. Dette valg er truffet for at skabe en balance mellem det visuelle, skarpe og det rene, så ingen konventioneer om tekst her bliver brudt trods tendensen i moderne trends.",
+            "Yderligere skifter layoutet mellem to kolonner når sitet navigeres i desktop. Her ses det at hvert andet barn af en container skifter sin alignment mellem højre og venstre. Dette valg er truffet for at skabe en afvigende kontinuitet, så alle elementer ikke placeres efter række. På denne måde bliver der anvendt flere kolonner i dekstop og pladsen bliver dermed udnyttet, men scrolles ellers igennem fra top til bund i mobile grundet den lille bredde.",
+            "I forbindelse med responsivitet og layout-skifte, har sitet i sin globale.css en content-width-varibel skabt med max()-CSS-math-funktionen. Hermed beholder alt indhold med denne classname sin placering på midten af skærmen uafhængig af skærmstørrelse. Hermed bliver den white space, der findes ude i siderne mindre i mobilstørrelsen. Der er defineret to forskellige variabler hvormed sektioner med meget tekst, placeres med mest white space i siden (samme princip som med paragraf-teksterne), og sektioner med mere indhold tillades at sprede sig næsten helt ud til siderne."
+        ]
+        },
+         {
+            "kategori": "scrolling",
+            "titel":"parralax scrolling",
+            "beskrivelse":[ 
+            "Ud fra min dekstop research bed jeg mærke i både SMK's og Betty Nansens forskellige sektioner, anvendte en parralax scrolling, der gjorde siden mere levende og skabte en visuel scrolling-fornemmelse. Her sås det ofte at to kolonner ved siden af hinanden scrollede op og ned på tværs af hinanden - især på de sektioner der er ens.",
+            "Jeg valgte at anvende samme udtryk på baggrund af kontinuitet mellem denne scrolling og parralax-hero-sektionerne. Dermed bliver parralax et gennemgående valg på hele sitet.",
+            "Hermed bliver hver sektion wrappet ind i et scrollflow-komponent, der anvender react framer motion og animerer efter y-aksens position fra 0 til 1, og indeholder children til at kunne wrappe omkring andre items i dom'en."
+        ]
+        },
+        {
+            "kategori": "scrolling",
+            "titel":"fade in animation",
+            "beskrivelse":[ 
+            "Denne scrolling på y-aksen som ses i de forskellige parralax-komponenter, anvendes også i en fade-in animation på om-os-siden, hvor der med h2'ere er titler på hvad foreningen kan tilbyde. Denne er anvendt for at skabe en visuel sammenhæng og gøre hele denne sektion mere levende. Her er framer motion anvendt, hvor der animeres med en fade in i opacity og opad y-aksen. Transitionen er lavet med easeout når den initialiseres ved inView.",
+            "Fade-animationen går igen på burgermenuen, hvor teksten altså sammen med hele containeren, også får en animation. Dette val er truffet for at skabe en mere sammenhængende og blød oplevelse af animationen. Ligesom den anden animation anvender denne en opacity og easeOut, men animerer i stedet på x-aksen sammen med containeren."
+        ]
+        },
+        {
+            "kategori": "scrolling",
+            "titel":"headers tekstfarve",
+            "beskrivelse":[ 
+            "Headeren på sitet er positioneret med fixed, så den altid følger med når brugeren scroller og dermed let kan navigere til andre steder på siden uden at skulle gå til toppen. Dog er der ingen baggrundsfarve på containeren, men i stedet en blur-effekt, der gør alt indhold bag containeren slørret for at skabe et mere rent og simpelt udtryk. Dette bliver dog et problem når teksten lægger sig over en mørk baggrund, og dermed gør navigeringen utydelig.",
+            "Fra min desktop research af SMKs hjemmeside, fiksede de dette problem ved at ændre på tekstfarven på forskellige sektioner på siden.",
+            "Jeg skabte derfor samme udtryk ved at danne en forskellige hooks, der kunne tale sammen med headeren og udvalgte sektioner. Her brugte jeg createContext, useContext og useState fra react til at definere staten af om en valgt sektion skal tilføje 'isDark', som kan anvendes på udvalgte sektioner. Derfra dannede jeg en useDarkBackground-hook, der via. react framer motions useScroll og useMotionValueEvent, definerer scrollingen på y-aksen, der udregnes efter headerens højde i pixels, som derfra kan definere skiftet gennem useMotionValueEvent. Denne mountes efter useEffect til at definere hvad der skal returneres ved dens rendering. Hele denne hook bliver pålagt i headerens komponent gennem en conditional operator, der kalder tilbage på om header-context-hookens isDark er true og i så fald skal returnere en hvid tekst og ellers en sort."
+        ]
+        },
+        {
+            "kategori": "komponenter",
+            "titel":"karrusel",
+            "beskrivelse":[ 
+            "En af de genavvendelige komponenter, der tilpasser sig efter et designvalg på siden er billedkarusselen som både ses i singleview og på bestyrelsessiden. Denne karrusel er taget efter inspiration fra Den Skandinaviske Designhøjskole. På DSDH ses det også at billederne fylder det største af viewportens højde og bredde, hvor man scroller imellem hvert billede og der i en kolonne ved siden af ses både navigation i form af pile og tilpasset tekst, der placeres i samme alignment som førnævnt er gennemgået i sitet samt en counter på hvor mange billeder, der er tilgængelige.",
+            "Jeg valgte at anvende en karrusel primært til singleview eftersom der i nogle arrangementer er mange billeder fra værkerne, og det dermed skulle være muligt at scrolle igennem dem efter behov. Senere valgte jeg at tilføje denne til bestyrelsessiden under repræsentanter, da denne fortsat vokser med foreningens udvidelse.",
+            "Karrusellen er kodet med react swiper. De to karasuller anvender forskellige logik og der er derfor ikke skabt ét genanvendeligt komponent. På singleview-siden er der én forblivende tekst i venstre kolonne, hvor der på højre kolonne slides mellem billederne i en fade-animation og bruger useRef til at definere hvad der renderes. - der anvendes samme logik i karrusellen på bestyrelsessiden, men her anvendes to uafhængige swiperes. Her er den venstre kolonne tekstparagraffer, der passer til billedet med hver repræsentant, og anvender en sliding-animation i stedet for fade for at undgå at teksten lægger sig ovenpå hinanden. Denne tilgang ses også på DSDHs karrusel, hvor teksten skifter med billedet.",
+            "Pilene er kodet efter useRef, der dermed gør det muligt at slide mellem previous og next sektion. På repræsentantsidens karrusel kaldes begge swipere i pilenes funktioner, der dermed skifter begge index ud fra disse to pile.",
+            "Counteren er defineret ens på begge komponenter, der anvender react framer motion til at skabe en fading animation. Her tælles det nuværende index ud af alle index antal. Dennne bliver konverteret til en string for at kunne omdanne antallet af objekter til tal."
+        ]
+        },
+        {
+            "kategori": "UX/UI",
+            "titel":"filtrering",
+            "beskrivelse":[ 
+            "Der er anvendt en filtreringsmulighed for både aktuelle arrangementer og værkarkivet. På aktuelle arrangementer er det muligt at vælge kategorier efter de genre af kunstarter, som foreningen tilbyder. Disse kategorier er defineret i en seperat json-fil, som matches med altefter om de pågøldende værker indeholder samme beskrivelse. På værkarkivet er det derimod mere relevant at filtrere efter sæsoner, da brugeren ikke på samme måde er på udkig efter noget specifikt, som når et arrangement er aktuelt.",
+            "Den aktive kategori er defineret på klient-komponentet gennem usestate og sendes videre som et parameter til filtreringen. Endvidere bliver der anvendt en conditional operator til at mappe over hvilke arrangementer, der skal vises, der hermed defineres med filterfunktionens længde. Hvis dens condition returnerer false - altså brugeren har valgt en kategori, der ikke indeholder noget item, returneres der blot en tekst, der fortæller at der ingen arrangementer er at vise.",
+            "Brugeren kan se hvilken kategori, der er valgt ved at style tekststørrelsen anderledes end resten. Her er kategoriernes tekst defineret med en thin typografi mens den valgte er bold.",
+            "På siden ses der lignende en tekst med de førnævnte tal fra designvalget, der fortæller brugeren hvor mange værker der vises på siden ud af hvor mange værker, der er tilgængelige. Denne er defineret til at tale sammen med den filtrerede value ved at tælle længden på filteredEvents-funktionen samt det fulde array."
+        ]
+        },
+        {
+            "kategori": "UX/UI",
+            "titel":"billetter",
+            "beskrivelse":[ 
+            "I form af køb af billetter har foreningen en ekstern billetside på Billetto af økonomi- og bogføringsgrundlag. Dermed er der ikke skabt en ordrernavigation, men i stedet linket med et anchor-tag til en ekstern side defineret i backenden. I dette anchor-tag er der anvendt et _blank-target, der åbner en ny side på browseren, så brugeren kan navigere mellem købsbekræftelsen og foreningens egen side uden at skulle gå frem og tilbage.",
+            "I værkarkivet anvendes et genavendeligt singleview, og navigerer derfor til samme setup selvom værket er defineret som inaktiv i backenden gennem en boolean. Eftersom værket ikke er aktivt er det ikke relevant for brugeren at købe billetter, og dermed er der i singleviewet brugt en conditional operator til at vise en tom string hvis aktuel returnerer false."
+        ]
+        },
+        {
+            "kategori": "UX/UI",
+            "titel":"navigation",
+            "beskrivelse":[ 
+            "Der er på sitet ikke behov for så meget interagering fra den ene side til den anden. I stedet finder man alle relevante sider med informationer direkte i headeren. Her er den mest relevante side for brugeren listen over aktuelle arrrangementer, og er dér hvor den største del af interaktionen foregår, som derfor ligger frit ude på menuen. Resten af siderne er derimod en række informationer om foreningen og ligger derfor seperat i en burger-menu. Dette UX/UI-valg er taget som inspiration fra aveny-t i min desktop research.",
+            "Selve designet af burgermenuen er taget fra inspiration af Den Skandinaviske Designhøjskole, hvor menuen fylder (næsten) hele viewporten, og foldes ud i en animation. Her anvendes den førnævnte lineanimation ved mouseover til at indikere at brugeren kan trykke på linket",
+            "På sidens navigation er den eneste del, der ikke ligger i menuen, singleviewet. Her skal det være tydeligt for brugeren at det er muligt at trykke på et kort på listviewet. Dette gøres ved at indikere en skalering på 105 af hele kortet, og give musen en cursor-pointer. Dog kan dette stadig være utydeligt for brugeren, så der er yderligere tilføjet et a-tag med teksten 'læs mere'.",
+            "Det er muligt at blive navigeret tilbage på forsiden ved at klikke på logoet i venstre side, som er et valg, der er truffet på baggrund af konventioner. Dette kan dog ikke altid være helt tydeligt for brugeren, men eftersom forsiden blot er en visuel landingpage, hvor informationerne om selve foreningen er for sig i en om-os-side, er der ikke tilføjet et yderligere anchor-tag til forsiden, da denne ikke er relevant for brugeren til andet end et førstehåndsindtryk."
+        ]
+        },
+        {
+            "kategori": "UX/UI",
+            "titel":"accordion",
+            "beskrivelse":[ 
+            "Websitet indeholder en side med informationer til potentielle kunstnere, der ønsker en forening at udstille sit værk hos. Dette er den primære målgruppe, og det skal derfor være overskueligt at finde informationer om processen. Derfor er der anvendt en accordion til at give en titel på et spørgsmål og dermed et svar. Derfra er det muligt for brugeren at navigere i informationerne uden, at der på teksten er for meget tekst.",
+            "Denne accordion indeholder en animation, der folder sig ud, og er defineret i den globale css med interpolate-size, der altså er anvendelig hvis browseren supporter den. Dette skaber en mere smooth scrolling oplevelse, der dermed ikke skubber indholdet med det samme og skaber et layout-skift.",
+            "Her er der et plus-ikon, der indikerer at det er muligt at klikke på sektionen, der bliver til et minus med en conditional operator for at indikere, at sektionen kan lukkes"
+        ]
+        },
+        {
+            "kategori": "Tilgængelighed",
+            "titel":"tastaturnavigering og screenreaders",
+            "beskrivelse":[ 
+            "Der er på alle billeder tilføjet alt-tags, knapper har aria-labels og links har titler. På denne måde er det muligt for screenreaders at korrekt oplæse sidens indhold. Yderligere er der sørget for at alle li-elementer ligger under en ul for at opretholde denne konvention, som er nødvendig for skærmlæseren.",
+            "Yderligere er det på sitet muligt at navigere med tastaturet. Dette er sikret ved at sørge for at ingen button-tags ligger inde i en div og er derfor direkte tilgængelige."
+        ]
+        },
+        {
+            "kategori": "SEO",
+            "titel":"meta",
+            "beskrivelse":[ 
+            "En fordel ved at anvende Next.Js er at programmet selv optimerer SEO, og dermed er alt SEO-indhold returneret som 100 i lighthouse-testen. Derfor har det kun været nødvendigt at tilføje meta-beskrivelser og titler, hvor resten af indholdet såsom UTF-8 allerede er indbygget i Next. Der er dermed på hver side tilføjet en titel, et favicon og en beskrivelse af selve siden, så sitet kommer frem på google search engines med en beskrivelse. På singleview er denne lavet ved dynamisk at indhente id'et på json-filen, og anvende beskrivelse og titel heraf direkte i meta-beskrivlesen."
+        ]
+        }
+    ],
+    "display_image": "trappetrin117_website.webp"
+},
+{
+    "id": 1,
+    "stilling": "webudvikler",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Webudvikling med fokus på digitale designprincipper og frontend programmering. Udviklet design og UX/UI research samt prototypeudarbejdelse gennem Figma. Sitet er programmeret med HTML, tailwind CSS, React og JavaScript i Next.JS og hostet på Vercel.",
+    "beskrivelse_lang": "",
+    "kategori": "webudvikling",
+    "type": "website",
+    "erhvervserfaring": true,
+    "titel": "Filmskolen Blank",
+    "beskrivelse_ord": "Design system og style guide // Figma prototype // UX/UI research & Development // FrontEnd programmering v. Next.Js",
+    "periode": "(nov 2024-nu)",
+    "proces":{
+    },
+    "display_image": "filmskolenblank_website.webp"
+},
+{
+    "id": 2,
+    "stilling": "fotograf",
+    "arbejdsgiver": "Coming Up",
+    "beskrivelse_kort": "Fotografering af  organisationens musikarrangement med efterarbejdelse i Adobe Photoshop.",
+    "beskrivelse_lang": "",
+    "kategori": "fotografering",
+    "type": "fotografering",
+    "erhvervserfaring": true,
+    "titel": "Coming Up",
+    "beskrivelse_ord": "Lysstudie fotografering // On-location fotografering // Adobe Photoshop",
+    "periode": "(dec 2024)",
+    "proces":{
+    },
+    "display_image": "coming_up_fotografering.webp"
+},
+{
+    "id": 3,
+    "stilling": "trailerklipper",
+    "arbejdsgiver": "Trappetrin 117",
+    "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve. Yderligere fotograf af teateropsætning (se multimediedesign portfolio)",
+    "beskrivelse_lang": "",
+    "kategori": "creative branding",
+    "type": "trailer",
+    "erhvervserfaring": true,
+    "titel": "Medea",
+    "beskrivelse_ord": "Videooptagelse // DaVinci Resolve klipning",
+    "periode": "(aug 2024)",
+    "proces":{
+    },
+    "display_image": "medea_trailer.webp"
+},
+{
+    "id": 4,
+    "stilling": "Produktionsassistent og støtte",
+    "arbejdsgiver": "GotFat Productions",
+    "beskrivelse_kort": "Produktionsassistent og pædagogisk støtte til hovedmedvirkende på dokumentarfilmen Trine On Fire (2025).",
+    "beskrivelse_lang": "",
+    "kategori": "film",
+    "type": "",
+    "erhvervserfaring": false,
+    "titel": "",
+    "beskrivelse_ord": "",
+    "periode": "(aug 2023-feb 2024)",
+    "proces":{
+    },
+    "display_image": ""
+},
+{
+    "id": 5,
+    "stilling": "dokumentarinstruktør",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Instruering, producering, fotografering og klipning af dokumentarfilm Tabte År (2023) som afgangsprojekt fra Filmskolen Blank, med udgivelse på tre internationale filmfestivaler.",
+    "beskrivelse_lang": "",
+    "kategori": "film",
+    "type": "dokumentar",
+    "erhvervserfaring": true,
+    "titel": "Tabte År",
+    "beskrivelse_ord": "",
+    "periode": "(aug 2022-maj 2024)",
+    "proces":{
+    },
+    "display_image": "tabte_aar_dokumentar.webp"
+},
+{
+    "id": 6,
+    "stilling": "fotograf",
+    "arbejdsgiver": "Trappetrin 117",
+    "beskrivelse_kort": "Fotografering af teateropsætningen Medea med instruktion fra instruktør. Studiefotografering med lys og efterarbejde i Adobe Photoshop. Yderligere optagelse af opsætningen til filmtrailer.",
+    "beskrivelse_lang": "",
+    "kategori": "fotografering",
+    "type": "fotografering",
+    "erhvervserfaring": true,
+    "titel": "Medea",
+    "beskrivelse_ord": "Studiefotografering // Adobe Photoshop",
+    "periode": "(aug 2024)",
+    "proces":{
+    },
+    "display_image": "medea_fotografering.webp"
+},
+{
+    "id": 7,
+    "stilling": "grafisk designer",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Alma (2023). Bearbejdet i Adobe Photoshop.",
+    "beskrivelse_lang": "",
+    "kategori": "design",
+    "type": "plakat",
+    "erhvervserfaring": false,
+    "titel": "Alma",
+    "beskrivelse_ord": "Adobe Photoshop",
+    "periode": "(maj 2023)",
+    "proces":{
+    },
+    "display_image": "alma_plakat.webp"
+},
+{
+    "id": 8,
+    "stilling": "grafisk designer",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Tabte År (2023). Bearbejdet i Adobe Photoshop.",
+    "beskrivelse_lang": "",
+    "kategori": "design",
+    "type": "plakat",
+    "erhvervserfaring": false,
+    "titel": "Tabte År",
+    "beskrivelse_ord": "Adobe Photoshop",
+    "periode": "(maj 2023)",
+    "proces":{
+    },
+    "display_image": "tabte_aar_plakat.webp"
+},
+{
+    "id": 3,
+    "stilling": "trailerklipper",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve.",
+    "beskrivelse_lang": "",
+    "kategori": "creative branding",
+    "type": "trailer",
+    "erhvervserfaring": false,
+    "titel": "Tabte År",
+    "beskrivelse_ord": "Fotografering // DaVinci Resolve klipning",
+    "periode": "(maj 2023)",
+    "proces":{
+    },
+    "display_image": "tabte_aar_trailer.webp"
+}
+]

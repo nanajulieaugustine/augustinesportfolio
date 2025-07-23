@@ -1,0 +1,41 @@
+[{
+    "uddannelser":[{
+        "id": 0,
+        "uddannelse": "multimediedesign (FrontEnd)",
+        "grad": "Akademiuddannelse",
+        "institution": "Københavns Erhvervsakademi (jan 2024-jan 2026)",
+        "beskrivelse": "Multimediedesigneruddannelsen er en digital designuddannelse, der giver dig viden, færdigheder og kompetencer indenfor frontend design og programmering, brugeroplevelser (UX), indholdsproduktion, teknologi og digital forretning. Du kommer til at arbejde med design og udvikling af brugerorienterede webløsninger, frontend programmering samt kommunikation og indhold til sociale medier.På studiet er du i tæt kontakt med erhvervslivet, og du laver mange af dine opgaver i samarbejde med virksomheder og organisationer.",
+        "snit": "10"
+    },
+    {
+        "id": 1,
+        "uddannelse": "STX",
+        "grad": "Almen studentereksamen",
+        "institution": "Stenhus Gymnasium (aug 2019-jun 2022)",
+        "beskrivelse": "Med en STX-eksamen fra Stenhus Gymnasium får du en alsidig uddannelse, der åbner døre til både de mellemlange og de lange videregående uddannelser. Du lærer lidt af det hele - fra sprog og kultur til naturvidenskab og samfundsfag. Det giver dig et solidt grundlag, Du lærer også at tænke kritisk, analysere og forstå verden omkring dig. Det hjælper dig med at finde ud af, hvad du brænder for, og hvem du er som person.",
+        "snit": "7,7"
+    }],
+    "kurser":[
+        {
+        "id": 0,
+        "kursus": "co-studio",
+        "underviser": "Elsebeth Jørgensen",
+        "institution": "Københavns Kunstskole (nov 2023-dec 2023)",
+        "beskrivelse": "Co-Studio er for dig, der interesserer dig for at arbejde med billeder, tekst, film og lyd i din kunstneriske praksis. Du får mulighed for at teste og diskutere dine kunstneriske ideer i et underviserstyret forum sammen med andre unge kunstnere. Gennem forskellige fremvisninger og kritikformer, øves du i at præsentere, aflæse og diskutere værker og procesmaterialer. I Co-Studio er der plads til at eksperimentere med flere udtryksformer og medier. Der er fokus på at undersøge, hvad der sker i mødet mellem forskellige kunstfelter og at eksperimentere med hydridformer af sprogligt, visuelt og lydligt materiale. Det giver vigtig erfaring, at diskutere, modtage og give kritik på hinandens værkmaterialer. Hvis man engagerer sig i andres arbejdsprocesser, kan det åbne for nye ideer og perspektiver på, hvad man forstår ved kunstnerisk produktion. Et Co-Studio forløb kan bruges til at styrke din kunstneriske udvikling og blive mere bevidst om muligheder og udfordringer i dine værkproduktioner til videre studier, visninger eller ansøgninger."
+    },
+    {
+        "id": 1,
+        "kursus": "filmskabning grundkursus",
+        "underviser": "Theis Mølstrøm Christensen",
+        "institution": "Filmskolen Blank (sep 2021-maj 2023)",
+        "beskrivelse": "Filmskolen Blank er et forløb, hvor du skal lære dig selv at kende som filmfortæller. Det er ikke en teknisk uddannelse, hvor vi nørder kameraer, specialeffekts og klippeteknik. Her arbejder vi med dig som skaber og undersøger, hvad det er du har lyst til at fortælle via filmmediet. Vi starter ud med at arbejde med dokumentar. Det bliver konfronterende og undersøgende. Med tiden vil jeg lade jeres lyst guide forløbet. I er fremtiden og jeg skal gøre mit bedste for at hjælpe jer på jeres vej."
+    },
+    {
+        "id": 2,
+        "kursus": "skrivekursus",
+        "underviser": "Janus Kodahl",
+        "institution": "Københavns Kunstskole (feb 2023-apr 2023)",
+        "beskrivelse": " Skrivelinjen er for de der ønsker at udvikle deres skriveevner og arbejde seriøst med det at skrive. På skrivelinjen arbejdes der fokuseret og seriøst med at stimulere det individuelle forfattertalent og udvikle nye forståelsesevner gennem læsning af egne og andres tekster og ikke mindst læsning af litteratur fra både ind- og udland. Holdene undervises af udgivne forfattere suppleret af forskellige gæsteforfattere fra hele landet, der fortæller om deres praksis og giver eleverne mulighed for at indgå i en fri og direkte samtale med forfatterne."
+    }
+    ]            
+}]

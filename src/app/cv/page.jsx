@@ -1,8 +1,13 @@
 import Image from "next/image";
-import Server from "@/components/global/Server";
-import ServerOverview from "@/components/global/ServerOverview";
-import ServerNiveau from "@/components/global/ServerNiveau";
-import ServerUdgivelser from "@/components/global/ServerUdgivelser";
+// import Server from "@/components/global/Server";
+// import ServerOverview from "@/components/global/ServerOverview";
+// import ServerNiveau from "@/components/global/ServerNiveau";
+// import ServerUdgivelser from "@/components/global/ServerUdgivelser";
+import ErhvervserfaringClient from "@/components/cv/erhvervserfaring/ErhvervserfaringClient";
+import ClientNiveau from "@/components/cv/niveau/ClientNiveau";
+import ClientUdgivelser from "@/components/cv/udgivelser/ClientUdgivelser";
+import ClientUddannelser from "@/components/cv/uddannelser/ClientUddannelser";
+
 const Cv = () => {
   return (
     <section>
@@ -32,10 +37,14 @@ const Cv = () => {
         </blockquote>
         <p className="gray">- Theis Mølstrøm Christensen</p>
       </section>
-      <Server />
+      <ClientUddannelser/>
+      <ErhvervserfaringClient/>
+      <ClientNiveau/>
+      <ClientUdgivelser/>
+      {/* <Server />
       <ServerOverview />
       <ServerNiveau />
-      <ServerUdgivelser />
+      <ServerUdgivelser /> */}
     </section>
   );
 };

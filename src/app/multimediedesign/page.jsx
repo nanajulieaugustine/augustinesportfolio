@@ -1,8 +1,8 @@
-import ServerMMD from "@/components/global/ServerMMD";
+import ClientMMD from "@/components/listviewmmd/ClientMMD";
 const MultimediedesignPage = () => {
   return (
     <div>
-      <ServerMMD />
+      <ClientMMD />
     </div>
   );
 };

@@ -4,26 +4,24 @@ const SingleViewCard = ({ item }) => {
   return (
     <div>
       <div className="flex justify-end">
-        <Image  src={`/${item.image}`} alt={`Billede af ${item.name}`} width={700} height={700}/>
+        <Image  src={`/${item.display_image}`} alt={`Billede af ${item.titel}`} width={700} height={700}/>
       </div>
       <div className="relative -top-20">
-        <h2>{item.titel}</h2>
-        <div className="flex items-center">
-          <h1>{item.name}</h1>
+        <h2>{item.kategori}</h2>
+        <div className="flex items-baseline">
+          <h1>{item.titel}</h1>
           <h4>{item.periode}</h4>
         </div>
-        <article>
-          <p>{item.beskrivelse_lang}</p>
-        </article>
+        <div>
+          <p className="max-w-2xl">{item.beskrivelse_lang}</p>
+        </div>
       </div>
       <article>
         <div className="flex items-end flex-col">
           <h2>Proces</h2>
-          <p>{item.proces}</p>
-        </div>
-        <div>
-          <h2>Udførelse</h2>
-          <p>{item.udfoerelse}</p>
+          {item.proces.map((paragraf, index) => (
+          <p key={index} className="mb-4">{paragraf}</p>
+        ))}
         </div>
       </article>
     </div>

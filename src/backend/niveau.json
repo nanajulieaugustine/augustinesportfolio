@@ -1,0 +1,77 @@
+[{
+    "kompetencer":[{
+        "id": 0,
+        "titel": "kameraanvendelse",
+        "niveau": "90"
+    },
+    {
+        "id": 1,
+        "titel": "Adobe pakken",
+        "niveau": "75"
+    },
+    {
+        "id": 2,
+        "titel": "DaVinci Resolve",
+        "niveau": "85"
+    },
+    {
+        "id": 3,
+        "titel": "Figma",
+        "niveau": "75"
+    },
+    {
+        "id": 4,
+        "titel": "HTML, (tailwind) CSS, JavaScript",
+        "niveau": "85"
+    },
+    {
+        "id": 5,
+        "titel": "Astro",
+        "niveau": "85"
+    },
+    {
+        "id": 6,
+        "titel": "Next.Js, React",
+        "niveau": "90"
+    }
+],
+    "faerdigheder":[
+        {
+        "id": 0,
+        "titel": "koordinering",
+        "niveau": "100"
+    },
+    {
+        "id": 1,
+        "titel": "ledelse",
+        "niveau": "85"
+    },
+    {
+        "id": 2,
+        "titel": "selvstændighed",
+        "niveau": "95"
+    },
+    {
+        "id": 3,
+        "titel": "kreativitet",
+        "niveau": "95"
+    },
+    {
+        "id": 4,
+        "titel": "SoMe og marketing strategi",
+        "niveau": "75"
+    }
+    ],
+    "sprog":[
+        {
+        "id": 0,
+        "titel": "dansk",
+        "niveau": "100"
+    },
+    {
+        "id": 1,
+        "titel": "engelsk",
+        "niveau": "100"
+    }
+]              
+}]
