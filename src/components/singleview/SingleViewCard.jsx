@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import ProcesScroll from "./ProcesScroll";
+
 const SingleViewCard = ({ item }) => {
   return (
     <div>
@@ -23,6 +25,7 @@ const SingleViewCard = ({ item }) => {
           <p key={index} className="mb-4">{paragraf}</p>
         ))}
         </div>
+        <ProcesScroll/>
       </article>
     </div>
   );

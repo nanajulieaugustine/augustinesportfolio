@@ -20,6 +20,7 @@
     ],
     "proces_items":[
         {
+            "id":0,
             "kategori": "design",
             "titel":"farvevalg",
             "beskrivelse":[ 
@@ -28,6 +29,7 @@
         ]
         },
         {
+            "id":1,
             "kategori": "design",
             "titel":"skrift",
             "beskrivelse":[ 
@@ -38,6 +40,7 @@
         ]
         },
         {
+            "id":2,
             "kategori": "design",
             "titel":"linjer",
             "beskrivelse":[ 
@@ -48,6 +51,7 @@
         ]
         },
         {
+            "id":3,
             "kategori": "design",
             "titel":"tal",
             "beskrivelse":[ 
@@ -64,6 +68,7 @@
         ]
         },
         {
+            "id":4,
             "kategori": "layout",
             "titel":"alignment",
             "beskrivelse":[ 
@@ -73,6 +78,7 @@
         ]
         },
          {
+            "id":5,
             "kategori": "scrolling",
             "titel":"parralax scrolling",
             "beskrivelse":[ 
@@ -82,6 +88,7 @@
         ]
         },
         {
+            "id":6,
             "kategori": "scrolling",
             "titel":"fade in animation",
             "beskrivelse":[ 
@@ -90,6 +97,7 @@
         ]
         },
         {
+            "id":7,
             "kategori": "scrolling",
             "titel":"headers tekstfarve",
             "beskrivelse":[ 
@@ -99,6 +107,7 @@
         ]
         },
         {
+            "id":8,
             "kategori": "komponenter",
             "titel":"karrusel",
             "beskrivelse":[ 
@@ -110,6 +119,7 @@
         ]
         },
         {
+            "id":9,
             "kategori": "UX/UI",
             "titel":"filtrering",
             "beskrivelse":[ 
@@ -120,6 +130,7 @@
         ]
         },
         {
+            "id":10,
             "kategori": "UX/UI",
             "titel":"billetter",
             "beskrivelse":[ 
@@ -128,6 +139,7 @@
         ]
         },
         {
+            "id":11,
             "kategori": "UX/UI",
             "titel":"navigation",
             "beskrivelse":[ 
@@ -138,6 +150,7 @@
         ]
         },
         {
+            "id":12,
             "kategori": "UX/UI",
             "titel":"accordion",
             "beskrivelse":[ 
@@ -147,6 +160,7 @@
         ]
         },
         {
+            "id":13,
             "kategori": "Tilgængelighed",
             "titel":"tastaturnavigering og screenreaders",
             "beskrivelse":[ 
@@ -155,6 +169,7 @@
         ]
         },
         {
+            "id":14,
             "kategori": "SEO",
             "titel":"meta",
             "beskrivelse":[ 

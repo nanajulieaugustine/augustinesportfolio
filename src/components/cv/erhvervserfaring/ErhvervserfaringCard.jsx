@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-const ErhvervserfaringCard = ({ erhvervserfaring, activeCategory, activeGenre}) => {
+const ErhvervserfaringCard = ({ erhvervserfaring}) => {
 
   return (
     <div className="flex flex-col items-center px-4">

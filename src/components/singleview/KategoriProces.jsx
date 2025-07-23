@@ -1,14 +1,14 @@
 import Select from 'react-select'
 import portfolio from "@/backend/portfolio.json"
 
-const Filter = ({ activeGenre, setActiveGenre }) => {
-    const kategorier = portfolio
-  .filter((p) => p.erhvervserfaring && p.kategori)
-  .map((p) => p.kategori.toLowerCase()); 
+const KategoriProces = ({ activeGenre, setActiveGenre }) => {
+    const kategorierProces = (portfolio?.proces_items || [])
+        .filter((p) => p.kategori)
+        .map((p) => p.kategori.toLowerCase());
 
-const unikkeKategorier = Array.from(new Set(kategorier));
 
-// Lav options:
+const unikkeKategorier = Array.from(new Set(kategorierProces));
+
 const options = unikkeKategorier.map((kategori) => ({
   value: kategori,
   label: kategori.charAt(0).toUpperCase() + kategori.slice(1)
@@ -94,4 +94,4 @@ const options = unikkeKategorier.map((kategori) => ({
   );
 }
 
-export default Filter;
+export default KategoriProces;
