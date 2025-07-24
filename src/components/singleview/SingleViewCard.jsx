@@ -25,8 +25,8 @@ const SingleViewCard = ({ item }) => {
           <p key={index} className="mb-4">{paragraf}</p>
         ))}
         </div>
+        </article>
         <ProcesScroll/>
-      </article>
     </div>
   );
 };

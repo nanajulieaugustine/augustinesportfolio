@@ -1,47 +1,50 @@
 "use client";
-import { useState, } from "react";
+import { useState } from "react";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import portfolio from "@/backend/portfolio.json";
 import KategoriProces from "./KategoriProces";
 import ProcesCard from "./ProcesCard";
 
 const ProcesScroll = () => {
-    const items = portfolio?.proces_items || [];
+  
+  const items = portfolio.flatMap(p => p.proces_items || []) || [];
 
-      const [activeCategory, setActiveCategory] = useState("");
-    
-      const filteredKategori = activeCategory
-        ? items.filter(
-            (item) =>
-              item.kategori.toLowerCase() === activeCategory.toLowerCase()
-          )
-        : items;
-    
-      const [index, setIndex] = useState(0);
-    
-      const handlePrev = () => {
-        setIndex((prev) => (prev > 0 ? prev - 1 : prev));
-      };
-    
-      const handleNext = () => {
-        setIndex((prev) =>
-          prev < filteredKategori.length - 1 ? prev + 1 : prev
-        );
-      };
-    
-      const isPrevDisabled = index === 0;
-      const isNextDisabled = index === filteredKategori.length - 1 || filteredKategori.length === 0;
-    
-      if (index >= filteredKategori.length && filteredKategori.length > 0) {
-        setIndex(0);
-      }
 
-    return ( 
-         <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
+  const [activeCategory, setActiveCategory] = useState("");
+
+  const filteredKategori = activeCategory
+    ? items.filter(
+        (item) =>
+          item.kategori?.toLowerCase() === activeCategory.toLowerCase()
+      )
+    : items;
+
+  const [index, setIndex] = useState(0);
+
+  const handlePrev = () => {
+    setIndex((prev) => (prev > 0 ? prev - 1 : prev));
+  };
+
+  const handleNext = () => {
+    setIndex((prev) =>
+      prev < filteredKategori.length - 1 ? prev + 1 : prev
+    );
+  };
+
+  const isPrevDisabled = index === 0;
+  const isNextDisabled =
+    index === filteredKategori.length - 1 || filteredKategori.length === 0;
+
+  if (index >= filteredKategori.length && filteredKategori.length > 0) {
+    setIndex(0);
+  }
+
+  return (
+    <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
       <div className="ml-auto">
         <KategoriProces activeGenre={activeCategory} setActiveGenre={setActiveCategory} />
       </div>
-      <div className="relative w-full max-w-3xl flex items-center gap-10">
+      <div className="relative w-full max-w-4xl flex items-center gap-10">
         <BsArrowLeftCircle
           onClick={!isPrevDisabled ? handlePrev : undefined}
           className={`white transition-all ${
@@ -55,12 +58,9 @@ const ProcesScroll = () => {
             style={{ transform: `translateX(-${index * 100}%)` }}
           >
             {filteredKategori.length > 0 ? (
-              filteredKategori.map((item) => (
-                <div key={item.id} className="min-w-full">
-                  <ProcesCard
-                    activeCategory={activeCategory}
-                    item={items}
-                  />
+              filteredKategori.map((item, i) => (
+                <div key={i} className="min-w-full">
+                  <ProcesCard item={item} />
                 </div>
               ))
             ) : (
@@ -77,7 +77,7 @@ const ProcesScroll = () => {
         />
       </div>
     </section>
-     );
-}
- 
+  );
+};
+
 export default ProcesScroll;

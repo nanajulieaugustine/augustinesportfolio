@@ -26,6 +26,12 @@
             "beskrivelse":[ 
             "Farvevalgene på sitet er truffet på baggrund af foreningens logo. Der er i alt seks farvenuancer i logoet, hvor jeg har taget udgangspunkt i to af farverne for at skabe så rent et udtryk som muligt. Hermed har jeg anvendt blå og gul, som er kontrastfarver og derfor skaber en visuel balance når de placeres side om side. Jeg har valgt at gøre mig brug af nogle mørkere farvenuancer end i logoet, da foreningen ønskede en lys/beige baggrund, og jeg dermed måtte gøre kontrasten mellem de farvede elementer og baggrunden mere synlig. ",
             "I form a brandcolors har jeg hermed brugt den blå farve som primærfarve, der går igen på sitet mens den gule er sekundær. Resten af sitet holder sig til et beige, hvid og sort farvevalg. Farverne ses i brug på primært tekst, men billdevalg har yderligere været essentiel for at underbygge identiteten."
+        ],
+        "billeder":[
+            "trappetrin117website/trappetrin117logo.webp",
+            "trappetrin117website/omosfarvevalg.webp",
+            "trappetrin117website/begyndelsenfarvevalg.webp",
+            "trappetrin117website/globalcssfarve.webp"
         ]
         },
         {
@@ -37,6 +43,10 @@
             "Gennem min trend-research valgte jeg at tage udgangspunkt i oversized typography, der skaber opmærksomhed på teksten fremfor billeder. Hermed ses det derfor at især h1'ere fylder næsten bredden af skærmen. Dog ønskes den mest responsive løsning og dermed er typografien ikke ligeså stor som det ses i andre tilfælde.",
             "Igen ifølge af responsivitet er paragraf-teksterne typisk korte i sine linjer, hvor de fleste er skabt med tailwind-classen max-w-lg. Dermed flugter teksten sig ikke bredt over over skærmen, men holder en fast bredde, der passer til et artikkel-lignende layout.",
             "Jeg har arbejdet med hierakiet i typografien gennem de forskellige skriftstørrelser og tykkelsen heraf. Hermed har jeg anvendt en mindre skriftstørrelse til at ligge over de store og tykke, så hierakien ikke følger direkte fra størst til mindst."
+        ],
+                "billeder":[
+            "trappetrin117website/prisertekst.webp",
+            "trappetrin117website/spilledatoertekst.webp"
         ]
         },
         {

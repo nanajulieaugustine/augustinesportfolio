@@ -2,9 +2,11 @@ import Select from 'react-select'
 import portfolio from "@/backend/portfolio.json"
 
 const KategoriProces = ({ activeGenre, setActiveGenre }) => {
-    const kategorierProces = (portfolio?.proces_items || [])
-        .filter((p) => p.kategori)
-        .map((p) => p.kategori.toLowerCase());
+    const kategorierProces = portfolio
+  .flatMap(p => p.proces_items || [])
+  .filter(p => p.kategori)
+  .map(p => p.kategori.toLowerCase());
+
 
 
 const unikkeKategorier = Array.from(new Set(kategorierProces));
@@ -84,7 +86,7 @@ const options = unikkeKategorier.map((kategori) => ({
         inputId="genre-select"
         aria-labelledby="genre-label"
         options={options}
-        placeholder="// Vælg kategori"
+        placeholder="// Vælg fokusområde"
         value={options.find(opt => opt.value === activeGenre)}
         onChange={selected => setActiveGenre(selected ? selected.value : "")}
         isClearable
