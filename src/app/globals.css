@@ -130,7 +130,19 @@ blockquote {
   }
 }
 
-/* Tailwind way (if you're using Tailwind) */
 .animate-marquee {
   animation: marquee 15s linear infinite;
 }
+
+.fade-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 25%,
+    rgba(0, 0, 0, 0) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  mix-blend-mode: multiply; /* Eller destination-out afhængigt af baggrund */
+  pointer-events: none;
+}
+

@@ -7,7 +7,8 @@ export default function RootLayout({ children }) {
     <html lang="da">
       <body>
         <Header />
-        <main className="mt-15">{children}</main>
+        <main className="mt-15">
+          {children}</main>
         <Footer />
       </body>
     </html>

@@ -3,6 +3,9 @@ import ListCard from "./ListCard";
 import portfolio from "@/backend/portfolio.json";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { useRef, useState, useEffect } from "react";
+import WorkSvg from "./WorkSvg";
+import EllipseSvg from "../global/EllipseSvg";
+import HorizontalScroll from "../global/HorizontalScroll";
 
 const ClientMMD = () => {
   const webudvikling = portfolio.filter((p) => p.kategori === "webudvikling");
@@ -64,10 +67,11 @@ const ClientMMD = () => {
 
     return (
       <div key={index} className="w-full px-(--content-width)">
+        <EllipseSvg/>
         <h2 className={`px-(--content-width) ${index % 2 === 1 ? "text-right" : ""}`}>
           {cat.title}
         </h2>
-
+      <WorkSvg/>
         <div
           ref={scrollRef}
           className="overflow-x-scroll scrollbar-hide w-full"

@@ -4,6 +4,7 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import portfolio from "@/backend/portfolio.json";
 import KategoriProces from "./KategoriProces";
 import ProcesCard from "./ProcesCard";
+import RoundedKarrusel from "./RoundedKarrusel";
 
 const ProcesScroll = () => {
   
@@ -40,14 +41,14 @@ const ProcesScroll = () => {
   }
 
   return (
-    <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
+    <section className=" bg-(--pink-accent) mt-20 p-5 flex flex-col w-full overflow-hidden rounded-4xl">
       <div className="ml-auto">
         <KategoriProces activeGenre={activeCategory} setActiveGenre={setActiveCategory} />
       </div>
-      <div className="relative w-full max-w-4xl flex items-center gap-10">
+      <div className="relative w-full flex items-top gap-10 ">
         <BsArrowLeftCircle
           onClick={!isPrevDisabled ? handlePrev : undefined}
-          className={`white transition-all ${
+          className={`white relative top-50 transition-all ${
             isPrevDisabled ? "opacity-30 cursor-not-allowed" : "cursor-pointer hover:scale-110"
           }`}
           size={50}
@@ -55,7 +56,7 @@ const ProcesScroll = () => {
         <div className="overflow-hidden w-full flex flex-col">
           <div
             className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${index * 100}%)` }}
+            style={{ transform: `translateX(-${index * 100}%)`}}
           >
             {filteredKategori.length > 0 ? (
               filteredKategori.map((item, i) => (
@@ -70,7 +71,7 @@ const ProcesScroll = () => {
         </div>
         <BsArrowRightCircle
           onClick={!isNextDisabled ? handleNext : undefined}
-          className={`white transition-all ${
+          className={`white relative top-50 transition-all ${
             isNextDisabled ? "opacity-30 cursor-not-allowed" : "cursor-pointer hover:scale-110"
           }`}
           size={50}
