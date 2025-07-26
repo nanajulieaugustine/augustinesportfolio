@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import CircleLineSvg from "../global/CirclelineSvg";
+import CircleLineSvg from "../global/svg/CirclelineSvg";
 
 const ListCard = ({ item }) => {
   const [hoveredLink, setHoveredLink] = useState(false);

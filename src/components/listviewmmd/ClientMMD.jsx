@@ -3,9 +3,9 @@ import ListCard from "./ListCard";
 import portfolio from "@/backend/portfolio.json";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { useRef, useState, useEffect } from "react";
-import WorkSvg from "./WorkSvg";
-import EllipseSvg from "../global/EllipseSvg";
-import HorizontalScroll from "../global/HorizontalScroll";
+import WorkSvg from "../global/svg/WorkSvg";
+import EllipseSvg from "../global/svg/EllipseSvg";
+import HorizontalScroll from "../global/animationer/HorizontalScroll";
 
 const ClientMMD = () => {
   const webudvikling = portfolio.filter((p) => p.kategori === "webudvikling");

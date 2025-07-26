@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const Nav = () => {
-  const pathname = usePathname(); // Get current path
+  const pathname = usePathname();
 
   return (
     <ul className="flex gap-10">

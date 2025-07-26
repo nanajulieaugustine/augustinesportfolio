@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
-import ProcesScroll from "./ProcesScroll";
+import ProcesScroll from "./proces/ProcesScroll";
 import Link from "next/link";
-import HorizontalScroll from "../global/HorizontalScroll";
-import LineAnimationInView from "../global/LineAnimation";
-import SlidingImages from "./SlidingImages";
+import HorizontalScroll from "../global/animationer/HorizontalScroll";
+import LineAnimationInView from "../global/svg/LineAnimation";
+import SlidingImages from "./proces/SlidingImages";
+import RoterendeKandeSvg from "../global/svg/RoterendeKandeSvg";
 
 const SingleViewCard = ({ item }) => {
 
@@ -23,7 +24,8 @@ const SingleViewCard = ({ item }) => {
         </div>
         <div>
         </div>
-          <p className="max-w-2xl">{item.beskrivelse_lang}</p>
+          <h2 className="white italic">{item.beskrivelse_lang}</h2>
+          <hr className="white m-5"/>
           {item.link?(
             <Link href={`${item.link}`} target="_blank">
               <h3 className="hover:scale-103 transition-all duration-300 cursor-pointer">{`Gå til ${item.titel}`}</h3>
@@ -33,11 +35,12 @@ const SingleViewCard = ({ item }) => {
       <article>
           <div className="relative">
             <div className="h-[200vh] relative">
+              <RoterendeKandeSvg/>
               {/* Sticky Proces */}
               <div className="sticky top-20">
                 <h2>Proces</h2>
                 {item.proces.map((paragraf, index) => (
-                  <p key={index} className="mb-4">{paragraf}</p>
+                  <p key={index} className="mb-4 max-w-lg">{paragraf}</p>
                 ))}
               </div>
 
