@@ -6,10 +6,10 @@ const Kurser = ({ kursus }) => {
   const [showPopup, setShowPopup] = useState(false);
   return (
     <section className="flex items-center gap-10 mt-20">
-      <ListDotAndLine
-        onClick={() => setShowPopup(!showPopup)}
-        className={showPopup ? "bg-pink-700 " : ""}
-      />
+       <ListDotAndLine
+          onClick={() => setShowPopup(true) || setShowPopup(!showPopup)}
+          className={showPopup ? "bg-pink-700" : ""}
+        />
       <div>
         <div>
           <h3 className="pink-secondary capitalize">{kursus.kursus}</h3>
@@ -18,7 +18,11 @@ const Kurser = ({ kursus }) => {
         </div>
       </div>
       {showPopup && (
-        <DescPopUp titel={kursus.kursus} beskrivelse={kursus.beskrivelse} />
+       <DescPopUp
+          titel={kursus.kursus}
+          beskrivelse={kursus.beskrivelse}
+          onClose={() => setShowPopup(false)}
+        />
       )}
     </section>
   );

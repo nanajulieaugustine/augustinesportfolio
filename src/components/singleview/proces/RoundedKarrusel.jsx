@@ -43,7 +43,7 @@ const RoundedKarrusel = ({ item }) => {
         }}
         className="w-full h-[150px] md:h-[400px]"
       >
-        {(item.billeder || []).map((billede, i) => (
+        {item.billeder.map((billede, i) => (
           <SwiperSlide key={i} className="relative flex justify-center items-center">
           <Image
             src={`/singleview/${billede}`}

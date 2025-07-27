@@ -2,6 +2,7 @@
 import Uddannelser from "./Uddannelser";
 import Kurser from "./Kurser";
 import uddannelse from "@/backend/uddannelser.json"
+import KlikPaaCirklen from "@/components/global/svg/KlikPaaCirklenSvg";
 
 const ClientUddannelser = () => {
     const uddannelser = uddannelse[0].uddannelser;
@@ -9,8 +10,9 @@ const ClientUddannelser = () => {
 
   return (
     <section>
+      <KlikPaaCirklen/>
       <div>
-        <h2 className="flex justify-end mr-20">Uddannelse</h2>
+        <h2 className="sticky flex justify-end mr-20">Uddannelse</h2>
         {uddannelser.map((uddannelse) => (
           <Uddannelser key={uddannelse.id} uddannelse={uddannelse} />
         ))}

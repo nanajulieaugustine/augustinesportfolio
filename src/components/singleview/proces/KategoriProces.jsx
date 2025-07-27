@@ -3,11 +3,12 @@ import portfolio from "@/backend/portfolio.json"
 import AnimatedMenu from '@/components/global/animationer/AnimatedMenu';
 import AnimatedDropdownIndicator from '@/components/global/animationer/AnimatedDropDownIndicator';
 
-const KategoriProces = ({ activeGenre, setActiveGenre }) => {
-  const kategorierProces = portfolio
-    .flatMap(p => p.proces_items || [])
-    .filter(p => p.kategori)
-    .map(p => p.kategori.toLowerCase());
+const KategoriProces = ({ activeGenre, setActiveGenre, portfolioId }) => {
+  const selectedPortfolio = portfolio.find(p => p.id === portfolioId);
+  const kategorierProces = (selectedPortfolio?.proces_items || [])
+  .filter(p => p.kategori)
+  .map(p => p.kategori.toLowerCase());
+
 
   const unikkeKategorier = Array.from(new Set(kategorierProces));
 

@@ -1,8 +1,5 @@
 import Image from "next/image";
-// import Server from "@/components/global/Server";
-// import ServerOverview from "@/components/global/ServerOverview";
-// import ServerNiveau from "@/components/global/ServerNiveau";
-// import ServerUdgivelser from "@/components/global/ServerUdgivelser";
+import LineAnimationInView from "@/components/global/svg/LineAnimation";
 import ErhvervserfaringClient from "@/components/cv/erhvervserfaring/ErhvervserfaringClient";
 import ClientNiveau from "@/components/cv/niveau/ClientNiveau";
 import ClientUdgivelser from "@/components/cv/udgivelser/ClientUdgivelser";
@@ -12,6 +9,7 @@ const Cv = () => {
   return (
     <section>
       <div className="flex justify-center items-center">
+             <LineAnimationInView/>
         <Image
           className="relative left-20 -z-10"
           width={700}
@@ -32,7 +30,7 @@ const Cv = () => {
           “Jeg har været lærer for Nana på Filmskolen Blank og hun er en
           naturlig stærk fortæller og formidler, og har en meget dedikeret og
           høj arbejdsmoral. Dem, der får fornøjelsen af at opleve hende i sving
-          kommer til at blive rigtig glad for at samarbejdet og det hun kan
+          kommer til at blive rigtig glad for samarbejdet og det hun kan
           bidrage med.”
         </blockquote>
         <p className="gray">- Theis Mølstrøm Christensen</p>
@@ -41,10 +39,6 @@ const Cv = () => {
       <ErhvervserfaringClient/>
       <ClientNiveau/>
       <ClientUdgivelser/>
-      {/* <Server />
-      <ServerOverview />
-      <ServerNiveau />
-      <ServerUdgivelser /> */}
     </section>
   );
 };

@@ -1,5 +1,7 @@
 import Select from 'react-select'
 import portfolio from "@/backend/portfolio.json"
+import AnimatedMenu from '@/components/global/animationer/AnimatedMenu';
+import AnimatedDropdownIndicator from '@/components/global/animationer/AnimatedDropDownIndicator';
 
 const Filter = ({ activeGenre, setActiveGenre }) => {
     const kategorier = portfolio
@@ -18,42 +20,39 @@ const options = unikkeKategorier.map((kategori) => ({
     control: (provided, state) => ({
       ...provided,
       minWidth: "200px",
-      background: "var(--pink-primary)",
+      background: "transparent",
       borderColor: state.isFocused ? "var(--pink-primary)" : "var(--pink-primary)",
-      boxShadow: "2xl",
+      boxShadow: "none",
       "&:hover": {
-        borderColor: "var(--black)",
+        borderColor: "none",
       },
     }),
     dropdownIndicator: (provided) => ({
       ...provided,
-      color: "var(--black)",
+      color: "white",
     }),
     clearIndicator: (provided) => ({
       ...provided,
-      color: "var(--black)",
+      color: "white",
     }),
-
     option: (provided, state) => ({
       ...provided,
-      background: state.isFocused
-        ? "var(--pink-secondary)"
-        : "var(--pink-primary)",
-      color: "var(--black)",
+      background: state.isFocused ? "var(--pink-accent)" : "var(--black)",
+      color: "white",
     }),
     placeholder: (provided) => ({
       ...provided,
-      color: "var(--black)",
+      color: "white",
       fontStyle: "italic",
     }),
     singleValue: (provided) => ({
       ...provided,
-      color: "var(--black)",
+      color: "white",
       fontStyle: "italic",
     }),
     menu: (provided) => ({
       ...provided,
-      backgroundColor: "var(--pink-primary)",
+      backgroundColor: "var(--black)",
     }),
     menuList: (provided) => ({
       ...provided,
@@ -84,14 +83,15 @@ const options = unikkeKategorier.map((kategori) => ({
         inputId="genre-select"
         aria-labelledby="genre-label"
         options={options}
-        placeholder="// Vælg kategori"
+        placeholder="// Vælg fokusområde"
         value={options.find(opt => opt.value === activeGenre)}
         onChange={selected => setActiveGenre(selected ? selected.value : "")}
         isClearable
         styles={customStyles}
+        components={{ Menu: AnimatedMenu, DropdownIndicator: AnimatedDropdownIndicator }}
       />
     </div>
   );
-}
+};
 
 export default Filter;

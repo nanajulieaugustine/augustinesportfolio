@@ -81,7 +81,7 @@
             "trappetrin117website/talfilter.webp"
         ]
         },
-         {
+         {  "id": 4,
             "kategori": "layout",
             "titel":"billeder",
             "beskrivelse":[ 
@@ -95,7 +95,7 @@
         ]
         },
         {
-            "id":4,
+            "id":5,
             "kategori": "layout",
             "titel":"alignment",
             "beskrivelse":[ 
@@ -109,7 +109,7 @@
         ]
         },
          {
-            "id":5,
+            "id":6,
             "kategori": "scrolling",
             "titel":"parralax scrolling",
             "beskrivelse":[ 
@@ -122,7 +122,7 @@
         ]
         },
         {
-            "id":6,
+            "id":7,
             "kategori": "scrolling",
             "titel":"fade in animation",
             "beskrivelse":[ 
@@ -134,7 +134,7 @@
         ]
         },
         {
-            "id":7,
+            "id":8,
             "kategori": "scrolling",
             "titel":"headers tekstfarve",
             "beskrivelse":[ 
@@ -150,7 +150,7 @@
         ]
         },
         {
-            "id":8,
+            "id":9,
             "kategori": "komponenter",
             "titel":"karrusel",
             "beskrivelse":[ 
@@ -168,7 +168,7 @@
         ]
         },
         {
-            "id":9,
+            "id":10,
             "kategori": "UX/UI",
             "titel":"filtrering",
             "beskrivelse":[ 
@@ -186,7 +186,7 @@
         ]
         },
         {
-            "id":10,
+            "id":11,
             "kategori": "UX/UI",
             "titel":"billetter",
             "beskrivelse":[ 
@@ -200,7 +200,7 @@
         ]
         },
         {
-            "id":11,
+            "id":12,
             "kategori": "UX/UI",
             "titel":"navigation",
             "beskrivelse":[ 
@@ -215,7 +215,7 @@
         ]
         },
         {
-            "id":12,
+            "id":13,
             "kategori": "UX/UI",
             "titel":"accordion",
             "beskrivelse":[ 
@@ -230,7 +230,7 @@
         ]
         },
         {
-            "id":13,
+            "id":14,
             "kategori": "Tilgængelighed",
             "titel":"tastaturnavigering og screenreaders",
             "beskrivelse":[ 
@@ -242,7 +242,7 @@
         ]
         },
         {
-            "id":14,
+            "id":15,
             "kategori": "SEO",
             "titel":"meta",
             "beskrivelse":[ 
@@ -263,47 +263,367 @@
     "stilling": "webudvikler",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Webudvikling med fokus på digitale designprincipper og frontend programmering. Udviklet design og UX/UI research samt prototypeudarbejdelse gennem Figma. Sitet er programmeret med HTML, tailwind CSS, React og JavaScript i Next.JS og hostet på Vercel.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Filmskolen Blank er et undervisningstilbud under Holbæk Kulturskole i samarbejde med Talent Holbæk. Jeg har selv været elev på generation 1, og havde derfor et forhenværende kendskab til hvad skolens udtryk skulle rumme, samt de informationer jeg selv ledte efter på søgningen efter en filmskole. Dette gjorde derfor arbejdet meget selvstyret dog med kontakt til skolens leder. Sitet er udviklet i Next.Js med React og tailwind css og er hostet på Vercel og koblet til et GitHub Repository.",
     "kategori": "webudvikling",
     "type": "website",
     "erhvervserfaring": true,
     "titel": "Filmskolen Blank",
     "beskrivelse_ord": "Design system og style guide // Figma prototype // UX/UI research & Development // FrontEnd programmering v. Next.Js",
     "periode": "(nov 2024-nu)",
-    "proces":{
-    },
-    "display_image": "filmskolenblank_website.webp"
+    "link": "https://filmskolenblank.dk",
+    "proces":[
+    "Processen i udviklingen af Filmskolen Blanks hjemmeside startede med en desktop reaearch af lignende organisationers sites. Jeg har taget udgangspunkt i Super16, 18 frames og Den Danske Filmskole. Yderligere har jeg i form af udtryk taget udgangspunkt i forskellige filmplakater bl.a. igennem Pinterest.",
+    "Efter researchen, begyndte jeg at udvikle designvalg. Filmskolen Blank har ikke en eksisterende designguide, og jeg havde derfor relativt frie rammer til valg af design, som alle har taget udgangspunkt i skolens logo.",
+    "Jeg startede på at udvikle en prototype i Figma, som jeg yderligere udførte tænke-højt-test på for at få et indblik i om brugerene fandt sitet navigerbart og intuitivt.",
+    "Da jeg endeligt landede på den færdigudviklede prototype, begyndte jeg at udvikle i Next.Js med biblioteket React. Backenden er udviklet som json-filer direkte i projektet og forbindes derfor ikke til et API eller en ekstern database - dog er det ønsket at dette i fremtiden bliver optimeret.",
+    "Sitet er udviklet med udgangspunkt i forskellige komponenter i jsx-filer. Endvidere ligger en components-mappe under src, hvor hvert komponent hører under en tilsvarende mappe til den side, den tilhører. Hermed bliver komponenterne lagret i hinanden.",
+    "Da sitet var færdigudviklet, udførte jeg en lighthouse test for at diagnostisere eventuelle performance issues, og brugte svarerne herpå til at forbedre accisibility og SEO. Sitet er dermed hundrede procent navigerbar i tastatur og er kompatibel til skærmlæsere."
+    ],
+    "proces_items":[
+        {
+            "id":0,
+            "kategori": "design",
+            "titel":"farvevalg",
+            "beskrivelse":[ 
+            "Farvevalgene på sitet er truffet på baggrund af foreningens logo. Her er der tre farver, hvor den gule er den tynde linje omkring teksten.",
+            "Jeg har derfor anvendt de samme hexkoder fra logoet til at skabe primær- sekundær- og accentfarvene, mens teksten er en off white med en sort baggrund."
+        ],
+        "billeder":[
+            "filmskolenblankwebsite/blanklogo.webp",
+            "filmskolenblankwebsite/farvevalg1.webp",
+            "filmskolenblankwebsite/farvecss.webp"
+        ]
+        },
+        {
+            "id":1,
+            "kategori": "design",
+            "titel":"skrift",
+            "beskrivelse":[ 
+            "Jeg har anvendt den rundede sans-serif skrift 'luckiest guy' til at efterligne logoets bogstaver. Denne er anvendt i h1'ere med en kursiv.",
+            "Jeg har anvendt dele af designprincipperne for trenden oversized typography hvor det ses at især h1'eren findes i både display font og almindelig, som begge er relativt store ift. viewporten. Dog er disse h1'ere ikke anvendt ligeså meget på sitet som h2'ere, der primært skaber overskrifterne.",
+            "h2'ere og h3'ere er skabt med typografien Bebas Neue, der gør fonten tyk og lang. Dette valg er truffet for at skabe en kontrast til de ellers rundede h1'ere. For at skabe en variation mellem h1 og h2, kommer farvevalget her i brug for h2 er orange og h3 gul. Ligesom h1'eren, er der yderligere anvendt en sekundær h2 typografi, der skaber en variation mellem h1 og de mindre h2'ere.",
+            "Igen ifølge af responsivitet er paragraf-teksterne typisk korte i sine linjer, hvor de praragraf-tekster, der ligger ved siden af et billede er skabt med tailwind-classen max-w-lg. Dermed flugter teksten sig ikke bredt over over skærmen, men holder en fast bredde, der passer til et artikkel-lignende layout.",
+            "Skriften er yderligere skabt med clamp-variabler, der dermed gør teksten responsiv at arbejde med."
+        ],
+                "billeder":[
+            "filmskolenblankwebsite/skrift1.webp",
+            "filmskolenblankwebsite/skrift2.webp",
+            "filmskolenblankwebsite/clamp.webp"
+        ]
+        },
+        {
+            "id":2,
+            "kategori": "design",
+            "titel":"rundede kanter",
+            "beskrivelse":[ 
+            "Et designvalg der repeteres på tværs af sitet er anvendelsen af de rundede kanter, bl.a. til knapper og pathname. Dette valg er som h1-typografien truffet for at efterligne det rundede udtryk i logoet."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/kanter.webp"
+        ]
+        },
+        {
+            "id":3,
+            "kategori": "design",
+            "titel":"skråstregerne",
+            "beskrivelse":[ 
+            "På baggrund af min desktop research, fremtrådte der i forskellige filmplakater en opdeling af tekst ved brug af to skråstreger. Jeg anvendte derfor samme designvalg til at sætte disse to streger foran links og andre interaktive elementer med enklete afvigelser fra få tekstoverskrifter.",
+            "Grunden til det netop var interaktive elementer, der fik pålagt dette designvalg, er ikke blot for kontinuitet, men også af UX/UI årsager, der skaber en variation fra resten af sitets tekst og dermed indikerer interaktionsmuligheden. Dette er især et valg truffet i forbindelse med kategori-delen af udgivede film, hvor kategorien ikke udvælges gennem en select, men i stedet en række button-tags med h3'ere indlejret. Det skal derfor være tydeligt for brugeren at disse er interaktive. Yderligere skiftes farvevalget ud fra den aktive kategori af samme årsag."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/streger.webp",
+            "filmskolenblankwebsite/streger2.webp"
+        ]
+        },
+        {
+            "id":4,
+            "kategori": "design",
+            "titel":"tekst alignment",
+            "beskrivelse":[ 
+            "Yderligere på baggrund af filmplakater, ses det ofte at krediteringslisten i bunden anvender sig af en lille typografi med stilling efterfulgt af en større med navn. Jeg har derfor anvendt samme princip til tekst-sektioner hvor der er flere forskellige informationer eller titler.",
+            "Indent-delen følger samme princip af krediteringsliste på plakater hvor tekster på to rækker ikke flugter på samme begyndelse. I stedet er der en tekst-indent på 15 px mod højre på anden række.",
+            "Der er også anvendt en justify-between alignment mellem to elementer under et andet, især i tekst. Dette sæs primært i forbindelse med tekst under h1'eren. Dette er også et udtryk set i filmplakater med årstal for filmens produktion."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/tekstalignment.webp",
+            "filmskolenblankwebsite/tekstalignment2.webp"
+        ]
+        },
+         {  "id": 5,
+            "kategori": "design",
+            "titel":"overflow",
+            "beskrivelse":[ 
+            "I logoet ses der en kasse, der gennem teksten bliver brudt med teksten. Dette valg i logoet er truffet på baggrund af Blanks identitet om 'at tænke ud af boksen'. Jeg har derfor arbejdet med overflow og brud af linjer.",
+            "Dette underbygges bl.a. ved brugen af parralax scrolling, der efter brugerens position i viewporten, animerer elementer over hinanden.",
+            "Det er yderligere også tilfældet i slideren på om-os-siden, hvor billederne bryder content-width variablen og strækker sig over hele skærmen."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/overflow.webp",
+            "filmskolenblankwebsite/overflow2.webp",
+            "filmskolenblankwebsite/farvevalg1.webp"
+        ]
+        },
+         {  "id": 6,
+            "kategori": "layout",
+            "titel":"billeder og vidoer",
+            "beskrivelse":[ 
+            "Sammen med oversized typography har jeg gjort mig brug af de store hero-sektioner i toppen på alle sider for at skabe kontinuitet blandt sideskiftene. Disse sektioner har en baggrundsbillede, der transformeres med en parralax-scrolling og dermed skaber et indtryk af, at billedet ligger under resten af siden. Hermed ligger teksten ovenpå i disse sektioner",
+            "Jeg valgte at bruge hero-sektionerne på baggrund af min trend research og for at skabe en sammenhæng mellem det store og fremtrædne udtryk. Eftersom der er tale om en organistion i kunstforummet, er det påtalende at sitet har et visuelt æstetisk udtryk. Der er derfor fokus på at billederne er skarpe, professoinelle og store til at fange opmærksomheden.",
+            "På nogle sider er herosektionen udskiftet med en mp4, der lydløst kører i loop. Dette gør sig essentielt for Blank eftersom den primære målgruppe er potentielle og kommende elever, og det dermed er relevant for besøgende at få et indblik i forhenværende generationers produktioner."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/hero1.webp",
+            "filmskolenblankwebsite/hero2.webp",
+            "filmskolenblankwebsite/hero3.webp"
+        ]
+        },
+        {
+            "id":7,
+            "kategori": "layout",
+            "titel":"alignment",
+            "beskrivelse":[ 
+            "Alignment mellem tekst og billeder flugter hhv. efter enten toppen eller bunden af billedets højde. Så hvert billede definerer containerens højde og holder teksten kort i relation til denne. Det vil sige at forskellig tekst-indhold altid placeret enten i toppen eller bunden af et billede og aldrig mod midten. Dette valg er truffet for at skabe en balance mellem det visuelle, skarpe og det rene, så ingen konventioner om tekst her bliver brudt.",
+            "Yderligere skifter layoutet mellem to kolonner når sitet navigeres i desktop. Her ses det at hvert andet barn af en container skifter sin alignment mellem højre og venstre. Dette valg er truffet for at skabe en afvigende kontinuitet, så alle elementer ikke placeres efter række. På denne måde bliver der anvendt flere kolonner i dekstop og pladsen bliver dermed udnyttet, men scrolles ellers igennem fra top til bund i mobile grundet den lille bredde.",
+            "I forbindelse med responsivitet og layout-skifte, har sitet i sin globale.css en content-width-varibel skabt med max()-CSS-math-funktionen. Hermed beholder alt indhold med denne classname sin placering på midten af skærmen uafhængig af skærmstørrelse. Hermed bliver den white space, der findes ude i siderne mindre i mobilstørrelsen. Der er defineret to forskellige variabler hvormed sektioner med meget tekst, placeres med mest white space i siden (samme princip som med paragraf-teksterne), og sektioner med mere indhold tillades at sprede sig næsten helt ud til siderne.",
+            "De korte paragraftekster flugter sig alle ved siden af et billede. Hermed er samme princip i forbindelse med de to kolonner underbygget i dele hvor h2'er ligger ved siden af paragraffen i stedet for ved oven. Det ses yderligere på sider de to sider med accordion, hvor disse endnu også følger samme princip."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/overflow.webp",
+            "filmskolenblankwebsite/kolonne.webp"
+        ]
+        },
+         {
+            "id":8,
+            "kategori": "scrolling",
+            "titel":"parralax scrolling",
+            "beskrivelse":[ 
+            "Yderligere i relation til de to kolonner, er der på alle disse sektioner defineret to forskellige parralax-scrolling animationer. Her animeres den ene sektion opad y-aksen, og den anden nedad.",
+            "Dette valg er bl.a. truffet for at efterligne rulleteksterne i film. Yderligere skaber det en mere interaktiv scrolling-oplevelse, og gennem den absolutte positionering af animationerne, kan der yderligere arbejdes med overflow-designvalget",
+            "De to animationer er begge skabt med framer motion, der animerer efter inView og derfor følger brugerens scrolling."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/scrollup.webp",
+            "filmskolenblankwebsite/scrolldown.webp"
+        ]
+        },
+        {
+            "id":9,
+            "kategori": "scrolling",
+            "titel":"horizontal scrolling",
+            "beskrivelse":[ 
+            "På hero-sektionen på om-os-siden og de fire billeder, der tilhører enten elev, underviser eller en film, benytter sig alle af en horizontal scrolling, der defineres efter brugerens scrolling på y-aksen. Denne er skabt med react framer motion ved brug af useTransform.",
+            "Dette valg er truffet for at efterligne en analog filmrulle, og sætter dermed også alle elementer om side med hinanden."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/rulle.webp",
+            "filmskolenblankwebsite/rulle2.webp",
+             "filmskolenblankwebsite/rullekode.webp"
+        ]
+        },
+        {
+            "id":10,
+            "kategori": "UX/UI",
+            "titel":"filtrering",
+            "beskrivelse":[ 
+            "Filtreringsmuligheden er relevant for listen over udgivede film. Her er der taget udgangspunkt i muligheden for både at filtrere i generationer og i genrer.",
+            "Filtrering gennem generation er truffet på baggrund af målgruppen, hvor besøgende er interesserede i forhenværende elever. Kategorien efter genre er relevant for at skabe mulighed for at se variation i de forskellige forløb, der også er beskrevet i om-os-sektionen.",
+            "Filtreringen viser hvor mange udgivede film er tilgængelige, og taler sammen med filtrerede value. Yderligere vises en fejlbesked hvis filtrering ikke har nogle resultater, ved at give en fejlbesked skabt gennem en conditional operator, der måler om længden af filteredFilms er over 0."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/streger.webp",
+            "filmskolenblankwebsite/filter.webp"
+        ]
+        },
+        {
+            "id":11,
+            "kategori": "UX/UI",
+            "titel":"navigation",
+            "beskrivelse":[ 
+            "Sitet anvender pathname til at gøre det tydeligt for brugeren, hvilken side de i øjeblikket er klikket ind på. Dette gøres ved at sætte den rundede form bag teksten.",
+            "På elever-siden bliver brugeren mødt af en række videoer med titler af de forskellige generationer, der først afspilles ved hover. Videoerne er en samling af eleverne fra hver generations afgangsfilm, og skaber derfor et hurtigt indtryk af hver elev. Når en video klikkes, føres brugeren videre til et overview af hver elev på den valgte generation med et portrætbillede, beskrivelse og navn. For at sørge for at brugeren stadig ved de er på elever-siden, er der i pathname anvendt 'startsWith()'-instance-metoden.",
+            "På mobilskærme ville dette layout blive brudt og der er derfor anvendt burgermenu, der vises i form af de konventionelle tre streger, der omdannes til et kryds når den er åbnet."
+        ],
+           "billeder":[
+            "filmskolenblankwebsite/hero2.webp",
+            "filmskolenblankwebsite/menukode.webp"
+        ]
+        },
+        {
+            "id":12,
+            "kategori": "UX/UI",
+            "titel":"accordion",
+            "beskrivelse":[ 
+            "Den primære målgruppe er potentielle elever. Det skal derfor være let at finde informationer, som de har brug for svar på uden for meget scrolling. Dette er skabt ved at anvende en accordion på både optagelse-siden og om-os-siden. På om-os-siden er titlerne små punkter mens optagelse-siden gør sig brug af spørgsmål.",
+            "Denne accordion indeholder en animation, der folder sig ud, og er defineret i den globale css med interpolate-size, der altså er anvendelig hvis browseren supporter den. Dette skaber en mere smooth scrolling oplevelse, der dermed ikke skubber indholdet med det samme og skaber et layout-skift.",
+            "Her er der et plus-ikon, der indikerer at det er muligt at klikke på sektionen, der bliver til et minus med en conditional operator for at indikere, at sektionen kan lukkes"
+        ],
+           "billeder":[
+            "filmskolenblankwebsite/rulle2.webp",
+            "filmskolenblankwebsite/farvevalg1.webp"
+        ]
+        },
+        {
+            "id":13,
+            "kategori": "Tilgængelighed",
+            "titel":"tastaturnavigering og screenreaders",
+            "beskrivelse":[ 
+            "Der er på alle billeder tilføjet alt-tags, knapper har aria-labels og links har titler. På denne måde er det muligt for screenreaders at korrekt oplæse sidens indhold. Yderligere er der sørget for at alle li-elementer ligger under en ul for at opretholde denne konvention, som er nødvendig for skærmlæseren.",
+            "Det er muligt for brugeren at navigere igennem sitet på tastatur. På video-on-hover-komponentet på elever-siden er der derfor anvendt onFocus og onBlur på Linket."
+        ],
+         "billeder":[
+            "filmskolenblankwebsite/lighthouse.webp",
+            "filmskolenblankwebsite/videoonhover.webp"
+        ]
+        },
+        {
+            "id":14,
+            "kategori": "SEO",
+            "titel":"meta",
+            "beskrivelse":[ 
+            "En fordel ved at anvende Next.Js er at programmet selv optimerer SEO, og dermed er alt SEO-indhold returneret som 100 i lighthouse-testen. Derfor har det kun været nødvendigt at tilføje meta-beskrivelser og titler, hvor resten af indholdet såsom UTF-8 allerede er indbygget i Next. Der er dermed på hver side tilføjet en titel, et favicon og en beskrivelse af selve siden, så sitet kommer frem på google search engines med en beskrivelse."
+        ],
+        "billeder":[
+            "filmskolenblankwebsite/meta.webp"
+        ]
+        }
+    ],
+    "display_image": "filmskolenblank_website.webp",
+    "video": "filmskolenblankwebsite/video.mp4"
 },
 {
     "id": 2,
     "stilling": "fotograf",
     "arbejdsgiver": "Coming Up",
     "beskrivelse_kort": "Fotografering af  organisationens musikarrangement med efterarbejdelse i Adobe Photoshop.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Coming up er en musikarrangement under Holbæk Kulturskole, der giver en scene til unge upcoming kunstnere. I forbindelse med organisationens ice-rave-event, har jeg fotograferet og filmet til arrangementet med efterarbejde i photoshop. Projektet startede som et eksamensprojekt på multimediedesigneruddannelsens 2. semester, og blev efterfølgende brugt af organisationen selv til sine annonceringer.",
     "kategori": "fotografering",
     "type": "fotografering",
     "erhvervserfaring": true,
     "titel": "Coming Up",
     "beskrivelse_ord": "Lysstudie fotografering // On-location fotografering // Adobe Photoshop",
     "periode": "(dec 2024)",
-    "proces":{
-    },
-    "display_image": "coming_up_fotografering.webp"
+    "proces":[
+        "Processen startede med overvejelser om hvilken stemning billederne skulle indfange. Her var det ønsket at indfange noget til alle tre af coming ups målgrupper: potentielle frivillige, upcoming artists og musikelskere. Billederne skulle originalt bruges til en prototype af en hjemmeside til coming up med udgangspunkt i at fremme annonceringen på både website, sociale medier og andre annoncer.",
+        "Vi ønskede billeder af coming ups drinks til at annoncere menukortet hvor baggrunden altså var skåret ud. Ud fra dette koncept, lejede vi et transportabelt lysstudie, der gjorde det let at arbejde med beskæringen. Efter dette begyndte vi at eksperimentere med mediet, hvor en af de frivillige selv kom på ideen om at efterligne at drikke en drink inde i studiet.",
+        "Yderligere var det essentielt at have billeder til annoncering rettet mod frivillige, så teknik og barcrew blev også fotograferet",
+        "Vi tog billeder af musikerne både nede fra publikum og oppe på scenen. Disse billeder kan både rettes mod musikelsker-målgruppen og upcoming artists.",
+        "Resten af aftenen var der blot tale om at indfange øjeblikket og den stemning, der allerede var tilstede blandt publikum.",
+        "Billederne blev efterarbejdet i photoshop og derfra tilsendt til organisationen."
+],
+    "proces_items":[{
+            "id":0,
+            "kategori": "lys",
+            "titel":"studiebelysning",
+            "beskrivelse":[ 
+            "Billederne af menukortet er taget i et transportabel lysboks. Dette gjorde det let at maskere baggrunden væk senere i photoshop.",
+            "Lysboksen fungerede som et ministudie med lysreflektorer og led-belysning. Lystemperaturen var af 5500 Kelvin. Efter motivernes behov skiftede vi mellem af fotografere med lysstyrke på 60W eller 80W"
+        ],
+         "billeder":[
+            "comingupfotografering/lysstudie.webp"
+        ]
+        },{
+            "id":1,
+            "kategori": "lys",
+            "titel":"on location",
+            "beskrivelse":[ 
+            "En del af fotograferingen foregik on location og derfor også med varierende belysning fra teknikerne. Da der var tale om en mørk setting, indstillede jeg ISO på 1600 og en shutter speed på 1/250s dog med variationer når lysindfaldet skiftede.",
+            "Den høje shutter speed sørgede for ikke bare lysindfaldet, men var også essentiel for at opfange menneskerne i konstant bevægelse uden at skabe motion blur."
+        ],
+         "billeder":[
+            "comingupfotografering/lyslocation.webp"
+        ]
+        },{
+            "id":2,
+            "kategori": "Photoshop",
+            "titel":"Maskering",
+            "beskrivelse":[ 
+            "Til maskering af både øl og billede af kvinden, der drikker en øl, brugte jeg makeringsværktøjet i photoshop. Grundet belysningen var der intet behov for yderligere justeringer.",
+            "Efterfølgende ændrede jeg på nogle af billedernes kontrastforhold, hvor jeg forskød minimalt på output- og- inputniveau i justeringsværktøjet."
+        ],
+         "billeder":[
+            "comingupfotografering/maskering.webp"
+        ]
+        },{
+            "id":3,
+            "kategori": "Photoshop",
+            "titel":"kontraster",
+            "beskrivelse":[ 
+            "Eftersom lysindfaldet varierede var der ikke altid et skarpt output i kontrastforholdene. Jeg har derfor justeret både på inputniveau, outputniveau i kurven. Dog skete dette lysindfald ofte ved publikum, hvor jeg valgte at beholde et lidt mere grynet udtryk i stedet for at ændre for meget på lyset i photoshop. På den måde underbygges der en analog og mere varm følelse."
+        ],
+         "billeder":[
+            "comingupfotografering/kurver.webp"
+        ]
+        }
+    ],
+    "billeder":[
+        "comingupfotografering/cu.webp",
+        "comingupfotografering/cu1.webp",
+        "comingupfotografering/coming_up_fotografering.webp",
+        "comingupfotografering/cu2.webp",
+        "comingupfotografering/cu3.webp",
+        "comingupfotografering/cu4.webp",
+        "comingupfotografering/cu5.webp",
+        "comingupfotografering/cu6.webp",
+        "comingupfotografering/cu7.webp",
+        "comingupfotografering/cu8.webp",
+        "comingupfotografering/cu9.webp",
+        "comingupfotografering/cu10.webp"
+    ],
+    "display_image": "coming_up_fotografering.webp",
+    "video": "comingupfotografering/video.mp4"
 },
 {
     "id": 3,
     "stilling": "trailerklipper",
     "arbejdsgiver": "Trappetrin 117",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve. Yderligere fotograf af teateropsætning (se multimediedesign portfolio)",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Trappetrin 117 opsatte teaterstykket Medea og havde brug for en trailer. Processen var selvstyret uden meget instruktion og i samarbejde med stykkets komponist. Optagelserne er selv filmet og sammenklippet i DaVinci Resolve.",
     "kategori": "creative branding",
     "type": "trailer",
     "erhvervserfaring": true,
     "titel": "Medea",
-    "beskrivelse_ord": "Videooptagelse // DaVinci Resolve klipning",
+    "beskrivelse_ord": "Fotografering // DaVinci Resolve klipning",
     "periode": "(aug 2024)",
-    "proces":{
-    },
+    "link": "https://youtu.be/ShBgMLVHZDc",
+    "proces":[
+        "Klippeprocessen startede ud med en overvejende analyse af hvilke elementer skulle indgå. Stykket er et drama og skulle derfor i forbindelse med musikken lede op til et klimaks, men for at beholde seerens opmærksomhed, aldrig forløses i traileren.",
+        "I optagelsen af traileren, filmede jeg hele gennemindspilningen af stykket med enklete pauser og dermed uden instruktion. Jeg benyttede mig af de lyd- og fotoklip jeg fandt mest fængende. Her trak jeg hvert fængende klip ud fra hinanden med få sekunder for at skifte i varierende frames.",
+        "I lyden arbejede jeg med at indsætte klips uafhængig af billedet, og andre dele beholde lyd sammen med billede.",
+        "Jeg havde af stykkets komponist modtaget mp3-filer, hvor jeg skiftende skabte en overgang i musikkens tempo og sammenklippede de forskellige filer. Jeg ønskede at anvende den mere rolige musik i starten, der gradvist bliver mere dramatiseret som klimakset opstod.",
+        "I slutningen af traileren nedsættes tempoet og musikken fader langsomt ud sammen med et mere længerevarigt klip end resten. På denne måde skabes en overgang, der i trailerens sammensætning skaber en varierende bue hvor klimaks når hen mod midten, som det også ses i berettermodellen."
+    ],
+     "proces_items":[{
+            "id":0,
+            "kategori": "billede",
+            "titel":"klipinterval",
+            "beskrivelse":[ 
+            "For at beholde seerens opmærksomhed, er de fleste klip ikke længere end 4 sekunder. Det ønskes at traileren når en maksimal længde på 1 minut, og de ligger derfor direkte efter hinanden på tidslinjen. Jeg har her haft hele optagelsen liggende, og skiftevis trukket hvert klip ud fra hinanden, hvor jeg til sidst lagde dem side om side og skiftede i hastigheden efter behov ved den endelige sammensætning."
+        ],
+         "billeder":[
+            "medeatrailer/billede.webp"
+        ]
+        }, {"id":1,
+            "kategori": "lyd",
+            "titel":"lydoptagelser",
+            "beskrivelse":[ 
+            "Ligesom med billedklippene, udtrak jeg de dele af lyden, jeg ønskede at anvende fra klippene og lagde dem senere ind på tidslinjen. For ikke at skabe en bemærkelsesværdig ændring af lyden når et klip bliver indsat, har mange af lydfilerne en fade i begyndelsen eller slutningen af klippet. De er ofte længere i de sektioner hvor musikken er roligere, da skift fra ingen til pludselig lyd her er mere bemærkelsesværdig. Grundet den konstante underlægningsmusik, har der ikke været behov for at redigere meget i lyden andet end voloumen."
+        ],
+         "billeder":[
+            "medeatrailer/lyd.webp"
+        ]
+        }, {"id":2,
+            "kategori": "lyd",
+            "titel":"musik",
+            "beskrivelse":[ 
+            "Underlægningsmusikken er skabt af flere forskellige musikalske numre. For at skabe en overgang, der starter rolig og hurtigt lægger op til konfliktoptraptning, er musikken lagt ovenpå hinanden i forskellige lydspor med en fade til at præcisere overgangen.",
+            "Jeg har yderligere arbejdet med at få billedet til at passe sammen med musikken og klippet efter en rytme. Her ses det bl.a. at der i en sektion med overgang og skift i tempo, overlægges et klip, der ligevel skifter i lys og skaber en afslørring."
+        ],
+         "billeder":[
+            "medeatrailer/lyd1.webp"
+        ]
+        }
+     ],
+     "video": "medeatrailer/video.mp4",
     "display_image": "medea_trailer.webp"
 },
 {
@@ -311,23 +631,51 @@
     "stilling": "Produktionsassistent og støtte",
     "arbejdsgiver": "GotFat Productions",
     "beskrivelse_kort": "Produktionsassistent og pædagogisk støtte til hovedmedvirkende på dokumentarfilmen Trine On Fire (2025).",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Trine On Fire er en dokumentarfilm om Trines rejse i retspsykiatrien instrueret af Alexander Lind under GotFat Productions. I dokumentaren skal Trine gengive et teaterstykke ud fra hendes egne bøger, og havde i den forbindelse brug for en støtte når hun mærkede et pres.",
     "kategori": "film",
-    "type": "",
-    "erhvervserfaring": false,
-    "titel": "",
+    "type": "Produktionsassistent og støtte",
+    "erhvervserfaring": true,
+    "titel": "Trine On Fire",
     "beskrivelse_ord": "",
     "periode": "(aug 2023-feb 2024)",
-    "proces":{
-    },
-    "display_image": ""
+    "proces":[
+        "Arbejdet startede med en dialog med dokumentarens instruktør. Her blev jeg forberedt på Trines historie og hvad hun har brug for af støtte. Under produktionen havde Trine svært ved at sige til når hun havde brug for en pause, og jeg blev dermed ansat for at hjælpe hende med at trække vejret og tale om hvordan hun har det.",
+        "Her var det essenielt at jeg holdt øje med prøverne af teatergennemindspilningen og var opmærksom på Trines kropssprog, så jeg kunne stoppe instruktørerne og vurdere hvornår Trine skulle holde en pause. I pauserne talte vi til tider om hvordan hun havde det, andre gange lod jeg hende holde pausen alene.",
+        "Trine havde et forhenværende godt forhold til produktionens ansatte, men disse ønsker også at få noget frem i hende. Derfor var det relevant at få mig, der ikke havde noget med filmens fortælling at gøre til at mærke efter på Trines grænser.",
+        "På dele af produktionen arbejdede jeg som produktionsassistent. Jeg overtog i denne forbindelse også forskellige roller, hvor jeg afviklede lyd og lys når nogle fra produktionen ikke kunne være der den dag."
+    ],
+    "proces_items":[{
+        "id": 0,
+        "kategori": "Tanker",
+        "titel": "Håndtryk",
+        "beskrivelse":[
+            "En del af oplevelsen for Trine var at hun havde svært ved at sige til når hun havde brug for pauser. Dette blev især relevant imod slutningen af produktionen, da hun skulle fremføre sit stykke til et publikum. Dog skete det til tider at jeg fejlvurdede Trines behov for pauser.",
+            "Derfor udviklede vi et håndtryk vi kunne sende til hinanden. Hvis jeg var i tvivl om hun havde brug for en pause, sendte jeg det mod hende, hvor hun kunne afvise eller godtage med hånden. Modsat, hvis hun havde brug for en pause, men havde svært ved at sige det, sendte hun håndtrykket til mig, der i så fald afbrød instruktørerne."
+        ],
+        "billeder":[
+            "trineonfire/applaus.webp"
+        ]
+    },{
+        "id": 1,
+        "kategori": "Tanker",
+        "titel": "Relation",
+        "beskrivelse":[
+            "Det var essentielt at Trine og jeg havde en tryg relation til hinanden og jeg derfor ikke blot føltes som en ansat. Til tider når Trine og jeg snakkede om hendes følelser, drog jeg dermed også parralleler til mit eget liv og lukkede hende ind i mine egne personlige oplevelser og tanker.",
+            "Yderligere snakkede vi i nogle af pauserne om andre ting og jeg delte også min hverdag med hende. Andre gange sad vi i stilhed, gik en tur eller holdte en pause hver for sig. Dette var især vigtigt, så Trine ikke skulle sidde i hendes følelser hele tiden og dele ud af hendes pres. mens det nogle gange føles rart at dele hvordan man har det til en, der lytter, kan man andre gange have brug for en komplet pause fra det hele."
+        ],
+        "billeder":[
+            "trineonfire/pause.webp"
+        ]
+    }],
+    "display_image": "trineonfire.webp",
+    "video": "trineonfire/video.mp4"
 },
 {
     "id": 5,
     "stilling": "dokumentarinstruktør",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Instruering, producering, fotografering og klipning af dokumentarfilm Tabte År (2023) som afgangsprojekt fra Filmskolen Blank, med udgivelse på tre internationale filmfestivaler.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Tabte År er en fortælling om min mors håndtering af sin sygdomsforløb og dennes indvirkning på familierelationen. Dokumentaren er ",
     "kategori": "film",
     "type": "dokumentar",
     "erhvervserfaring": true,
@@ -387,7 +735,7 @@
     "display_image": "tabte_aar_plakat.webp"
 },
 {
-    "id": 3,
+    "id": 9,
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve.",
@@ -401,5 +749,21 @@
     "proces":{
     },
     "display_image": "tabte_aar_trailer.webp"
+},
+{
+    "id": 10,
+    "stilling": "trailerklipper",
+    "arbejdsgiver": "Filmskolen Blank",
+    "beskrivelse_kort": "Klipning af trailer med efterarbejde i DaVinci Resolve.",
+    "beskrivelse_lang": "",
+    "kategori": "creative branding",
+    "type": "trailer",
+    "erhvervserfaring": false,
+    "titel": "Alma",
+    "beskrivelse_ord": "DaVinci Resolve",
+    "periode": "(maj 2023)",
+    "proces":{
+    },
+    "display_image": "alma_trailer.webp"
 }
 ]

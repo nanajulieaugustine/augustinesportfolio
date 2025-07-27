@@ -6,10 +6,10 @@ import KategoriProces from "./KategoriProces";
 import ProcesCard from "./ProcesCard";
 import KategoriCounter from "./KategoriCounter";
 
-const ProcesScroll = () => {
+const ProcesScroll = ({portfolioId}) => {
   
-  const items = portfolio.flatMap(p => p.proces_items || []) || [];
-
+    const selectedPortfolio = portfolio.find(p => p.id === portfolioId);
+    const items = selectedPortfolio?.proces_items || [];
 
   const [activeCategory, setActiveCategory] = useState("");
 
@@ -47,7 +47,7 @@ const ProcesScroll = () => {
         currentIndex={index + 1} 
         totalLength={filteredKategori.length || 0}
       />
-        <KategoriProces activeGenre={activeCategory} setActiveGenre={setActiveCategory} />
+        <KategoriProces activeGenre={activeCategory} setActiveGenre={setActiveCategory} portfolioId={portfolioId} />
       </div>
       <div className="relative w-full flex items-top gap-10 ">
         <BsArrowLeftCircle

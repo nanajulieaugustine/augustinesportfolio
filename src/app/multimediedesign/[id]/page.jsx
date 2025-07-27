@@ -8,7 +8,7 @@ const SingleViewPage = async ({ params }) => {
 
   return (
     <section>
-      <SingleViewCard item={item} />
+      <SingleViewCard portfolioId={item.id} item={item} />
     </section>
   );
 };

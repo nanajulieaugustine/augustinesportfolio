@@ -7,11 +7,12 @@ const Uddannelser = ({ uddannelse }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   return (
-    <section>
+    <section className="relative">
       {showPopup && (
         <DescPopUp
           titel={uddannelse.uddannelse}
           beskrivelse={uddannelse.beskrivelse}
+          onClose={() => setShowPopup(false)}
         />
       )}
 
@@ -30,8 +31,8 @@ const Uddannelser = ({ uddannelse }) => {
         </div>
 
         <ListDotAndLine
-          onClick={() => setShowPopup(!showPopup)}
-          className={showPopup ? "bg-pink-700 " : ""}
+          onClick={() => setShowPopup(true) || setShowPopup(!showPopup)}
+          className={showPopup ? "bg-pink-700" : ""}
         />
       </div>
     </section>

@@ -6,8 +6,9 @@ import HorizontalScroll from "../global/animationer/HorizontalScroll";
 import LineAnimationInView from "../global/svg/LineAnimation";
 import SlidingImages from "./proces/SlidingImages";
 import RoterendeKandeSvg from "../global/svg/RoterendeKandeSvg";
+import Billeder from "./Billeder";
 
-const SingleViewCard = ({ item }) => {
+const SingleViewCard = ({ item, portfolioId }) => {
 
 
   return (
@@ -32,6 +33,9 @@ const SingleViewCard = ({ item }) => {
             </Link>
           ):""}
         </div>
+        {item.billeder?(
+        <Billeder item={item}/>
+        ):""}
       <article>
           <div className="relative">
             <div className="h-[200vh] relative">
@@ -50,7 +54,7 @@ const SingleViewCard = ({ item }) => {
           </div>
         </article>
         <div className="relative">
-          <ProcesScroll/>
+          <ProcesScroll portfolioId={portfolioId}/>
           </div>
     </div>
   );

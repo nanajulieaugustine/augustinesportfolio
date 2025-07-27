@@ -4,6 +4,8 @@ import ErhvervserfaringCard from "./ErhvervserfaringCard";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import portfolio from "@/backend/portfolio.json";
 import Filter from "./Filter";
+import KategoriCounter from "@/components/singleview/proces/KategoriCounter";
+import ExpereinceSvg from "@/components/global/svg/ExpereinceSvg";
 
 const ErhvervserfaringClient = () => {
   const erhvervserfaring = useMemo(
@@ -40,13 +42,16 @@ const ErhvervserfaringClient = () => {
   }
 
   return (
-    <section className="bg-(--pink-accent) mt-20 p-5 flex flex-col items-center w-full overflow-hidden rounded-4xl">
-      <div className="ml-auto">
+    <section className="mt-20 p-5 flex flex-col w-full overflow-hidden">
+      <div className="flex justify-between items-center">
+         <KategoriCounter 
+        currentIndex={index + 1} 
+        totalLength={filteredKategori.length || 0}
+      />
         <Filter activeGenre={activeCategory} setActiveGenre={setActiveCategory} />
       </div>
-      <h2 className="mb-4">Erhvervserfaring</h2>
-
-      <div className="relative w-full max-w-3xl flex items-center gap-10">
+      <ExpereinceSvg/>
+      <div className="relative w-full flex items-center gap-10">
         <BsArrowLeftCircle
           onClick={!isPrevDisabled ? handlePrev : undefined}
           className={`white transition-all ${
