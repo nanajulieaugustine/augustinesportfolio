@@ -4,7 +4,7 @@ import ErhvervserfaringClient from "@/components/cv/erhvervserfaring/Erhvervserf
 import ClientNiveau from "@/components/cv/niveau/ClientNiveau";
 import ClientUdgivelser from "@/components/cv/udgivelser/ClientUdgivelser";
 import ClientUddannelser from "@/components/cv/uddannelser/ClientUddannelser";
-
+import StaggeredFade from "@/components/global/animationer/StaggeredFade";
 const Cv = () => {
   return (
     <section>
@@ -17,7 +17,7 @@ const Cv = () => {
           src={"/profile_rounded.webp"}
           alt={"picture of Nana Julie Augustine"}
         />
-        <h1>Nana Julie Augustine</h1>
+        <StaggeredFade text="Nana Julie Augustine" />
       </div>
       <section className="flex justify-between items-start">
         <p className="gray">

@@ -1,51 +1,34 @@
-import Image from "next/image";
-import DescBackground from "@/components/global/(index)/DescBackground";
-import Link from "next/link";
-import Titles from "@/components/global/(index)/Titles";
+"use client";
+import { useEffect } from "react";
+import FadeInAnimation from "@/components/global/animationer/FadeInAnimation";
+import StaggeredFade from "@/components/global/animationer/StaggeredFade";
+import ChosenList from "@/components/global/(index)/ChosenList";
+import LineAnimationInView from "@/components/global/svg/LineAnimation";
+import DisplayTekst from "@/components/global/animationer/DisplayText";
 
 const Forside = () => {
+  useEffect(() => {
+    document.body.style.overflow = "hidden";
+
+    const timer = setTimeout(() => {
+      document.body.style.overflow = "";
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div>
-      <section className="flex justify-center items-center ml-20">
-        <h1>Nana Julie Augustine</h1>
-        <Image
-          className="relative right-25 -z-10"
-          width={700}
-          height={700}
-          src={"/profile_rounded.webp"}
-          alt={"picture of Nana Julie Augustine"}
-        />
+    <FadeInAnimation>
+      <section className="flex justify-center ml-20 sticky">
+        <LineAnimationInView />
+        <StaggeredFade text="Portfolio" />
       </section>
-      <div className="overflow flex mt-10">
-        <Titles></Titles>
+      <div className="flex items-center flex-col">
+        <DisplayTekst text={"nana julie augustine"} />
       </div>
-      <div className="flex justify-center gap-6">
-        <Link href="/multimediedesign">
-          <DescBackground>
-            <h1 className="white">
-              multi
-              <br />
-              medie
-              <br />
-              design
-            </h1>
-            <h2 className="white">
-              FRONTEND // CONTENT CREATION // DIGITAL DESIGN // UX/UI
-              DEVELOPMENT
-            </h2>
-          </DescBackground>
-        </Link>
-        <Link href="/kunst">
-          <DescBackground>
-            <h1 className="white">kunst</h1>
-            <h2 className="white">
-              DOKUMENTAR // FOTOGRAFERING // BILLEDKUNST // LITTERATUR{" "}
-            </h2>
-          </DescBackground>
-        </Link>
-      </div>
-    </div>
+      <ChosenList />
+    </FadeInAnimation>
   );
-}
+};
 
 export default Forside;
