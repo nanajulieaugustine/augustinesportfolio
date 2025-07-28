@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 const ChosenList = () => {
   const router = useRouter();
   const { scrollYProgress } = useScroll();
-  const y = useTransform(scrollYProgress, [0, 1], [0, -100]);
+  const y = useTransform(scrollYProgress, [0, 1], [0, -200]);
 
   const [isAnimating, setIsAnimating] = useState(false);
 
@@ -42,7 +42,7 @@ const ChosenList = () => {
             alt="billede tilhørende multimediedesign liste"
             className="rounded-3xl"
             initial={{ scale: 1, opacity: 1, filter: 'blur(20px' }}
-            animate={isAnimating ? { scale: 5, opacity: 0.5, filter: 'blur(20px)' } : { scale: 1, opacity: 1, filter: 'blur(0px)' }}
+            animate={isAnimating ? { scale: 2, opacity: 0.9, filter: 'blur(20px)' } : { scale: 1, opacity: 1, filter: 'blur(0px)' }}
             transition={{ duration: 0.6, ease: "easeIn" }}
             onAnimationComplete={handleAnimationComplete}
           />

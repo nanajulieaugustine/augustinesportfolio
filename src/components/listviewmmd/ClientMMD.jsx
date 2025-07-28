@@ -6,6 +6,7 @@ import { useRef, useState, useEffect } from "react";
 import WorkSvg from "../global/svg/WorkSvg";
 import EllipseSvg from "../global/svg/EllipseSvg";
 import HorizontalScroll from "../global/animationer/HorizontalScroll";
+import DisplayText from "../global/animationer/DisplayText";
 
 const ClientMMD = () => {
   const webudvikling = portfolio.filter((p) => p.kategori === "webudvikling");
@@ -68,9 +69,9 @@ const ClientMMD = () => {
     return (
       <div key={index} className="w-full px-(--content-width)">
         <EllipseSvg/>
-        <h2 className={`px-(--content-width) ${index % 2 === 1 ? "text-right" : ""}`}>
-          {cat.title}
-        </h2>
+        <DisplayText className={`px-(--content-width) ${index % 2 === 1 ? "text-right" : ""}`}
+          text={cat.title}
+        />
       <WorkSvg/>
         <div
           ref={scrollRef}

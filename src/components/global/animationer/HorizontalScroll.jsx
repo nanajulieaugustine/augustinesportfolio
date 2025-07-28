@@ -5,15 +5,13 @@ import { useRef } from "react";
 const HorizontalScroll = ({ children, className }) => {
   const ref = useRef(null);
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"] 
-  });
+  const { scrollYProgress } = useScroll()
 
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "0%"]);
+  const scale = useTransform(scrollYProgress, [0, 1], ["100%", "300%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-100%"]);
 
   return (
-    <motion.div ref={ref} style={{ x }} className={className}>
+    <motion.div ref={ref} style={{ scale, x }} className={className}>
       {children}
     </motion.div>
   );

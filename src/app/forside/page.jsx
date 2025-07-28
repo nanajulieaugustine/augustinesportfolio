@@ -26,7 +26,9 @@ const Forside = () => {
       <div className="flex items-center flex-col">
         <DisplayTekst text={"nana julie augustine"} />
       </div>
-      <ChosenList />
+      <section>
+        <ChosenList />
+      </section>
     </FadeInAnimation>
   );
 };

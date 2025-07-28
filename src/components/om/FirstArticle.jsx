@@ -1,10 +1,10 @@
 import Image from "next/image";
-
+import StaggeredFade from "../global/animationer/StaggeredFade";
 const FirstArtcle = () => {
   return (
     <section>
       <article className="px-(--article-width)">
-        <h1>en fortælling om mig</h1>
+        <StaggeredFade text={"en fortælling om mig"}/>
         <p className="gray">
           Jeg har altid brugt kunsten til at udtrykke mig. Jeg eksperimenterer
           med forskellige kunstarter på tværs af medier - både kommercielt og

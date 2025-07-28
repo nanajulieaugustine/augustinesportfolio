@@ -7,13 +7,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const HeroCard = ({ item }) => {
-  const { scrollYProgress } = useScroll({
-    offset: ["start start", "end start"],
-  });
+  const { scrollYProgress } = useScroll()
 
-  const y = useTransform(scrollYProgress, [0, 1], [0, -300]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0]);
-const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 1], ["100%", "70%"]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   return (
     <motion.div>
@@ -38,15 +35,13 @@ const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
           {item.beskrivelse_lang}
         </motion.h2>
 
-        <motion.hr style={{ y }} className="white mt-5" />
-
-        {item.link && (
+        {/* {item.link && (
           <Link href={`${item.link}`} target="_blank">
             <h3 className="hover:scale-103 transition-all duration-300 cursor-pointer">
               {`Gå til ${item.titel}`}
             </h3>
           </Link>
-        )}
+        )} */}
       </div>
     </motion.div>
   );

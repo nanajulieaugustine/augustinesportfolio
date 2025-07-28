@@ -5,11 +5,11 @@ const FadeInAnimation = ({children}) => {
     return ( 
     <motion.div
       initial={{
-        filter: "blur(20px)",
+        filter: "blur(50px)",
         opacity: 0,
       }}
       animate={{
-        scale: ["120%", "100%"],
+        scale: ["95%", "100%"],
         filter: ["blur(0px)"],
         opacity: [1],
       }}
