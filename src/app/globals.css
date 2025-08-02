@@ -56,6 +56,7 @@ h1 {
   text-transform: uppercase;
   line-height: 0.9;
   margin-bottom: 1rem;
+  text-wrap: balance;
   @media (width<750px) {
     font-size: 50px;
   }
@@ -68,6 +69,7 @@ h2 {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 1rem;
+  text-wrap: balance;
   @media (width<750px) {
     font-size: 18px;
   }
@@ -84,6 +86,7 @@ h3 {
   font-weight: 800;
   font-style: italic;
   margin-bottom: 0.5rem;
+  text-wrap: balance;
   @media (width<750px) {
     font-size: 16px;
   }
@@ -91,6 +94,7 @@ h3 {
 
 h4 {
   font-size: 16px;
+  text-wrap: balance;
   color: var(--pink-secondary);
   font-weight: 800;
 }

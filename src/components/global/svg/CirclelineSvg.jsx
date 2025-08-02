@@ -23,7 +23,7 @@ const CircleLineSvg = ({ isHovered, item, isAnimating, setIsAnimating }) => {
     controls.start({
       scale: [1, 2],
       opacity: [1, 0],
-      transition: { duration: 0.3, ease: "easeIn" },
+      transition: { duration: 0.5, ease: "easeIn" },
     }).then(() => {
       setShow(false);
       router.push(`/multimediedesign/${item.id}`);

@@ -1,24 +1,20 @@
 "use client";
-import Select, { components } from "react-select";
-import { motion, AnimatePresence } from "framer-motion";
-import portfolio from "@/backend/portfolio.json";
-import { useState } from "react";
+import { components } from "react-select";
+import { motion } from "framer-motion";
 
 const AnimatedMenu = (props) => {
   return (
-    <AnimatePresence>
-      {props.selectProps.menuIsOpen && (
-        <motion.div
-          initial={{ y: -50 }}
-          animate={{  y: 0 }}
-          exit={{  y: -50 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-        >
-          <components.Menu {...props} />
-        </motion.div>
-      )}
-    </AnimatePresence>
+    <components.Menu {...props}>
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.2 }}
+      >
+        {props.children}
+      </motion.div>
+    </components.Menu>
   );
 };
 
-export default AnimatedMenu
+export default AnimatedMenu;

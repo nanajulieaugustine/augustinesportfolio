@@ -577,7 +577,7 @@
     "stilling": "trailerklipper",
     "arbejdsgiver": "Trappetrin 117",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve. Yderligere fotograf af teateropsætning (se multimediedesign portfolio)",
-    "beskrivelse_lang": "Trappetrin 117 opsatte teaterstykket Medea og havde brug for en trailer. Processen var selvstyret uden meget instruktion og i samarbejde med stykkets komponist. Optagelserne er selv filmet og sammenklippet i DaVinci Resolve.",
+    "beskrivelse_lang": "Trappetrin 117 opsatte teaterstykket Medea om den græske fortælling om en kvinde, der dræbte sine egne børn for at hævne sig på sin mand. Processen var selvstyret uden meget instruktion og i samarbejde med stykkets komponist. Optagelserne er selv filmet og sammenklippet i DaVinci Resolve.",
     "kategori": "creative branding",
     "type": "trailer",
     "erhvervserfaring": true,
@@ -690,16 +690,163 @@
     "id": 6,
     "stilling": "fotograf",
     "arbejdsgiver": "Trappetrin 117",
-    "beskrivelse_kort": "Fotografering af teateropsætningen Medea med instruktion fra instruktør. Studiefotografering med lys og efterarbejde i Adobe Photoshop. Yderligere optagelse af opsætningen til filmtrailer.",
-    "beskrivelse_lang": "",
+    "beskrivelse_kort": "Fotografering af teateropsætningen Medea med instruktion fra instruktør. Studiefotografering med lys og efterarbejde i Adobe Photoshop.",
+    "beskrivelse_lang": "Billeder af forskellige scener af teateropsætningen Medea fra den græske fortælling om kvinden, der slog sine børn ihjel for at hævne sig på sin mand. Fotograferingen er taget med instruktion af de ønskede stills og senere efterarbejdet i Adobe Photoshop.",
     "kategori": "fotografering",
     "type": "fotografering",
     "erhvervserfaring": true,
     "titel": "Medea",
     "beskrivelse_ord": "Studiefotografering // Adobe Photoshop",
     "periode": "(aug 2024)",
-    "proces":{
+    "proces":[
+        "Processen af fotograferingen startede med en instruktion af teaterstykkets instruktør. Her instruerede hun skuespillerne i deres positioner og bevægelser mens jeg var instrueret i hvilke perspektiver billederne skulle tages i. Dog var der mulighed for at jeg afvigende fra instruktionen havde fri mulighed for selv at vurdere motivernes perspektiv. Her arbejede jeg med tredjegradsreglen, forgrund, baggrund, højderne fra perspektivet og fokuspunkter til at indfange scenerne korrekt.",
+        "Jeg havde yderligere i forbindelse med teateropsætningen været med til at dokumentere instruktionsprocessen og havde dermed allerede et indblik i scenernes betydning.",
+        "Da billederne var taget, sendte jeg orginalfilerne til instruktøreren og producerne, som udvalgte sine favoritter. Ud af disse udvalgte jeg én af motiverne fra hver udvalgte scene og efterarbejdede disse i Adobe Photoshop.",
+        "Jeg arbejede i photoshoppen med at skabe mere tydelige kontrastforhold og farvebalancer i niveauerne. Dette skyldtes primært en forhindring i produktionen hvor lysafviklingen ikke var optimal, og trods kameraindstillingerne var originalfilerne meget grynede eller utydelige. Jeg arbejdede derfor med at fremhæve den sorte betoning og lysindfaldet, samt fremhævning af de farvede lys farvebalance."
+    ],
+    "proces_items":[{
+        "id": 0,
+        "kategori": "Lys",
+        "titel": "Scenelys",
+        "beskrivelse":[
+            "Billederne er taget med scenelyset fra opsætningen á 200 watt LED. Dog var der den forhindring, at afvikleren ikke var til stede og lyset derfor var meget dæmpet fra det optimale niveau.",
+             "Da der var tale om en mørk setting, indstillede jeg ISO på 1600 og en shutter speed på 1/250s dog med variationer når scenelyset skiftede til en farve med lavere kontrastniveau.",
+            "Den høje shutter speed sørgede for ikke bare lysindfaldet, men var også essentiel for at opfange når der var ønsket et still af skuespillerne mens de var i bevægelse uden at skabe motion blur.",
+            "Dette var et eksempel ved den menneskelige vejrmølle - dog oplevede jeg med udfordringer fra lysindfaldet, der i forvejen var dæmpet belyst grundet en blå belysning uden noget lysere spot, at der forekom en motion blur uanset hvad. Dette endte dog med at være et visuelt udtryk, der var meget sigende hvor skuespilleren i midten var skarpt indstillet og de to omkring hende var i bevægelse."
+        ],
+        "billeder":[
+            "medeafotografering/medea8.webp",
+            "medeafotografering/medea17.webp"
+        ]
+    },{
+        "id": 1,
+        "kategori": "Produktion",
+        "titel": "Instruering",
+        "beskrivelse":[
+            "Under fotogfraferingen, var skuespillerne instrueret af stykkets instruktør mht. hvilke psotioner de skulle stå i. Yderligere instruerede hun mig i hvilke vinkler billederne skulle tages fra.",
+            "Dog var der variationer, hvor jeg havde frihed til at afprøve forskellige vinkler og eksperimentere mellem de forskellige formater."
+        ],
+        "billeder":[
+            "medeafotografering/medea15.webp"
+        ]
     },
+    {
+        "id": 2,
+        "kategori": "Komposition",
+        "titel": "Billedbeskæring",
+        "beskrivelse":[
+            "Mange af billederne er taget i en halvtotal for at indramme fokus på skuespillerne og samtidig få en fornemmelse af rummet.",
+            "Andre billeder er taget i en total og indrammer dermed skuespillernes fulde kroppe. De billeder med totalbeskæring er valgt ud fra at skabe et motiv hvor kroppene, der i dette stykke danner scenografien giver et fuldt udtryk af det endelige rum.",
+            "Af samme årsag i at skuespillernes kroppe i forholdt til hinanden danner teaterstykkets helhed, er der ikke taget billeder i en nærbeskæring. I teaterdramatik er skuespillernes ansigtsudtryk mere tydelige og ekstra så alle i publikum kan se fremfor hvad der ses i filmdramatik. Derfor beholdes skuespillernes ansigtsudtryk og følelse ligeså gennemlevende i den halvtotale beskæring."
+        ],
+        "billeder":[
+             "medeafotografering/medea17.webp",
+            "medeafotografering/medea11.webp"
+        ]
+    },
+    {
+        "id": 3,
+        "kategori": "Komposition",
+        "titel": "Motiv",
+        "beskrivelse":[
+            "Billedernes motiv er taget ud fra tredjedelsreglen, hvor kameraet yderligere var indstillet i to vandrette og to lodrette linjer. Her indrammede jeg gerne menneskene i venstre side med deres øjne på skæringspunktet på midten af øverste linje. Dette beholder det gyldne snit i fotografiet. Ligeledes placerede jeg deres kroppe efter de lodrette linjer, og varierede dermed i beskæringerne efter motivets ønskede komposition.."
+        ],
+        "billeder":[
+            "medeafotografering/medea1.webp",
+            "medeafotografering/medea16.webp",
+            "medeafotografering/medea25.webp"
+        ]
+    },{
+        "id": 4,
+        "kategori": "Komposition",
+        "titel": "Perspektiv",
+        "beskrivelse":[
+            "De fleste billeder er taget i normalperspektiv, hvor kameraet er indstillet i højde med motivet.",
+            "Dog er der eksperimenteret i varierende perspektiv, hvor der ses en mindre frø- og fugleperspektiv på nogle af billederne. Frøperspektiverne på visse billeder er taget for at indramme motivet som større og mere magtfuldt. Dette ses bl.a. hvor Medea står bag Jason mens han fortabt knæler, og selvom fokus er på Jason, fremstår Medea her større da hendes skikkelse placeres over Jason.",
+            "Billederne i frøperspektiv er ofte taget når skuespillernes kropsplaceringen er mere nær gulvet og skaber perspektivet tages her nede ved dem mens det kropslige omkring dem bliver fremhævet.",
+            "Et eksempel på fugleperspektivet ses da Medea bliver kvalt i skuespillernes kostumers tråde. Her kigger hun op i luften og billedet tages her oppefra, hvor kroppene omkring hende fremstår mindre."
+        ],
+        "billeder":[
+            "medeafotografering/medea1.webp",
+            "medeafotografering/medea19.webp",
+            "medeafotografering/medea14.webp"
+        ]
+    },{
+        "id": 5,
+        "kategori": "Komposition",
+        "titel": "Fokuspunkter",
+        "beskrivelse":[
+            "Billederne er indstillet i manuelt fokus for at styre fokuspunkterne. Igen følgelig den kropslige scenografi er det essentielt at perspektiverne er fokuseret på typisk én skuespillers fokuspunkt mens dem omkring dem gøres mere slørrede i baggrunden eller forgrunden.",
+            "Skuespillernes placering i forgrund og baggrund er bestemt af instruktøren. Her har jeg arbejdet med fokuspunkterne til at fremhæve tildels den ene skuespillers forgrund - typisk i billederne hvor Jason og Medea er placeret lineart mellem hinanden - men også med fremhævelse af baggrunden. Et eksempel er hvor Medea står i baggrunden, men det er hende fokusset ligger på mens Jasons udtryk stadig er genkendeligt.",
+            "Der er ikke en stor blændeåbning mellem forgurnde og baggrunde, da det ønskes (i samme grund som halvtotalbeskæringen) at hele motivet er synligt dog med forskellige fokuspunkter."
+        ],
+        "billeder":[
+            "medeafotografering/medea3.webp",
+            "medeafotografering/medea15.webp",
+            "medeafotografering/medea25.webp",
+            "medeafotografering/medea20.webp"
+        ]
+    },{
+        "id": 6,
+        "kategori": "Photoshop",
+        "titel": "Maskering",
+        "beskrivelse":[
+            "Det er skuespillerne, der danner scenografien sammen med scenelyset, derfor antydes der intet rum i billederne. Grundet lysforhindringer sås der en markant pixelering på originalbilledernes baggrund, der afveg fokus fra motivernes belysning.",
+            "Jeg har dermed arbejdet med at udskære motivet i Adobe Photoshop, og gjort baggrunden mørkere enten ved justering af kontrastforhold eller ved tilføjelse af en pure black baggrund efter behov."
+        ],
+        "billeder":[
+            "medeafotografering/motiv.webp"
+        ]
+    },{
+        "id": 7,
+        "kategori": "Photoshop",
+        "titel": "Kontrastforhold",
+        "beskrivelse":[
+            "Kontrastforholdene er skabt via. justeringer på kontrastkurven, niveauer og belysning. Dette er styret mellem input og putput niveauer typisk i RGB. Da der er tale om  en farvet belysning, har der tildels været behov for at fremhæve enten det rødlige, grønlige eller blåigere skær. Her har jeg fremhævet for eksempel det tødlige skær ved bl.a. at skrue ned for det blå inputniveau."
+        ],
+        "billeder":[
+            "medeafotografering/niveauer.webp"
+        ]
+    },{
+        "id": 8,
+        "kategori": "Photoshop",
+        "titel": "Farvebalance",
+        "beskrivelse":[
+            "Grundet lysforhindringerne stod nogle af billedernes farve ikke så skarpt og virkede derfor mattende. Jeh har her ekperimenteret en del imellem de forskellige farvebalancer i former for niveauer i afvigelse mellem skygger, fremhævede områder og mellemgrunde. Et eksempel ses hvor Medea står omkring hendes døde børn i sorg, og det ellers rødelige lys, der i originalfilen var meget nedtonet, er skruet ned for det blålige og skaber en hvid fremtoning på mellemtonerne."
+        ],
+        "billeder":[
+            "medeafotografering/farvebalance.webp"
+        ]
+    }],
+     "billeder":[
+        "medeafotografering/medea1.webp",
+        "medeafotografering/medea2.webp",
+        "medeafotografering/medea3.webp",
+        "medeafotografering/medea4.webp",
+        "medeafotografering/medea5.webp",
+        "medeafotografering/medea6.webp",
+        "medeafotografering/medea7.webp",
+        "medeafotografering/medea8.webp",
+        "medeafotografering/medea9.webp",
+        "medeafotografering/medea10.webp",
+        "medeafotografering/medea11.webp",
+        "medeafotografering/medea12.webp",
+        "medeafotografering/medea13.webp",
+        "medeafotografering/medea14.webp",
+        "medeafotografering/medea15.webp",
+        "medeafotografering/medea16.webp",
+        "medeafotografering/medea17.webp",
+        "medeafotografering/medea18.webp",
+        "medeafotografering/medea19.webp",
+        "medeafotografering/medea20.webp",
+        "medeafotografering/medea21.webp",
+        "medeafotografering/medea22.webp",
+        "medeafotografering/medea23.webp",
+        "medeafotografering/medea24.webp",
+        "medeafotografering/medea25.webp",
+        "medeafotografering/medea26.webp"
+    ],
+    "video": "medeafotografering/video.mp4",
     "display_image": "medea_fotografering.webp"
 },
 {
@@ -707,15 +854,79 @@
     "stilling": "grafisk designer",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Alma (2023). Bearbejdet i Adobe Photoshop.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Alma er en dokumentarfilm om en 18-årig kvindes navigering i sit mentale helbred efter hun flytter hjemmefra, skabt af Matilde Wegener som afgangsprojekt fra Filmskolen Blank. Jeg har i denne anledning arbejdet med plakaten deraf i Adobe Photoshop i samarbejde med filmens instruktør.",
     "kategori": "design",
     "type": "plakat",
     "erhvervserfaring": false,
     "titel": "Alma",
     "beskrivelse_ord": "Adobe Photoshop",
     "periode": "(maj 2023)",
-    "proces":{
-    },
+    "proces":[
+        "Arbejdede med at danne filmens plakat var alt i dialog med instruktøren selv, som sad ved side af og kom med indbemærkninger og ønsker. Her var det efter hendes ønske et bestemt billede, der skulle symbolisere filmens handling, som vi tog udgangspunkt i.",
+        "Eftersom produktionen var selvstyret, var der ikke meget tekst der skulles lægges over med kreditering, og det var dermed et meget simpelt udtryk. Derfor ønskede vi også at gøre noget ud af tekstens visualitet og samle indblande denne i selve motivet - det gjorde vi ved at maskere træets grene og indsætte teksten bagom.",
+        "Plakaten er udarbejdet i Adobe Photoshop med et still fra filmen. Jeg har her arbejdet med justering af farvebalance og kontrastniveauer, designvalg i forbindelse med typografi og farver og maskering af selve motivet."
+    ],
+    "proces_items":[
+        {
+            "id": 0,
+            "kategori": "design",
+            "titel": "typografi",
+            "beskrivelse":[
+                "Typografien på plakaten er en serif-font for at afspejle det typografi-valg, der var gennembærende i dokumentaren. Her har jeg anvendt mig af fonten Minion Variable Concept i bold font-weight til display teksten.",
+                "Til de sekundære titler (heri kreditering) har jeg derimod anvendt en sans-serif font for at gøre teksten mere læsbar - især over det meget bevægende motiv. Jeg har anvendt Helvetica Neue Condensed Bold til at skabe det mest stilrene og stadig fremtrædende udtryk. Det var vigtigt at teksten var tyk for at kunne være læsbar over mtoviet.",
+                "I form at skriftstørrelser, fylder display fonten næsten hele bredden på plakaten for at skabe et fængende, tydeligt og iøjenfaldende udtryk - hermed er display fonten filmens titel på 176 pkt. Den sekundære font er derimod mindre på hhv. 20 pkt.",
+                "For at skabe et visuelt hieraki mellem teksterne, er 'en dokumentar af' og 'matilde wegener' placeret under hinanden, hvormed den øverste tekst er 5 pkt mindre."
+      ],
+        "billeder":[
+            "almaplakat/displayfont.webp",
+             "almaplakat/secondaryfont.webp"
+        ]
+        },{
+            "id": 1,
+            "kategori": "design",
+            "titel": "farvevalg",
+            "beskrivelse":[
+                "I form af farvevalg, har jeg taget udgangspunkt i billedets motiv. her er det især de grønne farver, der er gældende, hvoraf display fonten er lyserød med hexkoden #b862a7. Den lyserøde farve er valgt eftersom den ligger overfor den grønne på farvehjulet og dermed er kontrastfarver. På denne måde er den lyserøde farve mere iøjenfaldende.",
+                "Den hvide farve i den sekundære typografi er valgt for at skabe en variation i farverne og teksten. Der er anvendt en pure white farve (altså #fff), som er den mest iøjenfaldende er af denne grund ikke blendes ind sammen med baggrunden."
+      ],"billeder":[
+            "almaplakat/pinkhex.webp",
+             "almaplakat/whitehex.webp"
+        ]
+        },{
+            "id": 2,
+            "kategori": "photoshop",
+            "titel": "maksering",
+            "beskrivelse":[
+                "For at skabe en sammenhæng mellem motivet og typografien, har jeg brugt makseringsværktøjet på træerne, og indsat display teksten bagom grenene. På denne måde skabes der en dimension i billedet.",
+                "På billedets motiv kigger den hovedmedvirkende op i luften, og display-fonten er dermed placeret over hende for at give et udtryk af, at hun kigger op på sit eget navn.",
+                "Det er ikke alle grene, der er maskeret, men derimod kun de to yderste, der placerer det første og sidste a bagom. Dette valg er truffet, så teksten stadig er tydelig og dimensionen i stedet forbliver mere subtil."
+      ],"billeder":[
+            "almaplakat/maskering.webp"
+        ]
+        },{
+            "id": 3,
+            "kategori": "photoshop",
+            "titel": "Kontrastforhold",
+            "beskrivelse":[
+                "Jeg har ændret i input- og putput niveauerne for at skabe en større kontrast i farverne. Originalbilledet havde en meget mat og lys farve, der gjorde at teksten hurtigt blev udtydelig. ved at ændre på kontrastforholdene, kunne jeg skabe mere skygge i billedet og yderligere fremhæve den grønne farve. Jeg skruede bl.a. ned for belysning og forskud."
+      ],"billeder":[
+            "almaplakat/kurver.webp",
+             "almaplakat/niveauer.webp",
+             "almaplakat/belysning.webp"
+        ]
+        },{
+            "id": 3,
+            "kategori": "photoshop",
+            "titel": "Farvebalance",
+            "beskrivelse":[
+                "For at fremhæve den grønlige farve, ændrede jeg i farvebalancens mellemtoner og skygger ved at skrue ned for den gullige farve og føre den rødelige ned på cyan. Jeg ville ikke skabe et unaturligt udtryk af det grønne, og dermed forblev den grønne kurve på sin originale plads. Jeg har derfor fremhævet det grønlige ved kun at ændre på gul, rød og blå."
+      ],"billeder":[
+            "almaplakat/balancemellemtoner.webp",
+             "almaplakat/balanceskygger.webp"
+        ]
+        }
+    ],
+    "video": "almaplakat/video.mp4",
     "display_image": "alma_plakat.webp"
 },
 {
@@ -723,15 +934,57 @@
     "stilling": "grafisk designer",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Tabte År (2023). Bearbejdet i Adobe Photoshop.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Tabte År er en dokumentar om min mors håndtering af sin sygdom og dens påvirkning på familiedynamikken. I forbindelse med dokuemntarens udgivelse har jeg skabt en plakat udarbejdet i Adobe Photoshop.",
     "kategori": "design",
     "type": "plakat",
     "erhvervserfaring": false,
     "titel": "Tabte År",
     "beskrivelse_ord": "Adobe Photoshop",
     "periode": "(maj 2023)",
-    "proces":{
-    },
+    "proces":[
+        "Processen af udviklingen startede med at udvælge et billede fra dokumentaren. Jeg tog her udgangspunkt i den med mest symbolisme, hvor billedet stod skarpest. Her er den brændende lysestage i fokus, som min far tænder - et symbol på håb og forandring. I baggrunden ses min far mere slørret og halvdelen af hans ansigt er lyst op af det lyserøde lys mens hans trøje går i ét med baggrunden. Jeg har valgt netop dette billede fordi det er dén scene, der er mest essentiel i filmens fortælling.",
+        "Jeg har i designvalg taget udgangspunkt i filmens egen typografi og farvevalg, og matchet disse med billedet og motivet. Eftersom det var en mindre produktion, er der ikke inkluderet en større krediteringsliste. Jeg har inkluderet sparekassen sjællands logo eftersom disse er sponsoraten for filmen, producentselskab (filmskolen blank) og mit (instruktørens) navn såvel som de tre filmfestivaller filmen har indgået i.",
+        "farvevalget er alle taget ud fra hexkoderne i det eksisterende billede, og typografiens skriftstørrelse er udarbejdet efter et bestemt visuelt hieraki.",
+        "Plakaten er designet i Adobe Photoshop, hvor jeg har indsat elementerne. Eftersom motivet i forvejen har en indtrædende forgrund og baggrund, har jeg ikke ændret meget i designet for billedet. Jeg har dog ændret i billedets kontratsniveauer for at fremhæve lyset og sammenblende den medvirkende med baggrunden for dermed at skabe dimension."
+    ],
+    "proces_items":[{
+        "id": 0,
+        "kategori": "design",
+        "titel": "typografi",
+        "beskrivelse":[
+            "Valget af typografi er taget efter filmens eget udtryk. I filmen anvendes en sans-serif font grundet bedst tilgængelighed i læsbarheden. Jeg har her arbejdet med to slags typografier: display font og sekundærfont.",
+            "Både displayfonten og den sekundærefont er Helvetica Neue Consensed Black, hvor at skabe et moderne, simpelt og fremtrænde udtryk. Eftersom begge slags typografier er den samme font, vedholdes der en kontinuitet og simplicitet. Her fylder display fonten, som er filmens titel 116 pkt.",
+            "Den sekundære typografi følger et visuelt hieraki hvor 'en dokumentar af' er 17 pkt og skriften på instruktøren er 24 pkt. Disse to er placeret under hinanden, og skaber derfor mere opmærksomhed på den større typografi. I bunden af plakaten ses titlen på produktionsselskabet, som er af ligeså stor skriftstørrelse som titlen på instruktøren."
+        ],
+        "billeder":[
+            "tabteaarplakat/typografi.webp"
+        ]
+    },{
+            "id": 1,
+            "kategori": "design",
+            "titel": "farvevalg",
+            "beskrivelse":[
+                "Farvevalget er truffet på baggrund af motivets egne farve, hvor jeg gennem selectværktøjet har taget udgangspunkt i de eksisterende hexkoder. Her har jeg primært anvendt de to lyserøde farver i forskellige nuancer til displayfonten og den sekundære font.",
+                "Displayfonten er den mere lyse farve, der ses på lysestagens skygge, hvor den sekundære farve er skyggen på motivtes medvirkende.",
+                "Til produktionsselskabets titel, ønskede jeg at skabe en variation i det lyserøde udtryk for dermed at skabe en større kontrast. Her har jeg anvendt en brændt orange, der skulle efterligne kanten af lysets flamme. Jeg har ligevel anvendt selectværktøjet til denne del, men skruet op for skyggen for at gøre fonten mere fremtrædende."
+            ],
+            "billeder":[
+                "tabteaarplakat/displayfarve.webp",
+                "tabteaarplakat/secondaryfarve.webp",
+                "tabteaarplakat/accentfarve.webp"
+            ]
+        },{
+            "id": 2,
+            "kategori": "photoshop",
+            "titel": "Kontrastforhold",
+            "beskrivelse":[
+                "Jeg har i billedets motiv ændret i kontrastniveauerne gennem inout- og output levels, hvor at få den hovedmedvirkende til at blende i ét med billedets baggrund. Dette valg er truffet for at skabe tydeligere dybde, og give et udtryk af at der intet rum er. På denne måde fokuseres der mere på motivets lysestage og hovedmedvirkende, og endog skabes der en større tydelighed på billedets farver og lys end der var i originalbilledet."
+            ],
+            "billeder":[
+                "tabteaarplakat/kontrast.webp"
+            ]
+        }],
+        "video": "tabteaarplakat/video.mp4",
     "display_image": "tabte_aar_plakat.webp"
 },
 {
@@ -739,15 +992,16 @@
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Tabte År er en dokumentar om min mors håndtering af sin sygdom og dens påvirkning på familiedynamikken. I forbindelse med dokuemntarens udgivelse har jeg udarbejdet en traoæer klippet i DaVinci Resolve.",
     "kategori": "creative branding",
     "type": "trailer",
     "erhvervserfaring": false,
     "titel": "Tabte År",
     "beskrivelse_ord": "Fotografering // DaVinci Resolve klipning",
     "periode": "(maj 2023)",
-    "proces":{
-    },
+    "proces":[
+        "Arbejdet med traileren begyndte ved at udvælge de elementer i filmen, der var mest fængende visuelle, men også mest følelsesladende i de medvirkendes ansigtsudtryk. "
+    ],
     "display_image": "tabte_aar_trailer.webp"
 },
 {

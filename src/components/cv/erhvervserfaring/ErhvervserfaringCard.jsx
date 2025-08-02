@@ -6,6 +6,14 @@ import { useState } from "react";
 
 const ErhvervserfaringCard = ({ erhvervserfaring}) => {
     const [hoveredLink, setHoveredLink] = useState(false);
+    const [isAnimating, setIsAnimating] = useState(false);
+
+      const controls = {
+    scale: ["100%", "130%"],
+    opacity: [1 , 0.05],
+    filter: ['blur(0px)', 'blur(100px)'],
+    transition: {duration: 0.5, ease: "easeIn"}
+  }
 
   return (
     <Link href={`/multimediedesign/${erhvervserfaring.id}`}>
@@ -17,10 +25,13 @@ const ErhvervserfaringCard = ({ erhvervserfaring}) => {
         <h4 className="pink-secondary italic">{erhvervserfaring.periode}</h4>
       </div>
       <h4>{erhvervserfaring.arbejdsgiver}</h4>
-      <Image className="mt-5 mb-5"  src={`/${erhvervserfaring.display_image}`} alt={`Billede af ${erhvervserfaring.titel}`} width={500} height={500}/>
+      <Image className="mt-5 mb-5"  src={`/${erhvervserfaring.display_image}`} alt={`Billede af ${erhvervserfaring.titel}`} width={500} height={500}  animate={isAnimating ? controls : {}}/>
       <p className="font-bold italic">{erhvervserfaring.stilling}</p>
       <p className="max-w-lg">{erhvervserfaring.beskrivelse_kort}</p>
-      <CircleLineSvg isHovered={hoveredLink} />
+      <CircleLineSvg  item={erhvervserfaring} 
+        isHovered={hoveredLink} 
+        isAnimating={isAnimating} 
+        setIsAnimating={setIsAnimating} />
       </div>
     </Link>
   );

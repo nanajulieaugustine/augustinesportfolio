@@ -4,17 +4,13 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const DescPopUp = ({ titel, beskrivelse, onClose }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
   return (
-    <motion.div className="bg-(--pink-accent) w-100 md:w-150 h-content rounded-4xl z-10 p-5 absolute shadow-2xl"
-    ref={ref}
-    initial={{scale: "50%", opacity: 0}}
-    animate={{ scale: isInView ? "100%" : "0%",
-      opacity: isInView ? 1 : 0,
-     }}
-      transition={{ duration: 1, ease: "easeOut" }}
+    <motion.div
+      className="bg-(--pink-accent) w-100 md:w-150 h-content rounded-4xl z-10 p-5 absolute shadow-2xl"
+      initial={{ scale: 0, opacity: 0 }}
+      animate={{ scale: [0 , 1], opacity: [ 0 , 1] }}
+      exit={{ scale: 0.5, opacity: 0 }}
+      transition={{ duration: 0.5, ease: "easeInOut" }}
     >
       <div className="flex justify-between items-top">
         <h2 className="white">{titel}</h2>

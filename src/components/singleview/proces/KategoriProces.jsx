@@ -1,3 +1,4 @@
+"use client";
 import Select from 'react-select'
 import portfolio from "@/backend/portfolio.json"
 import AnimatedMenu from '@/components/global/animationer/AnimatedMenu';
@@ -20,7 +21,7 @@ const KategoriProces = ({ activeGenre, setActiveGenre, portfolioId }) => {
   const customStyles = {
     control: (provided, state) => ({
       ...provided,
-      minWidth: "200px",
+      minWidth: "250px",
       background: "transparent",
       borderColor: state.isFocused ? "var(--pink-primary)" : "var(--pink-primary)",
       boxShadow: "none",

@@ -7,7 +7,7 @@ const EllipseSvg = () => {
   const y = useTransform(scrollYProgress, [1, 0], [0, -1000]);
 
     return (  
-         <motion.div style={{ y }} className="relative -z-100 left-1/2">
+         <motion.div style={{ y }} className="relative -z-100">
         <img src="/ellipse.svg" alt="Logo" className="absolute" />     
         <img src="/ellipse.svg" alt="Logo" className="absolute top-100" />    
         <img src="/ellipse.svg" alt="Logo" className="absolute top-50" />       

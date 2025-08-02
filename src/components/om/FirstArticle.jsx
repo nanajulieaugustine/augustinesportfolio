@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StaggeredFade from "../global/animationer/StaggeredFade";
+
 const FirstArtcle = () => {
   return (
     <section>

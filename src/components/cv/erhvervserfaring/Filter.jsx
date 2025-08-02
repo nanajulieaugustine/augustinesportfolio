@@ -10,7 +10,6 @@ const Filter = ({ activeGenre, setActiveGenre }) => {
 
 const unikkeKategorier = Array.from(new Set(kategorier));
 
-// Lav options:
 const options = unikkeKategorier.map((kategori) => ({
   value: kategori,
   label: kategori.charAt(0).toUpperCase() + kategori.slice(1)
@@ -19,7 +18,7 @@ const options = unikkeKategorier.map((kategori) => ({
   const customStyles = {
     control: (provided, state) => ({
       ...provided,
-      minWidth: "200px",
+      minWidth: "250px",
       background: "transparent",
       borderColor: state.isFocused ? "var(--pink-primary)" : "var(--pink-primary)",
       boxShadow: "none",

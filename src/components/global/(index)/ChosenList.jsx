@@ -24,7 +24,7 @@ const ChosenList = () => {
   };
 
   return (
-    <motion.div style={{ y }} className="flex justify-center gap-6">
+    <motion.div style={{ y }} className="flex flex-col md:flex-row justify-center gap-6">
         <DescBackground onClick={handleClick}>
           <h1 className="white">
             multi

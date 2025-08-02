@@ -2,19 +2,23 @@
 import { useState } from "react";
 import ListDotAndLine from "../ListDotAndLine";
 import DescPopUp from "./DescPopUp";
+import { AnimatePresence } from "framer-motion";
 
 const Uddannelser = ({ uddannelse }) => {
-  const [showPopup, setShowPopup] = useState(false);
+
+  const [showPopup, setShowPopup]= useState()
 
   return (
     <section className="relative">
-      {showPopup && (
+      <AnimatePresence>  
+        {showPopup && (
         <DescPopUp
           titel={uddannelse.uddannelse}
           beskrivelse={uddannelse.beskrivelse}
           onClose={() => setShowPopup(false)}
         />
-      )}
+        )}
+        </AnimatePresence>
 
       <div className="group flex justify-end items-center gap-10">
         <div>

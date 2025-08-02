@@ -1,13 +1,16 @@
+"use client";
 import HeroCard from "./HeroCard";
 import Billeder from "./Billeder";
 import ProcesScroll from "./proces/ProcesScroll";
 import SlidingImages from "./proces/SlidingImages";
 import RoterendeKandeSvg from "../global/svg/RoterendeKandeSvg";
 import FadeInAnimation from "../global/animationer/FadeInAnimation";
+import GoBackArrow from "../global/GoBackArrow";
 
 const SingleViewCard = ({ item, portfolioId }) => {
   return (
     <FadeInAnimation>
+      <GoBackArrow/>
           <HeroCard item={item} />
       <div>
         {item.billeder && <Billeder item={item} />}
