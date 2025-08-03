@@ -1,5 +1,6 @@
 [{
     "id": 0,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "webudvikler",
     "arbejdsgiver": "Trappetrin 117",
     "beskrivelse_kort": "Webudvikling med fokus på digitale designprincipper og frontend programmering. Udviklet design og UX/UI research samt prototypeudarbejdelse gennem Figma. Sitet er programmeret med HTML, tailwind CSS, React og JavaScript i Next.JS og hostet på Vercel.",
@@ -260,6 +261,7 @@
 },
 {
     "id": 1,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "webudvikler",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Webudvikling med fokus på digitale designprincipper og frontend programmering. Udviklet design og UX/UI research samt prototypeudarbejdelse gennem Figma. Sitet er programmeret med HTML, tailwind CSS, React og JavaScript i Next.JS og hostet på Vercel.",
@@ -492,6 +494,7 @@
 },
 {
     "id": 2,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "fotograf",
     "arbejdsgiver": "Coming Up",
     "beskrivelse_kort": "Fotografering af  organisationens musikarrangement med efterarbejdelse i Adobe Photoshop.",
@@ -574,6 +577,7 @@
 },
 {
     "id": 3,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "trailerklipper",
     "arbejdsgiver": "Trappetrin 117",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve. Yderligere fotograf af teateropsætning (se multimediedesign portfolio)",
@@ -628,6 +632,7 @@
 },
 {
     "id": 4,
+     "portfolio_kategori": "none",
     "stilling": "Produktionsassistent og støtte",
     "arbejdsgiver": "GotFat Productions",
     "beskrivelse_kort": "Produktionsassistent og pædagogisk støtte til hovedmedvirkende på dokumentarfilmen Trine On Fire (2025).",
@@ -672,22 +677,183 @@
 },
 {
     "id": 5,
+     "portfolio_kategori": "kunst",
     "stilling": "dokumentarinstruktør",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Instruering, producering, fotografering og klipning af dokumentarfilm Tabte År (2023) som afgangsprojekt fra Filmskolen Blank, med udgivelse på tre internationale filmfestivaler.",
-    "beskrivelse_lang": "Tabte År er en fortælling om min mors håndtering af sin sygdomsforløb og dennes indvirkning på familierelationen. Dokumentaren er ",
+    "beskrivelse_lang": "Tabte År er en fortælling om min mors håndtering af sin sygdomsforløb og dennes indvirkning på familierelationen. Dokumentaren er instrueret, filmet, produceret og klippet af mig med samarbejde med komponist, sound designer og color grader. Filmen blev vist på tre internationale filmfestivaller og sponsoreret af Sparekassen Sjælland med officiel premiere i Kulturbiografen Holbæk og yderligere vist med oplæg under Skvulp Festivals folkemøde.",
     "kategori": "film",
     "type": "dokumentar",
     "erhvervserfaring": true,
     "titel": "Tabte År",
     "beskrivelse_ord": "",
     "periode": "(aug 2022-maj 2024)",
-    "proces":{
-    },
+    "proces":[
+        "Filmens begyndelse startede med en samtale med min underviser hvor vi sammen prøvede at finde ud af hvordan filmen skulle udfolde sig. Jeg kom med ideen om, at dokumentaren skulle handle om min mors rejse i sygdomsvæsenet og hendes fejldiagnosticering. Her sagde han, at hvis jeg skulle lave denne film om min egen mor, skulle det være en fortælling, det kun var mig, der kunne lave - enhver kunne lave en film om sygdomshistorikker, men hvorfor var denne film essentiel for mig? Langsomt med filmens opstart, oplevede jeg at filmen tog dybde i noget mere vigtigt - noget, jeg måske selv havde fotrængt. Og i forbindelse med filmens opstart i mit sabbatår hvor jeg var meget hjemme, oplevede jeg den frustration over hvor meget min mors sygdom fyldte i vores alles hverdag, som resten af min familie havde haft. Filmen gik derfra fra at handle om sygdomsvæsenet til hele min families tilværelse som pårørende. Jeg endte med at bruge denne film til et råb om hjælp for en ændring.",
+        "Jeg har i filmens undtryk eksperimenteret med dokumentargenren ved at arbejde med at indfange et virkeligt øjeblik i et iscenesat rum. Dette er især tilfældet i dokumentarens mest essentielle scene, hvor min mor og far sidder overfor hinanden ved et bord med et lys imellem dem. Denne scene er inspireret efter Lars Von Triers Dogville hvor alle i elementer i filmen er der af en grund og rummet er mørkt omkring dem. Jeg arbejede her især med symbolismen af hvert element. I selve optagelsen af filmen var det vigtigt, at jeg forholdte mig til hvordan jeg som fotograf og instruktør, fik det rigtige ud af mine medvirkende. Jeg havde en klar fordel fordi min relation var så tæt med dem, og det var derfor ikke en del af processen at lave en relationsdannelse på samme måde, som det oftest er essentielt i andre dokumentarer. I stedet havde jeg den forhindring, at jeg let kunne påvirke mine medvirkende og derfor måtte enten udnytte eller nedsætte min rolle i forhold til mine medvirkende. Jeg har i dele af dokumentarens optagelse været meget instruerende - især ved de opstillede scener. I scenen til familiearrangementet derimod var jeg en flue på væggen, hvor jeg blot filmede de arrangementer, jeg var så velkendt i, og vidste derfor præcis hvor jeg skulle være og på hvilket tidspunkt.",
+        "Filmens udvikling af taget udgangspunkt i samtaler jeg løbende havde med mine underviser hvor vi sammen fandt ud af hvordan jeg skulle skabe den næste scene og hvorfor. Det, der var mest essentielt ved disse samtaler var at hver scene skulle have en betydning og et form for vendepunkt. Efter en scenes opståen, viste jeg denne til mit filmhold hvor jeg uden at fortælle noget om scenens betydning, lyttede til mine medstuderendes tanker og følelser ved scenens handling. Ud fra dette fik jeg et indblik i hvordan andre oplevede scenerne - noget jeg tog med mig var at nogle oplevede den præcis som jeg ønskede, mens andre så noget, jeg ikke selv havde lagt mærke til, men alle disse indvindinger var vigtige for at jeg selv kunne forstå filmens handling."
+    ],
+    "proces_items":[{
+        "id": 0,
+        "kategori": "instruering",
+        "titel": "medvirkendehåndtering",
+        "beskrivelse":[
+            "Under filmens instruering var det gennemgående, at jeg skulle forholde mig til hvordan jeg som datter af de to hovedmedvirkende, påvirkede dem når kameraet blev tændt. Dette kunne både være en fordel og en ulempe. Jeg vidste præcis hvad jeg ville have ud af mine medvirkende i hver scene, og skulle derfor forholde mig til hvordan jeg fik netop dette.",
+            "I filmens første scene, hvor min mor beretter om hendes sygdomsforløb, anvendte jeg et typisk interviewlignende opsætning. Jeg vidste på forhånd at min mor havde meget at sige om dette forløb og sagde netop blot 'fortæl om din historik fra start til slut'. Hvad jeg ikke havde forventet var at dette ikke var så let for hende. Hendes beretning havde ikke meget følelse og hun vidste ikke som sådan hvad hun skulle sige. Jeg måtte derfor ændre taktik, og skiftede til at stille konkrete spørgsmål, men selv dette virkede besværende for hende. Jeg tænkte dermed tilbage på hvilken setting, jeg kender hende fra og skiftede retning til at starte en samtale, og bød selv ind bag kemraet med indskud. Dette ændrede hele hendes beretning, og hurtigt skiftede hun til at tale til mig i stedet for kameraet, og følelserne kom derfor mere til udtryk.",
+            "I scenen hvor mine forældre sidder sammen om det lange bord, havde jeg samme tilgang, hvor jeg minimerede instruktionen i første omgang, og blot sagde skulle have en samtale, som de plejer (med antagelse om, at min mor naturligt ville dreje den hen på sygdom). Her startede samtalen om arbejde og politik, men jeg oplevede meget hurtigt at min far var meget bestemt i karakter som min mor også kan være det. Samtalen gik derfor hen til et skænderi, hvor de begge talte over hinanden. Jeg havde inden scenens optagelse ikke ønsket en konflikt, men blot en indfangelse af de typiske samtaler i hjemmet, der endte med at handle om sygdom. Dog måtte jeg tage højde for at eftersom scenens optagelse fandt sted i et opstillet rum, havde mine medvirkende en forudbestemt ide om, at der forventes noget af dem, og deres samtale var derfor ikke som i dagligdagen. Dette endte med at være til min fordel, da jeg afbrød optagelsen, og privat tog en samtale med min far, hvor jeg måtte indtræde mere instruerende, men stadig passe på, at jeg ikke påvirkede ham for meget til at spille skuespil. Jeg skulle derfor under hele instrueringsprocessen være opmærksom på at lede mine medvirkende hen i en bestemt retning uden at lukke dem ind i hvilken retning jeg ønskede af dem. Jeg bad i denne samtale min far om at stoppe med at afbryde mor fordi scenen i bund og grund handler om ham. Dette skabte en stor forandring i scenens resultat. Scenen endte derfor over alt min forventning med at være et stort drejepunkt på hele filmens retning i og med han også sagde ting, han førhenværende ikke havde sagt højt. I dagligdagen lagde jeg mærke til at han på en måde klappede sammen mens min mor røg ud i en lang tangent, men i denne scene hørte jeg ham for første gang tale om hvordan han havde det.",
+            "I slutningen af filmen sidder min mor i en biograf og ser scenen om mine forældre ved langbordet. Her var det meningen at denne scene skulle få hende til at se sig selv og deres parforhold fra et ydre perspektiv, men under afspilningen ville hun afbryde og blive frustreret på min far på ny i stedet for objektivt at forholde sig til det. Jeg stoppede derfor optagelserne og sagde til hende, at hun skulle forestille sig at de to mennesker på lærredet ikke var dem, men nogle andre. Dette fik hende til at virke mere lyttende, og gjorde en stor forskel på vendepunktet. Denne scene gjorde en stor forskel, da det er her hun vender tilbage til ordene 'der er ikke noget liv', men denne gang i tone om forandring i stedet for håbløshed."
+        ],
+        "billeder":[
+            "tabteaarfilm/haandtering1.webp",
+            "tabteaarfilm/haandtering2.webp"
+        ]
+    },{
+        "id": 1,
+        "kategori": "instruering",
+        "titel": "rum",
+        "beskrivelse":[
+            "De rum og ydre faktorer, jeg placerede mine medvirkende i havde en vigtig påvirkning af det endelige resultat. Dokumentaren skifter mellem de opsatte rum og virkelige dagligdagssituationer, men især i de opstillede rum, havde jeg et bestemt ønske af hvad jeg fik ud af mine medvirkende.",
+            "I scenen hvor min mor og jeg maler på et spejl, var ønsket at samtalen mellem os skulle skabe et nærvær og forløsning. Derfor var det essentielt at vi samarbejdede om noget - nemlig at male et motiv. I min barndom var malerier ofte noget vi lavede sammen, og jeg ønskede derfor at trække denne kollektive kreativitet ind i samtalen. Scenen var optaget på BGK Holbæk, hvor vi var omgivet af en række kunst i et lukket rum. Kameraet var placeret bag os, hvor vores ansigter blev afspejlet i spejlet, så det store kamera ikke virkede intimiderende og på den måde kunne lade min mor glemme at optagelsen fandt sted.",
+            "I de opstillede scener var det vigtigt, at jeg var den eneste bag kameraet og produktionen på den måde var mindre. Havde der været en større produktion til stede, havde dette virket mere intimiderende for mine medvirkende, og den eneste ydre faktorer, der kunne påvirke mine medvirkende til at agere anderledes end normalt var kameraets tilstedeværelse. Derfor var den store træning for mine medvirkende, at vænne dem til at der blev optaget. I scenen hvor mine forældre sidder ved langbordet, blev der filmet i omtrent to timer, hvor de henimod slutningen lod til at glemme tilstedeværelsen, dog var det tydeligt at de stadig var bevidste om at jeg stod bagved og filmede. Dette gør sig tydeligt et par gange, hvor de kigger om bag kameraet og over på mig.",
+            "Scenen ved langbordet, i biografen, hvor min mor maler over et lærred og hvor min mor og jeg maler på et spejl, er alle optaget i lukkede rum uden mange ydre faktorer. Dette skaber et nærvær mellem mig som fotografen og instruktøren og mine medvirkende. I alle disse scener har mine medvirkende været med til at opstille setdesignet og der blev på den måde skabt et samarbejde og nærvær imellem os inden optagelserne fandt sted."
+        ],
+        "billeder":[
+            "tabteaarfilm/rum1.webp",
+            "tabteaarfilm/rum2.webp",
+             "tabteaarfilm/rum3.webp"
+        ]
+    },{
+        "id": 2,
+        "kategori": "setdesign",
+        "titel": "symbolisme",
+        "beskrivelse":[
+            "I de opstillede rum, spiller symbolismen en stor rolle i fortællingen. Det ses især i scenen ved langbordet, hvor mine forældre er placeret på den lange side overfor hinanden for at symbolisere en afstand imellem dem. Mellem dem er der et lys, der symboliserer et håb, der kan tændes og slukkes. Jeg optog begge mine forældre tænde og puste lyset ud inden optagelsen eftersom jeg ikke kendte det endelige resultats udfald, men som scenen afsluttede tog jeg beslutningen om at min far tændte håbet for forandring, som min mor pustede ud. Lysets flamme symboliserer også mine forældres parforhold, der langsomt brændes ned og mod klimaks i scenen hvor skænderiet mellem dem er mest fremtræddende flimrer lyset uroligt. Bag dem ses en dør, der symboliserer muligheden for at forlade parforholdet, som min mor henimod slutningen af scenen står opaf. Ideen til netop dette setdesign startede ved tanken om, hvor de samtaler om min mors sygdom typisk ville finde sted, og dette kunne for eksempel være ved spisebordet. I form af lyset er de to medvirkende placeret i forskellig scenelys, hvor min far sidder i det varme og min mor i det kolde. Det er min mor, der har mikrofon på, så det er hende man hører, men det er i min far, der sidder i det tydelige lys, så det er ham man ser.",
+            "I scenen hvor min mor maler på et lagen, maler hun med den røde skrift 'du kæmper, Dorte', som er et motto, hun gengiver til sig selv. Dette males i et rødt lys i det mørke rum, som gør skriften utydelig. Dette valg er truffet for at skabe en tvetydighed i mottoet og en form for foreshadowing for kompleksiteten af min mors kamp. I slutningen af filmen vender vi tilbage til dette rum, hvor min mor tager lagnet ned for at symbolisere en ende.",
+            "Spejlet i scenen som min mor og jeg malede med glasstyker limet fast til, symboliserer at se ind i sig selv. Der males på en række glasskår, som vi i starten af scenen smadrer sammen, og senere limer på spejlet for at symbolisere en ny begyndelse, og at fikse noget, der er i stykker. I scenen klippes der mellem samtalen og limen min mor sætter på glasset - hun limer altså det ødelagte sammen. På det punkt i samtalen hvor vendepunktet finder sted og min mor lader til at få vækket en selvindsigt, klippes der til et klip, hvor min mor kigger på sig selv i det nye malede spejl.",
+            "I slutningen af filmen farver jeg min mors hår, og dette finder sted som en form for forløsning. Et menneskes hår symboliserer sin identitet, og en ændring af sit ydre kan afspejle en ny begyndelse på sit indre. Der er i denne scene en form for dobbeltbetydning af at jeg er den, der farver hendes hår både i form af denne symbolisme, der gør at vi kollektivt skaber en forandring og et nærvær imellem os. Men også i og med min mors historik som frisør, som hun har måtte sygemelde sig fra, skabes der nu et nærvær, hvori jeg overtager denne rolle fra hende og hjælpe hende."
+        ],
+        "billeder":[
+            "tabteaarfilm/symbolisme1.webp",
+            "tabteaarfilm/symbolisme2.webp",
+            "tabteaarfilm/symbolisme3.webp",
+            "tabteaarfilm/symbolisme4.webp"
+        ]
+    },{
+        "id": 3,
+        "kategori": "klipning",
+        "titel": "komposition",
+        "beskrivelse":[
+            "Filmens opsætning starter med at introducere konflikten, der senere udspiller sig, og i slutningen bliver forløst.",
+            "Mange af scenerne er lange for at underbygge følelsen af, at der aldrig sker noget. At mine forældre sidder fast i den samme hverdag og samme samtaler uden forandring. Det symboliserer en form for håbløshed. I scenen til familiearrangementet klippes der frem og tilbage mellem mændene i kælderen og kvinderne i stuen, der henimod slutningen på aften oplever to hvidt forskellige former for fester - mændene løsriver sig dagligdagens ansvar og drikker sig fulde mens kvinderne forbliver de ansvarsfulde og snakker om fortiden. Der klippes frem og tilbage mellem disse to rum for at underbygge den markante forskel på hvordan de to parter oplever arrangementet og endvidere trækkes denne ud som en aften, der ikke afsluttes. Hos mændene ses der et nærvær som kvinderne ikke er en del af, min mor trækker sig og fremstår ensom.",
+            "Kompositionen virker som en ellipse, der vender tilbage til starten af filmen i slutningen - her skabes forløsningen. Det ses da min mor i biografen ser scenen af mine forældre ved langbordet, og ligeledes da hun tager lagnet med maling ned, som hun i begyndelsen af filmen malede på."
+        ],
+        "billeder":[
+            "tabteaarfilm/komposition.webp"
+        ]
+    },{
+        "id": 4,
+        "kategori": "klipning",
+        "titel": "overgange",
+        "beskrivelse":[
+            "Klipningen foregik ved at jeg udtrak de steder i dialogen, der var mest fængende samt dækbillederne, som senere blev lagt på timelinen samlet. Her er det klippet ved at klippe i samtalen og sætte denne sammen. Ved hvert klip, der cutter i samtalen, indsættes der et dækbillede, der efterligner en reaktion på det sagte. På den måde ligner det at samtalen er optaget med to kameraer og skaber en kontinuitet, der gør det ikke er tydeligt at se klippet.",
+            "Et andet greb, jeg har anvendt i klipningen er de sorte pauser. Imellem enklete elementer og scener i filmen, antydes der en pause ved brat at stoppe både lyden og billedet i omkring to sekunder. Dette giver seeren et øjeblik til at tænke og trække vejret efter en heftig scene. Andre gange er der skabt en overgang imellem scenerne enten i form af musikken, eller en dialog der starter ved billedet på slutningen af scenen og senere starter den nye scene op."
+        ],
+        "billeder":[
+            "tabteaarfilm/overgang1.webp",
+            "tabteaarfilm/overgang2.webp"
+        ]
+    },{
+        "id": 5,
+        "kategori": "fotografering",
+        "titel": "teknik",
+        "beskrivelse":[
+            "Filmen er optaget med Canon EOS C300 mark II med et tilhørende objektiv. IOS er indstillet forskelligt efter selve lysindfaldet, som justeres på objektivet.",
+            "Motivmæssigt er der filmet efter tredjegradsreglen, der placerer motivet efter det gitter, der er indstillet på kameraet á 9 firkanter. Her er fokus på motivet typisk placeret alligned efter højre eller venstre linje med øjne på skillepunktet."
+        ],
+        "billeder":[
+            "tabteaarfilm/fotografteknik.webp"
+        ]
+    },{
+        "id": 6,
+        "kategori": "fotografering",
+        "titel": "fotografer",
+        "beskrivelse":[
+            "Der er i filmen krediteret to fotografer - mig og Matilde Wegener. Det meste af filmen er filmet af mig grundet medvirkendehåndtering, men sidste scene hvor jeg farver min mors hår er filmet af Matilde. I denne scene spillede min instruering yderligere en rolle, hvor jeg selv virkede med som medvirkende, og derfor satte samtalen igang med min mor. Jeg oplevede en stor modstand i at hun virkede mere tilbageholden i hvad hun tillod samtalen at dreje sig om eftersom der var en anden part tilstede.",
+            "I og med optagelsen varede omkring en time, blev hun over længere tid vant til kameraets tilstedeværelse. Matilde filmede som en flue på væggen, og optog dækbilleder tæt på håret og i spejlet og tæt på os."
+        ],
+        "billeder":[
+            "tabteaarfilm/fotografer.webp"
+        ]
+    },{
+        "id": 7,
+        "kategori": "producering",
+        "titel": "lokationer",
+        "beskrivelse":[
+            "I form af de opstillede scener, har jeg anvendt lokationer jeg forhenværende kendte til i Holbæk. Her er der optaget i alt tre scener på Stenhus Gymnasium, hvor jeg har taget kontakt til tidligere undervisere med aftale om at låne et undervisningslokale, biograf og dramatiklokale. En anden scene er optaget på BGK Holbæk, som ligger under Talent Holbæk, hvor jeg tog kontakt til lederen deraf."
+        ],
+        "billeder":[
+            "tabteaarfilm/rum3.webp"
+        ]
+    },{
+        "id": 8,
+        "kategori": "producering",
+        "titel": "finansering",
+        "beskrivelse":[
+            "Filmen er low budget på omtrent 15.000 kr. I form af setdesign har jeg anvendt dels lånt scenografi og andre gange selv finansieret omkostningerne.",
+            "I form af sound design har dette været en omkostning på 10.000 kr. i samarbejde med professionel sound designer Tobias Frank. Andre omkostninger dækkede omdannelse til DCP, så filmen kunne vises i biografer, og indsendelse til filmfestivaller.",
+            "Det er Sparekassen Sjælland Fyn, der er sponsorat på filmen, hvoraf jeg tog kontakt til direktøren Lars Petterson og opsatte et møde med pitching af filmen, og et fastlagt busget. Lars gik med til at være sponsoraten og han opsatte selv krav i forbindelse med filmens reklamation, og gik med til at dække yderligere omkostninger udover sound designet."
+        ],
+        "billeder":[
+            "tabteaarfilm/finansering.webp"
+        ]
+    },{
+        "id": 9,
+        "kategori": "producering",
+        "titel": "annoncering",
+        "beskrivelse":[
+            "Efter Lars Pettersons forslag, tog jeg kontakt til journalist Palle Mogensen i det lokale Nordvest Nyt, der gik med til at skrive en artikkel om filmens visning i kulturbiografen og processen af filmen.",
+            "Her udførte han et interview med mig som instruktør samt direktøren af Kulturbiografen og tog yderligere pressefoto af mig i profil.",
+            "Visning af filmen blev håndteret af Kulturbiografen, hvor jeg tog kontakt til direktøren Niels Bo og adspurgte om en privat gallapremiere. Han gik her med til at dække omkostninger, og tilbød selv at få Sidesporet til at dække mad og drikke på deres regning. Yderligere foreslog han selv at lade filmen have to visninger i biografen til offentligt publikum på deres program.",
+            "Efterfølgende blev jeg kontaktet af Skvulp Festivals leder Rikke Klit, der tilbød at lade mig holde oplæg med visning af et uddrag af filmen til deres folkemøde med inviterede gæster fra kommunens skoler."
+        ],
+        "billeder":[
+            "tabteaarfilm/premiere.webp",
+            "tabteaarfilm/annoncering.webp",
+    "tabteaarfilm/kulturbiografen.webp",
+"tabteaarfilm/skvulp.webp"]
+    },{
+        "id": 10,
+        "kategori": "Lyd",
+        "titel": "sound design",
+        "beskrivelse":[
+            "Grundet førnævnt medvirkendehåndtering har der ikke været lydtekniker til stede under optagelserne. Lyden er optaget med microports indsat til kameraet og er typisk blevet sat på mellem en til to medvirkende, der har opfanget lyden. Der var under optagelser en række tekniske problemer, der medførte at en microport ikke blev opfanget.",
+            "Dette blev primært fikset i sound designet af Tobias Frank. I scenen ved langbordet, var der en markant noise, der ikke kunne reduceres. Vi endte med at løse dette problem ved i stedet at underbygge noise og tilføje dette i flere lydspor samt en atmosfære til rummet. Dette underbyggede ligevel symbolismen i form af en 'larmende stilhed'.",
+            "Andre steder i sound designet, blev der tilføjet til atmosfæren ved sound effekter til at underbygge dialogen. Det ses bl.a. i scenen hvor min fars søn siger ordene 'har du ikke noget liv eller hvad?', og atmosfæren indtrænges og dæmper lyden, indtil den opbygges igen da han bekræfter.",
+            "Der er ligevel tilfjet lyd ved at underbygge rummet for eksempel i den helt første scene i filmen hvor min mor sidder på altanen. Her underbygges rummet ved at tilføje lyd af en hund."
+        ],
+        "billeder":[
+            "tabteaarfilm/sounddesign.webp"
+        ]
+    },{
+        "id": 11,
+        "kategori": "Lyd",
+        "titel": "musik",
+        "beskrivelse":[
+            "Musikken er skabt i samarbejde med en komponist, der yderligere var medstudernde på mit filmhold. I dette samarbejde var der ikke meget instruktion, men i stedet havde han fri mulighed til at eksperimentere med lyden ved at sende mig et album af forskellige mp3-filer, som jeg kunne benytte mig af.",
+            "Anders havde i forvejen set de vigtige scener i filmen og været med til dialogen omkring den, og havde dermed allerede et indblik af hvilken atmosfære lyden skulle rumme. Musikken er skabt med at eksperimentere i forskellige instrumenter og beats.",
+            "Et eksempel på hvor musikken er essentiel er ved montagedelen, hvor mine forældre forlader familiearrangementet. Andre steder er den underbyggende som da der i langbordsscenen zoomes ind på mit fars fortabte ansigt, og lydsporet i starten, slutningen og midten af scenen afspilles."
+        ],
+        "billeder":[
+            "tabteaarfilm/musik1.webp",
+            "tabteaarfilm/musik2.webp"
+        ]
+    }],
+    "video": "tabteaarfilm/video.mp4",
     "display_image": "tabte_aar_dokumentar.webp"
 },
 {
     "id": 6,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "fotograf",
     "arbejdsgiver": "Trappetrin 117",
     "beskrivelse_kort": "Fotografering af teateropsætningen Medea med instruktion fra instruktør. Studiefotografering med lys og efterarbejde i Adobe Photoshop.",
@@ -851,6 +1017,7 @@
 },
 {
     "id": 7,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "grafisk designer",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Alma (2023). Bearbejdet i Adobe Photoshop.",
@@ -931,6 +1098,7 @@
 },
 {
     "id": 8,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "grafisk designer",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Grafisk design af plakat til dokumentarfilmen Tabte År (2023). Bearbejdet i Adobe Photoshop.",
@@ -989,6 +1157,7 @@
 },
 {
     "id": 9,
+     "portfolio_kategori": "multimediedesign",
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve.",
@@ -1000,24 +1169,121 @@
     "beskrivelse_ord": "Fotografering // DaVinci Resolve klipning",
     "periode": "(maj 2023)",
     "proces":[
-        "Arbejdet med traileren begyndte ved at udvælge de elementer i filmen, der var mest fængende visuelle, men også mest følelsesladende i de medvirkendes ansigtsudtryk. "
+        "Arbejdet med traileren begyndte ved at udvælge de elementer i filmen, der var mest fængende visuelle, men også mest følelsesladende i de medvirkendes ansigtsudtryk. Det samme gjorde sig gældende for lydsporet, hvor jeg udtrak den del af dialogen, der var mest fængende.",
+        "Jeg ønskede at beholde en berettermodel-lignende komposition i traileren, der lægger op til en konflikt, men ikke bliver forløst og dermed beholder seerens opmærksomhed. Af samme grundsom at beholde seerens opmærksomhed, skulle selve klipningen foregå med hurtige intervaller. I begyndelsen af traileren bruges sætningen 'Har du ikke noget liv eller hvad?' i et klip som en indledning, hvor skærmen derefter mørknes, og klippes til scenen ved bordet på musikkens start/beat, hvor sætningen 'jeg har ikke noget liv' siges af selv samme person, der fik stillet spørgsmålet. På den måde skabes der en rundelse af det store spørgsmål om livet. Herefter starter trailerens konfliktoptraptning, hvor handlingen underbygges og når toppen henimod slutningen af traileren.",
+        "I form af musikken, har jeg arbejdet sammen med filmens komponist og brugt disse lysfiler til at indsætte. Jeg har her brugt flere forskellige musikfiler, der lægges indover hinanden for at kunne styre musikkens hastighed. Her har jeg ændret i lydsporets fade ind og ud til at overlægge hinanden. Billederne er her lagt over lydsporet til at tilpasse musikkens hastighed, og klipintervallene skifter dermed i takt med beats."
     ],
+    "proces_items":[
+        {
+            "id": 0,
+            "kategori": "billede",
+            "titel":"klipinterval",
+            "beskrivelse":[
+                "For at bibeholde seerens opmærksomhed, er klipintervallet beholdt på maks 5 sekunder med overdækkende lyd. Her skiftes der mellem at klippes frem og tilbage mellem lyd og billede, der ikke nødvendigvis matcher, hvor man andre gange følger den medvirkendes dialog i billedet."
+            ],
+            "billeder":[
+                "tabteaartrailer/klipinterval.webp"
+            ]
+        }, {
+            "id": 1,
+            "kategori": "komposition",
+            "titel":"model",
+            "beskrivelse":[
+                "Kompositionen i traileren følger en form for berettermodel, hvor konflikten introduceres i starten og gennemgår klimakset, men uden at følge forløsningen for at beholde seerens interesse. Traileren gennemgår i hele sin komposition spørgsmålet om de hovedmedvirkende har et liv. I begyndelsen overværes der en samtale hvor Klaus' søn siger 'har du ikke et liv?' herefter klippes der til langbordet hvor Klaus selv siger, han intet liv har. Dette gennegås i traileren efterhånden hvor lydfiler udtrækkes sine originale klip med den dialog, der er gennemgående i filmen.",
+                "Traileren rundes af med scenen hvor Klaus tænder lyset og Dorte puster det ud. Lyset er et symbol for et håb for forandring, som Klaus tænder, men Dorte slukker. Dette skaber yderligere en afrunding af trailerens mens musikken langsomt fades ud og teksten 'en dokumentarfilm af Nana Julie Augustine' lægges over skærmen mens Dorte kigger ud mod kameraet stille."
+            ],
+            "billeder":[
+                "tabteaartrailer/komposition.webp"
+            ]
+        }, {
+            "id": 2,
+            "kategori": "komposition",
+            "titel":"overgange",
+            "beskrivelse":[
+                "I selve filmens klippetekniske valg, bruges der en blackout skærm til at opdele imellem scener efter en intens afslutning, der giver seeren et rum til at reflektere. Jeg har brugt samme form for overgang i starten af traileren, hvor blackout bruges efter første scene, der spilles uden musik. Herefter starter musikken og klippes på beat, og traileren føles her som en begyndelse. Resten af overgangene følger ligevel beatet på musikken og lydfilerne lægges indover varierende billeder."
+            ],
+            "billeder":[
+                "tabteaartrailer/overgang1.webp",
+                "tabteaartrailer/overgang2.webp"
+            ]
+        },{
+            "id": 3,
+            "kategori": "lyd",
+            "titel":"musik",
+            "beskrivelse":[
+                "Jeg har i filmens produktion samarbejdet med en komponist, der har sendt mig en række lydfiler i albumformat til at lægge indover filmen. Her har jeg udvalgt to forskellige numre, der via en fade bruges til at styre musikkens hastighed. Jeg har anvendt en af de mere dramatiske lyde for at beholde dokumentarens dramatik."
+            ],
+            "billeder":[
+                "tabteaartrailer/musik.webp"
+            ]
+        },{
+            "id": 4,
+            "kategori": "design",
+            "titel":"typografi",
+            "beskrivelse":[
+                "I slutningen af traileren ses titlerne 'en dokumentar af Nana Julie Augustine'. Jeg har her efterlignet plakatens udtryk i typografi, hvor der anvendes sans-serif fonten Helvetica Neue. Denne følger samme visuelle hieraki som i plakaten hvor der skabes to linjer under hinanden og den anden linje har en større skrift. På denne måde bibeholdes der en kontinuitet i filmens visuelle udtryk gennem selve filmen, plakaten og traileren."
+            ],
+            "billeder":[
+                "tabteaartrailer/typografi.webp"
+            ]
+        }
+    ],
+    "video": "tabteaartrailer/video.mp4",
     "display_image": "tabte_aar_trailer.webp"
 },
 {
     "id": 10,
+    "portfolio_kategori": "multimediedesign",
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
     "beskrivelse_kort": "Klipning af trailer med efterarbejde i DaVinci Resolve.",
-    "beskrivelse_lang": "",
+    "beskrivelse_lang": "Alma er en dokumentarfilm om en 18-årig kvindes navigering i sit mentale helbred efter hun flytter hjemmefra, skabt af Matilde Wegener som afgangsprojekt fra Filmskolen Blank. Jeg har i denne anledning arbejdet med traileren deraf i DaVinci Resolve i samarbejde med filmens instruktør.",
     "kategori": "creative branding",
     "type": "trailer",
     "erhvervserfaring": false,
     "titel": "Alma",
     "beskrivelse_ord": "DaVinci Resolve",
     "periode": "(maj 2023)",
-    "proces":{
-    },
+    "proces":[
+        "Processen med udarbejdelsen af traileren startede i samarbejde med instruktøren, hvor vi begge sad sammen og kiggede på timelinen. Her udtrak vi de mest essentielle klip efter hendes opfattelse af filmen samt de mest visuelle fængende klip.",
+        "Vi udtrak disse på timelinen hver for sig, og lagde dem slutligt ind sammen og arbejede på at efterligne kompositionen i traileren med den samme som fra filmen.",
+        "Billedet klippes efter lyd og musik, som er skabt af en komponist til filmen. Her følger billedet denne overgang."
+    ],
+    "proces_items":[{
+        "id": 0,
+        "kategori": "komposition",
+        "titel": "model",
+        "beskrivelse": [
+            "Traileren efterligner filmens egen opbygning. Filmen er optaget med et års mellemrum, hvor begyndelsen er Alma med en stjernekaster. Dette valg kommer tilbage i slutningen af filmen. Hermed begynder traileren med klippet fra første år og afsluttes med klippet et år senere.",
+            "På denne måde skabes der en form for ellipse, der sammenfletter trailerens komposition. Yderligere klippes der hurtigt imellem klippene for at bibeholde seerens opmærksomhed, og de essentielle lydfiler lægges over billedet uafhængigt af hinanden. Der lægges op til en konflikt i traileren, der ikke forløses for at fange seerens videre interesse."
+        ],
+        "billeder":[]
+    },{
+        "id": 1,
+        "kategori": "komposition",
+        "titel": "begyndelse",
+        "beskrivelse": [
+            "Traileren starter ud med Alma med stjernekasteren og lyden af den i stilhed mens hun kigger ned på den. Herefter tilføjes der et blackout hvorfra lyden af Alma, der læser et brev op for sig selv går indover den sorte skærm og derfra starter billedet. Dette skaber en klar begyndelse og introducerer handlingen."
+        ],
+        "billeder":[]
+    },{
+        "id": 2,
+        "kategori": "Lyd",
+        "titel": "musik",
+        "beskrivelse": [
+            "Billederne i traileren flugter efter musikkens overgang og klippes på beatet. Her er der klippet i originalfilens intervaller for at kunne styre hasdtigheden og få den til at tilpasse sig en maksimum hastighed på 1 minut."
+        ],
+        "billeder":[]
+    },{
+        "id": 3,
+        "kategori": "Design",
+        "titel": "typografi",
+        "beskrivelse": [
+            "I slutningen af traileren indsættes filmens titel. Her har jeg anvendt samme typografi (Minion Variable Concept i bold font-weight) og farvekode (#b862a7) som i plakaten for at beholde en kontinuitet mellem plakat, film og trailer."
+        ],
+        "billeder":[]
+    }],
+    "video": "almatrailer/video.mp4",
     "display_image": "alma_trailer.webp"
 }
 ]

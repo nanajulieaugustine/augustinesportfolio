@@ -25,7 +25,7 @@ const PageCounter = () => {
   const circumference = 2 * Math.PI * radius;
 
   return (
-    <div className="fixed -z-200 w-36 h-36">
+    <div className="hidden md:block fixed -z-200 w-36 h-36">
       <svg className="absolute top-0 left-0 w-full h-full">
         <circle
           cx="50%"

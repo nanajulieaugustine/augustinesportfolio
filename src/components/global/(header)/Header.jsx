@@ -51,7 +51,7 @@ const Header = () => {
         {/* Desktop navigation */}
         <ul className="hidden md:flex md:flex-wrap md:justify-center gap-10">
           {[
-            { href: "/forside", label: "portfolio" },
+            { href: "/portfolioforside", label: "portfolio" },
             { href: "/cv", label: "CV" },
             { href: "/om", label: "Om Mig" },
           ].map(({ href, label }) => (

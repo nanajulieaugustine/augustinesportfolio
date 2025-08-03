@@ -5,21 +5,24 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 import { useRef, useState, useEffect } from "react";
 import WorkSvg from "../global/svg/WorkSvg";
 import EllipseSvg from "../global/svg/EllipseSvg";
-import HorizontalScroll from "../global/animationer/HorizontalScroll";
+import { useSearchParams } from "next/navigation";
 import DisplayText from "../global/animationer/DisplayText";
 
 const ClientMMD = () => {
-  const webudvikling = portfolio.filter((p) => p.kategori === "webudvikling");
-  const creativebranding = portfolio.filter((p) => p.kategori === "creative branding");
-  const fotografering = portfolio.filter((p) => p.kategori === "fotografering");
-  const design = portfolio.filter((p) => p.kategori === "design");
+    const searchParams = useSearchParams();
+  const selectedKategori = searchParams.get("kategori");
 
-  const categories = [
-    { title: "Webudvikling", items: webudvikling },
-    { title: "Creative branding", items: creativebranding },
-    { title: "Fotografering", items: fotografering },
-    { title: "Design", items: design },
-  ];
+  const filteredPortfolio = selectedKategori
+    ? portfolio.filter((p) => p.portfolio_kategori === selectedKategori)
+    : portfolio;
+
+  const categories = Array.from(
+  new Set(filteredPortfolio.map((p) => p.kategori))
+).map((kategori) => ({
+  title: kategori,
+  items: filteredPortfolio.filter((p) => p.kategori === kategori),
+}));
+
 
   const renderCategory = (cat, index) => {
     const scrollRef = useRef(null);

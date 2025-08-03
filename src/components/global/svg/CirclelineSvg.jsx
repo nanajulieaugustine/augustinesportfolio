@@ -26,7 +26,7 @@ const CircleLineSvg = ({ isHovered, item, isAnimating, setIsAnimating }) => {
       transition: { duration: 0.5, ease: "easeIn" },
     }).then(() => {
       setShow(false);
-      router.push(`/multimediedesign/${item.id}`);
+      router.push(`/portfolio/${item.id}`);
     });
   };
 
