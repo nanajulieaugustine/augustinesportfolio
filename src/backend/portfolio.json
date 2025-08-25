@@ -680,13 +680,14 @@
      "portfolio_kategori": "kunst",
     "stilling": "dokumentarinstruktør",
     "arbejdsgiver": "Filmskolen Blank",
+    "link": "https://www.youtube.com/watch?v=5KD04GPbdWA&t=2192s",
     "beskrivelse_kort": "Instruering, producering, fotografering og klipning af dokumentarfilm Tabte År (2023) som afgangsprojekt fra Filmskolen Blank, med udgivelse på tre internationale filmfestivaler.",
     "beskrivelse_lang": "Tabte År er en fortælling om min mors håndtering af sin sygdomsforløb og dennes indvirkning på familierelationen. Dokumentaren er instrueret, filmet, produceret og klippet af mig med samarbejde med komponist, sound designer og color grader. Filmen blev vist på tre internationale filmfestivaller og sponsoreret af Sparekassen Sjælland med officiel premiere i Kulturbiografen Holbæk og yderligere vist med oplæg under Skvulp Festivals folkemøde.",
     "kategori": "film",
     "type": "dokumentar",
     "erhvervserfaring": true,
     "titel": "Tabte År",
-    "beskrivelse_ord": "",
+    "beskrivelse_ord": "Fremstilling af sygdoms påvirkning på familiedynamik // Instruering // producering // DaVinci klipning // fotografering",
     "periode": "(aug 2022-maj 2024)",
     "proces":[
         "Filmens begyndelse startede med en samtale med min underviser hvor vi sammen prøvede at finde ud af hvordan filmen skulle udfolde sig. Jeg kom med ideen om, at dokumentaren skulle handle om min mors rejse i sygdomsvæsenet og hendes fejldiagnosticering. Her sagde han, at hvis jeg skulle lave denne film om min egen mor, skulle det være en fortælling, det kun var mig, der kunne lave - enhver kunne lave en film om sygdomshistorikker, men hvorfor var denne film essentiel for mig? Langsomt med filmens opstart, oplevede jeg at filmen tog dybde i noget mere vigtigt - noget, jeg måske selv havde fotrængt. Og i forbindelse med filmens opstart i mit sabbatår hvor jeg var meget hjemme, oplevede jeg den frustration over hvor meget min mors sygdom fyldte i vores alles hverdag, som resten af min familie havde haft. Filmen gik derfra fra at handle om sygdomsvæsenet til hele min families tilværelse som pårørende. Jeg endte med at bruge denne film til et råb om hjælp for en ændring.",
@@ -1160,6 +1161,7 @@
      "portfolio_kategori": "multimediedesign",
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
+    "link": "https://www.youtube.com/watch?v=U5Qw-hQCE78",
     "beskrivelse_kort": "Optagelse af Trailer med efterarbejde i DaVinci Resolve.",
     "beskrivelse_lang": "Tabte År er en dokumentar om min mors håndtering af sin sygdom og dens påvirkning på familiedynamikken. I forbindelse med dokuemntarens udgivelse har jeg udarbejdet en traoæer klippet i DaVinci Resolve.",
     "kategori": "creative branding",
@@ -1236,6 +1238,7 @@
     "portfolio_kategori": "multimediedesign",
     "stilling": "trailerklipper",
     "arbejdsgiver": "Filmskolen Blank",
+    "link": "https://www.youtube.com/watch?v=G-gmitGfsYI",
     "beskrivelse_kort": "Klipning af trailer med efterarbejde i DaVinci Resolve.",
     "beskrivelse_lang": "Alma er en dokumentarfilm om en 18-årig kvindes navigering i sit mentale helbred efter hun flytter hjemmefra, skabt af Matilde Wegener som afgangsprojekt fra Filmskolen Blank. Jeg har i denne anledning arbejdet med traileren deraf i DaVinci Resolve i samarbejde med filmens instruktør.",
     "kategori": "creative branding",
@@ -1285,5 +1288,293 @@
     }],
     "video": "almatrailer/video.mp4",
     "display_image": "alma_trailer.webp"
+},{
+    "id": 11,
+    "portfolio_kategori": "kunst",
+    "stilling": "fotograf",
+    "arbejdsgiver": "",
+    "beskrivelse_kort": "",
+    "beskrivelse_lang": "Fotoserie med indblandet kunstvideo om kvinders vrede med udgandspunkt i egne følelser og patriarkalsk historie. Serien afspejler hysteri og frustration efter tilbageholdelsen af vrede, der ender kompleks, sårbar og ambivelent. Serien er fotograferet i studie og efterarbejdet i Adobe Photoshop og DaVinci Resolve.",
+    "kategori": "fotografering",
+    "type": "fotoserie & videokunst",
+    "erhvervserfaring": false,
+    "titel": "hold din tunge, du er jo hysterisk",
+    "link": "https://www.instagram.com/p/C0Z4pjnuXBz/",
+    "beskrivelse_ord": "Fresmstilling af kvinders vrede // studiefotografering // Adobe Photoshop // DaVinci Resolve",
+    "periode": "(nov 2023)",
+    "proces": [
+        "Jeg havde et ønske om at indfange kompleksiteten af kvindelig vrede, og reaktionen derpå. Kvinders vrede har gennem tidens historie ofte blevet kaldt for hysterisk, og hvad kvinder kan tillade at sige kontra en mand er stramt skærpet.",
+        "Jeg startede med at udvikle skitser af forskellige motiver i min notesbog og brainstormede forskellige symbolismeværktøjer og tanker. Jeg ønskede at serien startede som et magasin-coverbillede med teksten 'hold din tunge, du er jo hysterisk' og symbolisere dette med en tråd, der bindes om modellens tunge.",
+        "Efter udviklingen af skitserne, kontaktede jeg en ven til at så model. Herfra arbejede jeg med en instruering af hende, og brugte samme instrueringsteknik som jeg ofte gør i dokumentarer, hvor jeg fokuserede på at skabe et trygt rum for hende, og have en samtale om fotoseriens betydning og baghistorie.",
+        "Under fotosessionen skabte jeg et set-up studie med mørklægningslagner, scenelys og fotolys.",
+        "Under sessionen eksperimenterede jeg yderligere med forskellige motiver udenom mine skitser også med indvendinger fra modellen selv. Eftersom modellen var iført hudfarvede nylonstrømper, ville jeg se hvordan det så ud hvis hun rev dem over. Jeg endte med at optage dette spontant og skabte efterfølgende en kunstvideo efterarbejdet i DaVinci Resolve.",
+        "Efter produktionen efterarbejede jeg billederne i Adobe Photoshop hvor jeg fokuserede på ændringer af kontrastforhold og farvebalancen."
+    ],
+    "proces_items":[
+        {
+            "id": 0,
+            "kategori": "Overvejelser",
+            "titel": "historiefortælling",
+            "beskrivelse":[
+                "Fotoserien tager udgangspunkt i mine egne følelser for vrede som kvinde. Jeg ser ikke mig selv som en person med kort lunte, men har altid følt en skyld når jeg mærker en inde frustration. Vreden bliver på den måde sårbar og sammenflettes med melankoli.",
+                "Kvinder har gennem historien været beskrevet som hysteriske, endog maniske når de udviste vrede - dette er en følelse, der kun hører mænd til, hvorimod hvad der betragtes som emotionelt er tristhed (kvindeligt). Det ses i kvindehistorien når man indlagde kvinder for hysteri bl.a. på Sprogø eller hekseafbrænding når en kvinde agerede udenfor normerne.",
+                "Følelsen af skyld ved vrede kan yderligere forklares i pigers opvækst, hvor forældre, pædagoer og andre voksne autoriteter tillod drenge at have hysterianfald i højere grad end piger. Pigerne burde vide bedre.",
+                "Jeg ønskede derfor i denne fotoserie at fremstille sårbarheden af kvindelig vrede."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/vredeartikel.webp"
+            ]
+        },
+        {
+            "id": 1,
+            "kategori": "Overvejelser",
+            "titel": "symbolisme",
+            "beskrivelse":[
+                "Den røde farve i både scenelyset, designet i typografien og setdesignet er gennemgående i hele serien. Den røde farve symboliserer det blodlige, aggressionen og det farlige.",
+                "Motiver af tungen gentages to gange i fotoserien - her hvor modellen binder en rød tråd om sin tunge for at symbolisere akten i at holde sine egne ord tilbage. Dette er det første billede i fotoserien, der i det sidste rundes af i takt med motivet hvor armene anes at kravle ud over tungen. Her symboliseres der, at kvinden har holdt sine ord tilbage så længe, at der er en trang til at slippe løs.",
+                "Modellen er iført nylonstrømper i hudfarve, som hun i kunstvidoen river over. Nylonstrømperne er forskellige lag af hud, der rives op ét efter ét. Modellen er dermed hudløs. Huden er et sanseorgan og er dét der beskytter os mod bakterierog kulde - af den grund forbinder vi hud med en ydre grænse og overgangen mellem det indre og det ydre. Akten at rive sin hud af er en smertefuld proces, men essentiel for at nå til de kødelige indre følelser.",
+                "Rebet i serien, der bindes rundt om modellen er symbolet for at holdes fanget - på samme måde som den røde tråd om tungen. Følelserne er indespærret og binder kroppen om sig selv.",
+                "Den røde læbestift er en reference til Femme Fatalen i Noir film. Her symboliserer rød læbestift på en kvinde forførelse og seksualitet (og forbindes også med kvindefrigørelse), som yderligere er akter og følelser, der for kvinden er forbudt, men tilladt for manden og har på den måde endog en forbindelse til kvindelig vrede. Læbestiften symboliserer også magt og styrke og er i høj grad forbundet til femininitet. Det er de feminine og kvindelige følelser, kvinden ønsker at bryde ud af og det ses derfor at læbestiften er udsmurt over ansigtet. Man kan forvente at kvinden i oprør fejlbyrding har prøvet at tørre det væk i sin frustration (parralellen til femme fatale)."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/videostill.webp",
+                "holddintungeduerjohysterisk/kannibal.webp",
+                "holddintungeduerjohysterisk/flugt.webp",
+                "holddintungeduerjohysterisk/snoret.webp"
+            ]
+        },
+        {
+            "id": 2,
+            "kategori": "Overvejelser",
+            "titel": "Skitsering",
+            "beskrivelse":[
+                "Jeg har skitseret de forskellige motiver med tilhørende noter til hvilken billedbeskæring, der skulle anvendes. Yderligere hvilke rekvisitter der skulle bruges og hvordan lyset skulle opsættes.",
+                "I mine skitseringer har jeg forholdt mig reflekterende og overvejende, og derfor ses der også spørgsmålstegn ved noterne.",
+                "Indimellem ses der en variation fra noterne til det endelige motiv hvor jeg under produktionens shoot eksperimenteret mere med de forskellige vinkler, lyset og modellens positioneringer."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/skitse1.webp",
+                "holddintungeduerjohysterisk/skitse2.webp",
+                "holddintungeduerjohysterisk/skitse3.webp",
+                "holddintungeduerjohysterisk/skitse4.webp",
+                "holddintungeduerjohysterisk/skitse5.webp",
+                "holddintungeduerjohysterisk/skitse6.webp"
+            ]
+        },
+        {
+            "id": 3,
+            "kategori": "Motiv",
+            "titel": "Billedbeskæring",
+            "beskrivelse":[
+                "Motiverne er varierer mellem halvnær og halvtotale billeder, nogle i ultranær. De halvnære motiver og ultranære kommer helt tæt på modellens ansigt og opfanger følelsen i hendes øjne.",
+                "Motiverne er taget efter tredjegradsreglen hvor modellens øjne er placeret på skæringspunktet af den øverste linje.",
+                "Billederne er taget fra et normalperspektiv med mindre variation til frøperspektiv, der i mindre grad får modellen til at virker større og magtfuld."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/kannibal.webp"
+            ]
+        },
+        {
+            "id": 4,
+            "kategori": "Motiv",
+            "titel": "Belysning",
+            "beskrivelse":[
+                "Nogle af billederne er taget med scenelys. Her er der anvendt farvefilter over lyset - nogle er helt røde og skarpe grundet fornævnte symbolisme af den røde farver, der går igen i fotoserien.",
+                "På to andre billede ses den røde farve på modellens højre side og en gul i venstre. Dette skaber ikke blot en kontrast i billedet og tillader at der leges med motivets farvenuancer, men fungerer yderligere også som symbolismen for en splittelse af de komplekse følelser mellem vrede og sorg og overlappen deraf. Den gullige farve, der ses på motiverne er symbolet for fejhed i vestlige kulturer.",
+                "Andre billeder er taget med fotolys fra en studieboks, der imiterer en mere naturlig setting. På disse billeder bliver det kødelige og huden fremhævet."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/blod.webp",
+                "holddintungeduerjohysterisk/kannibal.webp"
+            ]
+        },
+        {
+            "id": 5,
+            "kategori": "Motiv",
+            "titel": "Modelposition",
+            "beskrivelse":[
+                "Modellens positionering er taget efter bestemt instruering og på andre motiver med hendes frie fortolkning.",
+                "Eksempler på de instruerende positioner er hvor modellen efterligner et skrig, og hendes ansigt bliver forstrukket enten med nylonstrømperne eller med hendes hænder. I dette motiv skal modellen fremstå håbløs, fortabt og indespærret.",
+                "Ved billedet hvor modellen kigger mod venstre side med læbestift tvært ud i ansigtet, har modellen selv fortolket. Dette billede endte i serien med at fremstå mere opgivende og mindre frusterende end de hidtid dramatiske motiver. Billedet er dermed placeret mod enden af fotoserien for at give et udtryk af en afrunding - man kan i seriens komposition fortolke denne som en overgivelse til vreden. Måske har modellen netop udført en strafbar handling (fra tolkning efter læbestiftens udtværring, noget kanaibalistisk?), og overgiver sig til skylden."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/forstyrret.webp",
+                "holddintungeduerjohysterisk/kannibal.webp"
+            ]
+        },
+        {
+            "id": 6,
+            "kategori": "Instruering",
+            "titel": "medvirkendehåndtering",
+            "beskrivelse":[
+                "Eftersom billedserien er meget sårbar med modellens beklædning, var det vigtigt at hun følte sig tryg i rummet. Derfor var instruering og rummets påvirkning essentiel for shootet.",
+                "Inden shootet fandt sted, var modellen og jeg sammen ude og handle efter rekvisitterne og satte settet op for på den måde at skabe en forbindelse mellem os. Jeg fortalte hende yderligere om min egen erfaring med følelsen af vrede og lukkede hende på den måde ind i det univers - dette var naturligvis et valg truffet så hun udtrykte sig som ønsket, men yderligere for at lukke hende ind i fotoseriens personlige betydning for mig."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/snoret.webp"
+            ]
+        },
+        {
+            "id": 7,
+            "kategori": "Photoshop",
+            "titel": "Kontrastforhold",
+            "beskrivelse":[
+                "Jeg har ændret i input- og putput niveauerne for at skabe en større kontrast i farverne. Originalbilledet havde en meget mat og lys farve, der gjorde at teksten hurtigt blev udtydelig. ved at ændre på kontrastforholdene, kunne jeg skabe mere skygge i billedet. Jeg skruede bl.a. ned for belysning og forskud."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/kontrast.webp"
+            ]
+        },
+        {
+            "id": 8,
+            "kategori": "Photoshop",
+            "titel": "Farvebalance",
+            "beskrivelse":[
+                "I form af farvebalance har jeg skruet ned for den blålige input for at fremhæve de rødlige toner i det hudfarvede lys.",
+                "Samme metode anvendes i motiverne med scenelyset hvor jeg ønskede at fremhæve skildringen mellem det gule og røde på midten af ansigtet, ved at ændre på lysindfaldets skær i de forskellige balancer."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/farvebalance.webp"
+            ]
+        },
+        {
+            "id": 9,
+            "kategori": "Photoshop",
+            "titel": "Maskering",
+            "beskrivelse":[
+                "Jeg har anvendt maskeringsværktøjet på to billeder. Her det første coverbillede, hvor jeg har maskeret motivet af modellen og placeret teksten bagved for at skabe en mindre dimension i lagene.",
+                "En større opgave af maskeringsværktøjet var i billedet hvor modellens arme rækker ud med et torv i hånden over hendes tunge. Her maskerede jeg hendes arme og hviskede bunden ud til at tilpasse formen efter tungen. Jeg tilføjede yderligere skygger omkring indersiden af mundvigen og under samt omkring hendes arme ved at bruge et tegneværktøj. Jeg har endog tilføjet en mindre grain i denne skygge omkring siden af armene og lagt en fadende opacity over."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/maskering1.webp",
+                "holddintungeduerjohysterisk/originalhands.webp",
+                "holddintungeduerjohysterisk/originalmund.webp"
+            ]
+        },
+        {
+            "id": 10,
+            "kategori": "Design",
+            "titel": "Typografi",
+            "beskrivelse":[
+                "Der anvendes i første coverbillede samt kunstvideoen samme typografi for at skabe en kontinuitet. Denne er sans-serif fonten Impact, der er tyk og stilren. Typografien er den samme skarpe rødlige farve som scenelyset og placeres på billedet under hinanden i forskellige skriftstørrelse for at skabe en lige alignment."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/typografi.webp"
+            ]
+        },
+        {
+            "id": 11,
+            "kategori": "Klipning",
+            "titel": "Lyd",
+            "beskrivelse":[
+                "Kunstvidoen er klippet i DaVinci resolve efter et skærrende og eksperimenterende techno soundtrack, hvor jeg har brugt introen til billederne og beatdroppet til teksten i slutningen under blackoutet. Her klippes titlen på fotoserien hurtigt efter hvert beat og slutter af inden det originale nummers drop.",
+                "Dette soundtrack er valgt eftersom der i baggrunden fremgår et trommeslag, der forhastes og minder om et hjertebanken. Det er ligevel skærende  og larmende i og med mange forskellige musikalske elementer fremgår over hinanden. Tracket bliver mere og mere voldsomt, og det ses derfor også at modellens tag om nylonstrømperne bliver sværere at få af henimod slutningen - hun er nået ind til de inderste lag.",
+                "Klippeintervallerne sker hurtigt efter hinanden, hvor klippene er optaget i nære billeder tæt på modellens krop. Først i slutningen af videoen ses hendes ansigt, da hun river det endelige lag af huden (nylonstrømperne) af om sin krop."
+            ],
+            "billeder":[
+                "holddintungeduerjohysterisk/klip.webp"
+            ]
+        }
+    ],
+    "billeder":[
+        "holddintungeduerjohysterisk/holddintunge.webp",
+        "holddintungeduerjohysterisk/forstyrret.webp",
+        "holddintungeduerjohysterisk/snoret.webp",
+        "holddintungeduerjohysterisk/blod.webp",
+        "holddintungeduerjohysterisk/flugt.webp",
+        "holddintungeduerjohysterisk/kannibal.webp"
+    ],
+    "video":"holddintungeduerjohysterisk/video.mp4",
+    "display_image":"holddintunge.webp"
+},{
+    "id": 12,
+    "portfolio_kategori": "kunst",
+    "stilling": "maleri",
+    "arbejdsgiver": "",
+    "beskrivelse_kort": "",
+    "beskrivelse_lang": "Fotoserie med indblandet kunstvideo om kvinders vrede med udgandspunkt i egne følelser og patriarkalsk historie. Serien afspejler hysteri og frustration efter tilbageholdelsen af vrede, der ender kompleks, sårbar og ambivelent. Serien er fotograferet i studie og efterarbejdet i Adobe Photoshop og DaVinci Resolve.",
+    "kategori": "billedkunst",
+    "type": "maleri",
+    "erhvervserfaring": false,
+    "titel": "rokketand",
+    "beskrivelse_ord": "Fremstilling af barnets uskyldighed og blindhed i familiens hverdag // akryl på lærred",
+    "periode": "(maj 2023)",
+    "proces": [
+        "Jeg startede processen af maleriet ud med at tage mine egne referencefotos og finde lignende på Pinterest. Herefter skitserede jeg en outline af motivet hvor jeg startede med munden og tænderne. Jeg gjorde dette ved at bruge en gul farve, som jeg senere malede over. Derefter ønskede jeg at danne et fiskeøje-perspektiv, der er i kontrast til mundens perspektiv i mitdergrund og baggrund motiv, og lavede dermed et gitter som referencepunkter. Da gitteret var dannet til at tage udgangspunkt i, malede jeg menneskene og senere baggrunden.",
+        "Maleriets motiv fremstiller den barndomlige uskyldighed og arbejder med symbolismen af tænder. For at underbygge dette, ønskede jeg en cartoonish stilart med gennemtrædende farver, men beholdende veldefinition.",
+        "Maleriet er malet med akryl på lærred ved brug af pensler til størstedelen af motivet. Dog med enkelt afvigelse af en svamp til skygge-dimensionen omkring tænderne."
+    ],
+    "proces_items":[
+        {
+            "id": 0,
+            "kategori": "overvejelser",
+            "titel": "historiefortælling",
+            "beskrivelse":[
+                "Jeg ønskede at fremstille børns uskyldighed og blindhed i dagligdagen i kontrast til det voksne liv.",
+                "I motivet ses et barn i et fekostume, røre ved en rokketand, der kan antages at være en søskendes. I baggrunden er de to forældre håbløse ved spisebordet med papirer omkring sig - måske er de igang med et regnskab eller budget, der ikke går op. I køkkenet er der en opvask, der ikke er blevet taget. Der er væltet et glas mælk på gulvet, angiveligt af barnet, men denne er ikke blevet taget op. Ligevel er der legetøjsklodser og man kan antyde børneværelset med åben dør. Der er ikke mange møbler i hjemmet og væggene er gule. Motivet antyder et manglende overskud fra forældrene til at påtage sig sine daglige pligter og grænser op til omsorgssvigt, men dette er fuldstændig blindt for barnet, der er optaget over rokketanden."
+            ],
+            "billeder":[]
+    },{
+        "id":1,
+        "kategori":"overvejelser",
+        "titel": "symbolisme",
+        "beskrivelse":[
+            "Motivet tager udgangspunkt i rokketanden. I drømmetydning symboliserer tab af tænder en overgang, og akten at give afkald på noget og ængsteligt miste kontrollen for at give plads til noget nyt. At tabe en tand er en naturlig overgang i barnets liv og selvom det forekommer smertefuldt, har barnet en stor glæde og nysgerrighed for forandringen og opvæksten. Barnet glæder sig til at blive voksen og kunne påtage sig ansvaret for sit eget liv i uvidenhed for hvad ansvaret medbringer.",
+            "Barnet er iført et fekostume, der underbygger fantasiverdenen og uvidenheden. Mens voksnes fantasievne forværres eller forglemmes, er denne en naturlig del af barneudviklingen, og de ved endnu ikke hvad der er virkeligt og falskt. Det at barnet er klædt ud, symboliserer ønsket om transformation, der også ses med rokketanden - at blive voksen for barnet ved ikke bedre, hun er stadig i fantasiverdenen.",
+            "Det spildte mælk er endog et symbol på uskyld. Vendingen 'du må ikke græde over spildt mælk' overføres for det meste fra voksen til barn, men i motivet er barnet ligeglad med det spildte. Det kan antages at det endnu ikke er blevet tørt op fordi det er de voksne en byrde. Det bliver de voksne, der græder over den spildte mælk."
+        ],
+        "billeder":[]
+    },
+    {
+        "id": 2,
+        "kategori": "Motiv",
+        "titel": "perspektiv",
+        "beskrivelse":[
+            "Synspunktet er fra indersiden af en mund, måske et andet barns perspektiv. Dette er malet med et form for fugleperspektiv, hvor mellemgrunden ses oppefra. Fugleperspektivet får menneskene til at se mindre ud og underbygger dermed håbløsheden. I forgrunden ses tænderne og barnets pegepinger, der skaber dimensionen og peger fokus hen mod tænderne.",
+            "Billedet er delt op i to sider med barnet i midten. På den venstre side ses det voksne håbløse liv, realiteten. På højre side ses legetøjet og barneværelset, fantasiverdenen. At billedet på denne måde er delt op i to sider, symboliserer overgangen og forskellighederne mellem barnelivet og voksenlivet. Barnet kommer endog til at gå ind i en transformation, der overfører hende til den venstre side af motivet, som hun endnu ikke er bevidst om."
+        ],
+        "billeder":[]
+    },
+    {
+        "id": 3,
+        "kategori": "motiv",
+        "titel":"billedkomposition",
+        "beskrivelse":[
+            "Kompositionen i billedet følger primært de buede linjer, der giver fiskeøjeperspektivet. Motivet anvender sig af en handlingslinje, der fører seerens øje fra midten af billedet og op mod fingrene og til tænderne ved stoppunktet. Linjerne i kompositionen er (såsom barnets arm) skrå og/eller diagonale for at skabe bevægelse og aggressivitet. Der anvendes både tydelige og usynlige linjer i motivet, som mest forholder sig vandrette. Dog er barnet i midten den lodrette linje. De vandrette linjer er forgrund og baggrund, mens midtergrunden er den lodrette linje og dermed får seerens øje til at hvile på barnet."
+        ],
+        "billeder":[]
+    },{
+        "id": 4,
+        "kategori": "motiv",
+        "titel": "stilart",
+        "beskrivelse":[
+            "Motivets stilart er cartoonish. Dette valg er truffet for at underbygge barnligheden eftersom tegnefilm og lign. ofte forbindes med børneunderholdning.",
+            "Stilarten referer til overdrevne former og vibrerende farver. De overdrevede former ses bl.a. i barnets store øjne, der yderligere underbyger symbolismen af naivitet. Hånden og den lange finger, der er formet buet og diagonalt, underbygger eventyrligheden og bryder med realismen."
+        ],
+        "billeder":[]
+    },
+    {
+        "id": 5,
+        "kategori": "motiv",
+        "titel": "farvevalg",
+        "beskrivelse":[
+            "Motivets farver underbygges at den cartoonish stilart, hvor de vibrerende farver er dominerende og der her fokuseres mere på ekspressionismen end realismen. Det ses ved anvendelsen af den rødlige/lyserøde skintone.",
+            "Der er arbejdet med kontrastforhold og farvebalancen i form af at barnet er iklædt grønt, som skaber kontrasten til den lyserøde farve eftersom disse to farver ligger overfor hinanden på farvehjulet.",
+            "Tænderne og tandkødet skal fremtæde mere dystert og skyggerne er her mere markerede og mørke end resten af motivet. Her er der anvendt en mørkelilla og brun farve i skyggen.",
+            "Væggene har en gul undertone. Dette valg er primært truffet for at underbygge en uhygiejne i hjemmet - måske er der tale om et rygerhjem. Dog er væggene yderligere gulige for at skabe vibrering i farverne.",
+            "På børneværelset ses der mange farver i form af legetøjet, primært lyserød og grøn, som endnu lægger sig op til det store motiv. Farverne her skaber en kontrast til det ellers mindre vibrerende hjem som det mørke spisebord og køkken."
+        ],
+        "billeder":[]
+    },{
+        "id": 6,
+        "kategori": "teknik",
+        "titel": "redskaber",
+        "beskrivelse":[
+            "I form af redskaber har jeg primært anvendt pensler med mindre børster til detaljer, og større til baggrund og skygger.",
+            "Yderligere har jeg anvendt en svamp til at skabe den brune ramme omkring tænderne for at skabe en yderligere dimension og dysterhed i billedet, der skaber kontrasten til de vibrerende farver."
+        ],
+        "billeder":[]
+    }
+]
 }
 ]

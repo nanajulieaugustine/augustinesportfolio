@@ -35,13 +35,13 @@ const HeroCard = ({ item }) => {
           {item.beskrivelse_lang}
         </motion.h2>
 
-        {/* {item.link && (
+        {item.link && (
           <Link href={`${item.link}`} target="_blank">
             <h3 className="hover:scale-103 transition-all duration-300 cursor-pointer">
               {`Gå til ${item.titel}`}
             </h3>
           </Link>
-        )} */}
+        )}
       </div>
     </motion.div>
   );
